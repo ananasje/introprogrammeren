@@ -1,2 +1,2 @@
 woord=int (input= ("getal"))
-print (abs)
+print (abs(-9))
