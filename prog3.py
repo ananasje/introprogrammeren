@@ -1,2 +1,2 @@
-woord=int (input= ("getal"))
+woord=int(input= ("getal"))
 print (abs(-9))
