@@ -1,1 +1,1 @@
-woord=input(integer)
+woord=input("integer)
