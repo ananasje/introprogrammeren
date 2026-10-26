@@ -1,3 +1,4 @@
 woord=input( "typ iets :")
 print(woord)
-print
+print (woord)
+print (woord)
