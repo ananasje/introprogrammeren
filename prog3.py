@@ -1,1 +1,1 @@
-woord=int (input= w)
+woord=int (input= getal)
