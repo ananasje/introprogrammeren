@@ -1,1 +1,1 @@
-getal="Zeg een getal:"
+getal=int"Zeg een getal:"
