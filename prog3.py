@@ -1,1 +1,1 @@
-getal=int"Zeg een getal:"
+getal=int(input"Zeg een getal:"
