@@ -1,1 +1,1 @@
-leeftijd=
+getal="Zeg een getal"
