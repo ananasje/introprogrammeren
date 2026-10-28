@@ -1,1 +1,1 @@
-getal="Zeg een getal"
+getal="Zeg een getal:"
