@@ -13,4 +13,4 @@ arigatoes
 """
 print (len(pipi_naam))
 print (pipi_naam[-1])
-print (pipi_naam[0:3)
+print (pipi_naam[0:3])
