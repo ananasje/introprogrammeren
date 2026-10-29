@@ -1,9 +1,12 @@
 #the hitchhikers guide to the galaxy
 def check_answer(answer: str) -> bool:
     """
-        >>> check_answer == 42
-        True
-        >>> 
+>>> is_acidic(2.5)
+    True
+    >>> is_acidic(7.9)
+    False
+    >>> is_acidic(7.0)
+    False
     
     """
 
