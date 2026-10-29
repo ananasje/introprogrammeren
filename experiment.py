@@ -12,4 +12,5 @@ nya ichi ni san
 arigatoes
 """
 print(len(pipi_naam))
-pipi_naam[]
+pipi_naam[0
+]
