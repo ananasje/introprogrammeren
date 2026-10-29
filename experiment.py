@@ -5,7 +5,7 @@ unit_price = 3
 pipi = 67
 rating = 3.11
 Wanneer_wc = False
-pipi_naam = "Gele \\ pipi"
+pipi_naam = "Gele \n pipi"
 
 #nya itchi ni san arigatoes
 
