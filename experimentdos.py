@@ -1,7 +1,6 @@
 keuze = input("Quelle est-la temprature?" )
 
-temprature = 
-input
+
 if temprature > 30:
     print("tis mapangpang heet")
     print("ga water drinken")
