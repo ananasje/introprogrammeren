@@ -3,7 +3,7 @@ def check_answer(answer: str) -> bool:
     """
     >>> check_answer(42)
     True
-    >>> check_answer(7.9)
+    >>> check_answer(tweeenveertig)
     False
     >>> check_answer(7.0)
     False
