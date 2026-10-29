@@ -6,6 +6,6 @@ if keuze > 30:
     print("ga water drinken")
 elif keuze > 15:
     print("perfecte tempratuur")
-elif temprature < 5:
+elif ku < 5:
     print("BRRR")
 print("klaar")
