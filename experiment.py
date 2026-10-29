@@ -11,4 +11,4 @@ nya ichi ni san
 
 arigatoes
 """
-len((pipi_naam)
+len(print(pipi_naam)
