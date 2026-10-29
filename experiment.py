@@ -11,3 +11,4 @@ nya ichi ni san
 
 arigatoes
 """
+len 
