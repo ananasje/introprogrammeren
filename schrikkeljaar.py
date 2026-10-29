@@ -22,6 +22,6 @@ if __name__ == '__main__':
     jaar = int(input("Geef een jaartal: "))
 
     if is_schrikkeljaar(jaar):
-        print(input" is een schrikkeljaar!!")
+        print(jaarput" is een schrikkeljaar!!")
     else:
         print("Het is een geen schrikkeljaar.")
