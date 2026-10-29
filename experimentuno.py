@@ -17,4 +17,4 @@ print(spreuk.title())
 
 print("kaka" not in pipi_naam)
 
-for number in range()
+for number in range(6)
