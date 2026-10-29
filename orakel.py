@@ -27,5 +27,5 @@ if __name__ == '__main__':
   if check_answer(answer):
       print("said Deep Thought, with infinite majesty and calm.")
 else: 
-    print()
+    print(said Deep Thought, with infinite majesty and calm.)
     
