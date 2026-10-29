@@ -21,4 +21,11 @@ def check_answer(answer: str) -> bool:
         False
 if __name__ == '__main__':
   answer= str(input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?"))
-  
+  if answer == 42:
+        True
+    elif answer == "tweeenveertig":
+        True
+    elif answer == "tweeënveertig":
+        True
+    else:
+        False
