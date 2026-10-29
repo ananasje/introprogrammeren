@@ -20,4 +20,4 @@ def check_answer(answer: str) -> bool:
     else:
         False
 if __name__ == '__main__':
-  answer= 
+  answer= str(input())
