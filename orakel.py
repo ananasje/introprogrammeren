@@ -21,6 +21,7 @@ def check_answer(answer: str) -> bool:
         False
 if __name__ == '__main__':
   answer= str(input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?"))
+  
   if check_answer(answer):
       print("h")
 else:
