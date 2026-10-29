@@ -1,4 +1,4 @@
 first = "baka"
 last = "san"
-full= first + last
+full= f
 print(full)
