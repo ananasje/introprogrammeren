@@ -11,4 +11,4 @@ nya ichi ni san
 
 arigatoes
 """
-len 
+len(pipi)
