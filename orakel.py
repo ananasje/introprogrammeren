@@ -20,7 +20,6 @@ def check_answer(answer: str) -> bool:
         return False
 if __name__ == '__main__':
   answer = input("Wat is het antwoord op de grote vraag van het leven," :( formatting is goed genoeg
-      regel(s) te lang, code max 99 tekens, comments max 79 tekens
   "het universum en alles daarbij?")
   
   if check_answer(answer):
