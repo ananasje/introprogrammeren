@@ -3,4 +3,4 @@ last = "san"
 full= f" {len(first)} {2+2}"
 
 import math
-print(math.ceil(2.7))
+print(math.ceil(2.1))
