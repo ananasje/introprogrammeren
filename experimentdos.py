@@ -1,4 +1,4 @@
-print()
+print(Quelle temprature )
 temprature = 2
 if temprature > 30:
     print("tis mapangpang heet")
