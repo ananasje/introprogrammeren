@@ -1,7 +1,7 @@
 #the hitchhikers guide to the galaxy
 def check_answer(answer: str) -> bool:
     """
-    >>> check_answer(2.5)
+    >>> check_answer(42)
     True
     >>> check_answer(7.9)
     False
