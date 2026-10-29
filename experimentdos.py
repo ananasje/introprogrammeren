@@ -1,7 +1,7 @@
 print("Quelle est-la temprature?" )
 
 temprature = x
-
+input
 if temprature > 30:
     print("tis mapangpang heet")
     print("ga water drinken")
