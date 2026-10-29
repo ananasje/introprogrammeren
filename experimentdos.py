@@ -1,4 +1,4 @@
 first = "baka"
 last = "san"
-full= f"{"
+full= f"{len"
 print(full)
