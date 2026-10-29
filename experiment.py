@@ -2,4 +2,4 @@ x = 1
 y = 2
 unit_price = 3
 
-print("k" * 3
+print("k" * 3)
