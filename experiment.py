@@ -2,6 +2,6 @@ x = 1
 y = 2
 unit_price = 3
 
-print("ka" * 3)
+pt("ka" * 3)
 pipi = 67
 print(pipi)
