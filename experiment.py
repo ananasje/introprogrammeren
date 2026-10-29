@@ -6,6 +6,7 @@ pipi = 67
 rating = 3.11
 Wanneer_wc = False
 pipi_naam = "Gele pipi"
-message = 
+message = """
+
 
 print(pipi)
