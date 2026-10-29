@@ -4,4 +4,4 @@ if ph < 7.0:
     return(true)
 else:
     return(false)
-    print("Het is een base")
+ 
