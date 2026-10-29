@@ -1,7 +1,8 @@
 #the hitchhikers guide to the galaxy
 def check_answer(answer: str) -> bool:
     """
-    if 
+    if check_answer == 42:
+    
     """
 
 if __name__ == '__main__':
