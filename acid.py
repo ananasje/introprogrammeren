@@ -1,6 +1,6 @@
 def is_acidic(ph: float) -> bool:
     """
-    >>> is_acidic(5.0)
+    >>> is_acidic(.KIU)
     True
     >>> is_acidic(9.0)
     False
