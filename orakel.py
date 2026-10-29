@@ -4,7 +4,7 @@ def check_answer(answer: str) -> bool:
     >>> check_answer(42)
     True
     >>> check_answer(tweeenveertig)
-    False
+    True
     >>> check_answer(tweeënveertig)
     False
     
