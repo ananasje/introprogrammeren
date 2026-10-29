@@ -22,6 +22,6 @@ if __name__ == '__main__':
   
   if check_answer(answer):
       print("Ja")
-
+#zei Deep Thought, met oneindige majesteit en kalmte.
   else:
       print("Nee")
