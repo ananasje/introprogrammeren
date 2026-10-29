@@ -22,4 +22,4 @@ if __name__ == '__main__':
   
   if check_answer(answer):
       print("ja")
-else check_a
+else check_answer(answer)
