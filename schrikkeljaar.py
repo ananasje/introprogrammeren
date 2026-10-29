@@ -21,7 +21,7 @@ def is_schrikkeljaar(jaar: int) -> bool:
 if __name__ == '__main__':
     jaar = float(input("Geef een jaartal: "))
 
-    if is_scrhikkeljaar(jaar):
+    if is_schikkeljaar(jaar):
         print("Het is een schrikkeljaar!!")
     else:
         print("Het is een geen schrikkeljaar.")
