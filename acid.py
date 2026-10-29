@@ -3,4 +3,5 @@ if ph < 7.0:
     return(true)
     print("Het is een zuur")
 else:
+    return(false)
     print("Het is een base")
