@@ -1,4 +1,4 @@
-print(Quelle estla temprature? )
+print("Quelle est-la temprature? )
 input = x
 temprature = x
 if temprature > 30:
