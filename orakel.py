@@ -22,5 +22,6 @@ if __name__ == '__main__':
   
   if check_answer(answer):
       print("Ja")
-else:
+      
+      else:
     print("Nee")
