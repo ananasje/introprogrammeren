@@ -14,7 +14,7 @@ def is_schrikkeljaar(jaar: float) -> bool:
 
 
 if __name__ == '__main__':
-    ph = float(input("Geef een pH-waarde: "))
+    jaar = float(input("Geef een pH-waarde: "))
 
     if is_acidic(ph):
         print("Het is een zuur")
