@@ -28,5 +28,5 @@ if __name__ == '__main__':
       print("zei Deep Thought, met oneindige majesteit en kalmte.")
       print("PS: ja")
 else: 
-    print("zei Deep Thought, met oneindige majesteit en kalmte.")
+    print("zei Deep Thought NIET, met oneindige majesteit en kalmte.")
     
