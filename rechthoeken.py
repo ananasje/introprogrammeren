@@ -3,7 +3,7 @@ def is_same_rectangle(ax_length: int, ay_length: int,
     """
     Controleert of de lengtes van de zijdes gelijk zijn.
 
-    >>> is_same_rectangle(7, 2, 7, 4)
+    >>> is_same_rectangle(3, 2, 7, 4)
     True
     >>> is_same_rectangle(7, 4, 7, 7)
     False
