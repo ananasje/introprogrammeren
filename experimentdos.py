@@ -1,4 +1,4 @@
-keuze = Input("Quelle est-la temprature?" )
+keuze = input("Quelle est-la temprature?" )
 
 temprature = x
 input
