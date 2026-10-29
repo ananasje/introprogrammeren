@@ -5,7 +5,7 @@ def check_answer(answer: str) -> bool:
     True
     >>> check_answer(7.9)
     False
-    >>> is_acidic(7.0)
+    >>> check_answer(7.0)
     False
     
     """
