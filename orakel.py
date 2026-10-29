@@ -22,8 +22,4 @@ if __name__ == '__main__':
   
   if check_answer(answer):
       print("ja")
-      
-else: 
-     print("zei Deep Thought NIET, met oneindige majesteit en kalmte.")
-     
-    
+else check_a
