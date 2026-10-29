@@ -1,4 +1,4 @@
-def is_schrikkeljaar(ph: float) -> bool:
+def is_schrikkeljaar(jaar: float) -> bool:
     """
     >>> is_acidic(2.5)
     True
