@@ -9,5 +9,5 @@ pipi_naam = "Gele pipi"
 message = """
 nya ichi ni san
 
-wc bril
+arigatoes
 """
