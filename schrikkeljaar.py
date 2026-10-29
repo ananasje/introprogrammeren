@@ -4,7 +4,7 @@ def is_schrikkeljaar(jaar: float) -> bool:
     True
     >>> is_acidic(1200)
     False
-    >>> is_acidic()
+    >>> is_acidic(1100)
     False
     """
     if jaar / 4:
