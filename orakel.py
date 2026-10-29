@@ -15,6 +15,8 @@ def check_answer(answer: str) -> bool:
         True
     elif answer == "tweeenveertig":
         True
-    elif answer == "tweeënveertig
+    elif answer == "tweeënveertig":
+        True
+    
 if __name__ == '__main__':
     <Vraag hier de gebruiker om een antwoord, roep je functie aan, en print het oordeel>
