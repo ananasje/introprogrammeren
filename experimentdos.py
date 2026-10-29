@@ -1,4 +1,4 @@
-print("Quelle est-la temprature?" )
+keuze = print("Quelle est-la temprature?" )
 
 temprature = x
 input
