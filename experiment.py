@@ -3,4 +3,4 @@ y = 2
 unit_price = 3
 
 print("ka" * 3)
-kanker = 67
+pipi = 67
