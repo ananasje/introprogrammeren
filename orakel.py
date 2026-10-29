@@ -26,6 +26,7 @@ if __name__ == '__main__':
   
   if check_answer(answer):
       print("zei Deep Thought, met oneindige majesteit en kalmte.")
+      print("PS: ja")
 else: 
     print(said Deep Thought, with infinite majesty and calm.)
     
