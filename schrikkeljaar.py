@@ -1,6 +1,6 @@
 def is_schrikkeljaar(jaar: float) -> bool:
     """
-    >>> is_schrikkeljaar(2.5)
+    >>> is_schrikkeljaar(2020)
     True
     >>> is_acidic(7.9)
     False
