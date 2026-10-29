@@ -22,7 +22,6 @@ def is_same_square(ax_length: int, ay_length: int,
     return (is_same_rectangle(ax_length, ay_length, bx_length, by_length)
         and ax_length == ay_length )
 
-
 def calculate_length(c1: int, c2: int) -> int:
     """
     Berekent de lengte van een zijde op basis van twee coördinaten.
