@@ -24,7 +24,7 @@ def is_same_square(ax_length: int, ay_length: int,
 
 def calculate_length(c1: int, c2: int) -> int:
     """
-    >>> calculate_length(0, 7)
+    >>> calculate_length(0, 2)
     7
     >>> calculate_length(5, 3)
     2
