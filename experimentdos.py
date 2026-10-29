@@ -1,1 +1,1 @@
-temprature=
+temprature = 35
