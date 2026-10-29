@@ -18,7 +18,7 @@ def check_answer(answer: str) -> bool:
     else:
         return False
 if __name__ == '__main__':
-  answer = str(input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?"))
+  answer = input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?"))
   
   if check_answer(answer):
       print("zei Deep Thought, met oneindige majesteit en kalmte.")
