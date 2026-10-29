@@ -1,4 +1,4 @@
-first = "baka
+first = "baka"
 last = san
 full= first + last
 print(full)
