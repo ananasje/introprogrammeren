@@ -15,4 +15,4 @@ print (pipi_naam[0:])
 print(pipi_naam.upper())
 print(spreuk.title())
 
-print("kaka" in pipi)
+print("kaka" in pipi_naam)
