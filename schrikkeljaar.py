@@ -16,7 +16,7 @@ def is_schrikkeljaar(jaar: float) -> bool:
 if __name__ == '__main__':
     jaar = float(input("Geef een jaartal: "))
 
-    if is_acidic(ph):
+    if is_scrhikkeljaar(ph):
         print("Het is een zuur")
     else:
         print("Het is een base")
