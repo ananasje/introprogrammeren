@@ -22,6 +22,6 @@ if __name__ == '__main__':
     jaar = float(input("Geef een jaartal: "))
 
     if is_scrhikkeljaar(jaar):
-        print("Het is een scrhikkeljaar!!")
+        print("Het is een schikkeljaar!!")
     else:
         print("Het is een geen schrikkeljaar.")
