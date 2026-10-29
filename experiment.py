@@ -7,8 +7,7 @@ rating = 3.11
 Wanneer_wc = False
 pipi_naam = "Gele pipi"
 message = """
-wanner komje nr toilet,
-kmis je 
+nya ichi n isan
 
 wc bril
 """
