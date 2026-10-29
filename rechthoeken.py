@@ -1,4 +1,5 @@
-def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
+def is_same_rectangle(ax_length: int, 
+ay_length: int, bx_length: int, by_length: int) -> TODO:
     """
     Controleert of de lengtes van de zijdes gelijk zijn
     """
