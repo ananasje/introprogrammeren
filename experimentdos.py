@@ -1,4 +1,4 @@
-temprature = 20
+temprature = 2
 if temprature > 30:
     print("tis mapangpang heet")
     print("ga water drinken")
