@@ -1,7 +1,8 @@
 #the hitchhikers guide to the galaxy
 def check_answer(answer: str) -> bool:
     """
-        >>> check_answer == 42:
+        >>> check_answer == 42
+        
     
     """
 
