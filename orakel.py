@@ -9,7 +9,7 @@ def check_answer(answer: str) -> bool:
     True
     >>> check_answer(zes maal negen)
     False
-    >>> check_answer(zes maal negen)
+    >>> check_answer(gewoon een beetje aardig zijn voor elkaar)
     False
     
     """
