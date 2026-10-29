@@ -7,7 +7,7 @@ rating = 3.11
 Wanneer_wc = False
 pipi_naam = "Gele pipi"
 message = """
-nya ichi n isan
+nya ichi ni san
 
 wc bril
 """
