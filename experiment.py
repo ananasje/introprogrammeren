@@ -6,6 +6,6 @@ pt("ka" * 3)
 pipi = 67
 rating = 3.11
 Wanneer_wc = False
-
+pipi_naam = 
 
 print(pipi)
