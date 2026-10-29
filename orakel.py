@@ -25,7 +25,7 @@ if __name__ == '__main__':
   answer= str(input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?"))
   
   if check_answer(answer):
-      print("h")
+      print("said Deep Thought, with infinite majesty and calm.")
 else: 
     print()
     
