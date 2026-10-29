@@ -2,4 +2,4 @@ first = "baka"
 last = "san"
 full= f" {len(first)} {2+2}"
 
-print()
+print(math.ceil)
