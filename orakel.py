@@ -23,7 +23,7 @@ if __name__ == '__main__':
   if check_answer(answer):
       print("zei Deep Thought, met oneindige majesteit en kalmte.")
       print("PS: ja")
-µelse: 
+else: 
      print("zei Deep Thought NIET, met oneindige majesteit en kalmte.")
      print("PS: nee")
     
