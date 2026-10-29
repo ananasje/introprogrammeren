@@ -21,7 +21,7 @@ if __name__ == '__main__':
   answer = input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?")
   
   if check_answer(answer):
-      print("zei Deep Thought, met oneindige majesteit en kalmte.")
+      print
       
 else: 
      print("zei Deep Thought NIET, met oneindige majesteit en kalmte.")
