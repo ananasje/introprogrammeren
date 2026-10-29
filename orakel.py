@@ -8,7 +8,7 @@ def check_answer(answer: str) -> bool:
     >>> check_answer(tweeënveertig)
     True
     >>> check_answer()
-    True
+    False
     
     """
 
