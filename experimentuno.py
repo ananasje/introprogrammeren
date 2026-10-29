@@ -12,4 +12,4 @@ pipi_naam = "Gele \npipi"
 print (len(pipi_naam))
 print (pipi_naam[-1])
 print (pipi_naam[0:])
-print(pipi_naam.upper(len(3)))
+print(pipi_naam.upper(len(;)))
