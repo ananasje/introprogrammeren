@@ -1,15 +1,15 @@
 #the hitchhikers guide to the galaxy
 def check_answer(answer: str) -> bool:
     """
-    >>> check_answer(42)
+    >>> check_answer("42")
     True
-    >>> check_answer(tweeenveertig)
+    >>> check_answer("tweeenveertig")
     True
-    >>> check_answer(tweeënveertig)
+    >>> check_answer("tweeënveertig")
     True
-    >>> check_answer(zes maal negen)
+    >>> check_answer("zes maal negen")
     False
-    >>> check_answer(gewoon een beetje aardig zijn voor elkaar?)
+    >>> check_answer("gewoon een beetje aardig zijn voor elkaar?")
     False
     
     """
