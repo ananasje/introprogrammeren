@@ -25,5 +25,5 @@ if __name__ == '__main__':
       
 else: 
      print("zei Deep Thought NIET, met oneindige majesteit en kalmte.")
-     print("PS: nee")
+     
     
