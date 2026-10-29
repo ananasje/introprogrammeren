@@ -4,5 +4,5 @@ if temprature > 30:
     print("ga water drinken")
 elif temprature > 15:
     print("perfecte tempratuur")
-else temprature
+else temprature 
 print("klaar")
