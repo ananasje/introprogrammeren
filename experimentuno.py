@@ -14,3 +14,5 @@ print (pipi_naam[-1])
 print (pipi_naam[0:])
 print(pipi_naam.upper())
 print(spreuk.title())
+
+print
