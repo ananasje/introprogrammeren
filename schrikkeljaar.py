@@ -11,7 +11,7 @@ def is_schrikkeljaar(jaar: int) -> bool:
         return True
     elif jaar % 100== 0:
         return False
-    elif jaar / 400:
+    elif jaar / 4:
         return True
         
     else:
