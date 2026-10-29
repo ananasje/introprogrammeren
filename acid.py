@@ -1,3 +1,5 @@
 def is_acidic(ph:float) -> bool:
-if PH == '__main__':
-    <hoofdprogramma doet alleen input en print, en roept is_acidic aan>
+if ph < 7.0:
+    print("Het is een zuur")
+else:
+    print("Het is een base")
