@@ -6,7 +6,7 @@ pipi = 67
 rating = 3.11
 Wanneer_wc = False
 pipi_naam = "Gele \npipi"
-spreuk= "Nya"
+spreuk= "Nya itchi ni san"
 #nya itchi ni san arigatoes
 
 print (len(pipi_naam))
