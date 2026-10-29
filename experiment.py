@@ -4,4 +4,4 @@ unit_price = 3
 
 print("ka" * 3)
 pipi = 67
-print(p)
+print(pipi)
