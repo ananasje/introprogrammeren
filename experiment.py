@@ -4,4 +4,5 @@ unit_price = 3
 
 pt("ka" * 3)
 pipi = 67
+rating = 
 print(pipi)
