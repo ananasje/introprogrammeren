@@ -9,8 +9,8 @@ def is_schrikkeljaar(jaar: float) -> bool:
     """
     if jaar / 4:
         return True
-    elif jaar / 100
-    
+    elif jaar / 100:
+        return True
     else:
         return False
 
