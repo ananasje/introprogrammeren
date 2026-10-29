@@ -5,5 +5,5 @@ if temprature > 30:
 elif temprature > 15:
     print("perfecte tempratuur")
 else temprature > 5:
-    print:
+    print:"BRRR"
 print("klaar")
