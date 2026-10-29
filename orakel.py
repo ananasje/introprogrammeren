@@ -11,7 +11,6 @@ def check_answer(answer: str) -> bool:
     False
     >>> check_answer(zes maal negen)
     False
-    gewoon een beetje aardig zijn voor elkaar
     
     """
     if answer == 42:
