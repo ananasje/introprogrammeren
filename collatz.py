@@ -1,7 +1,8 @@
 def print_collatz(n: int) -> None:
     """
     >>> print_collatz(3)
- 
+    7
+    22
     >>> print_collatz(1)
     1
     """
