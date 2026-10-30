@@ -1,7 +1,5 @@
 def print_collatz(n: int) -> None:
     """
-    Print de Collatz-reeks vanaf n.
-
     >>> print_collatz(3)
     3
     10
