@@ -5,7 +5,7 @@ def count_coins(cents: int) -> int:
 
     >>> count_coins(41)
     4
-        >>> count_coins(73)
+    >>> count_coins(73)
     7
     >>> count_coins(99)
     9
