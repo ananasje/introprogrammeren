@@ -9,4 +9,3 @@ elif keuze > 15:
 elif keuze < 5:
     print("BRRR")
 print("klaar")
-    
