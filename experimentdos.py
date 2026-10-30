@@ -1,11 +1,11 @@
-# keuze = input("Quelle est-la temprature?:" )
+keuze = input("Quelle est-la temprature?:" )
 
 
-# if keuze > 30:
-#     print("tis mapangpang heet")
-#     print("ga water drinken")
-# elif keuze > 15:
-#     print("perfecte tempratuur")
-# elif keuze < 5:
-#     print("BRRR")
-# print("klaar")
+if keuze > 30:
+    print("tis mapangpang heet")
+    print("ga water drinken")
+elif keuze > 15:
+    print("perfecte tempratuur")
+elif keuze < 5:
+    print("BRRR")
+print("klaar")
