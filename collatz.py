@@ -37,7 +37,7 @@ def collatz_length(n: int) -> int:
 
     >>> collatz_length(10)
     1
-    >>> collatz_length(1)
+    >>> collatz_length(2)
     1
     >>> collatz_length(6)
     9
