@@ -10,4 +10,4 @@ elif keuze < 5:
     print("BRRR")
 print("klaar")
 
-def func
+def func(x + 3)
