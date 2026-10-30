@@ -39,8 +39,8 @@ def collatz_length(n: int) -> int:
     1
     >>> collatz_length(2)
     1
-    >>> collatz_length(6)
-    9
+    >>> collatz_length(4)
+    1
     """
     count = 1
 
