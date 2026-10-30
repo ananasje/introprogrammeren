@@ -2,10 +2,22 @@ def print_collatz(n: int) -> None:
     """
     >>> print_collatz(7)
     7
-    22
-    11
-    34
-    
+22
+11
+34
+17
+52
+26
+13
+40
+20
+10
+5
+16
+8
+4
+2
+1
     >>> print_collatz(1)
     1
     """
