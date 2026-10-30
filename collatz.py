@@ -5,6 +5,7 @@ def print_collatz(n: int) -> None:
     22
     11
     34
+    
     >>> print_collatz(1)
     1
     """
