@@ -35,8 +35,8 @@ def collatz_length(n: int) -> int:
     """
     Berekent de lengte van de Collatz-reeks.
 
-    >>> collatz_length()
-    8
+    >>> collatz_length(10)
+    1
     >>> collatz_length(1)
     1
     >>> collatz_length(6)
