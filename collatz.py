@@ -6,7 +6,7 @@ def print_collatz(n: int) -> None:
     11
     34
     17
-52
+    52
 26
 13
 40
