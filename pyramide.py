@@ -12,6 +12,7 @@ def print_pyramid(hoogte: int) -> None:
        ####
      ######
     #######
+    
     >>> print_pyramid(1)
     ##
     """
