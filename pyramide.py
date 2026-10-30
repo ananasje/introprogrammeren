@@ -1,8 +1,15 @@
 def print_pyramid(hoogte: int) -> None:
     """
     Print een halve piramide van de gegeven hoogte.
-
+    >>> print_pyramid(1)
+    ##
+    >>> print_pyramid(2)
+     ##
+    ###
     >>> print_pyramid(3)
+      ##
+     ###
+    ####
     """
     for rij in range(1, hoogte + 1):
         spaties = hoogte - rij
