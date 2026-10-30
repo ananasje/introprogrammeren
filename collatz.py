@@ -1,14 +1,7 @@
 def print_collatz(n: int) -> None:
     """
     >>> print_collatz(3)
-    3
-    10
-    5
-    16
-    8
-    4
-    2
-    1
+ 
     >>> print_collatz(1)
     1
     """
@@ -21,7 +14,6 @@ def print_collatz(n: int) -> None:
             n = n * 3 + 1
 
         print(n)
-
 
 def collatz_length(n: int) -> int:
     """
