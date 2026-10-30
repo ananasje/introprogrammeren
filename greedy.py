@@ -5,14 +5,20 @@ def count_coins(cents: int) -> int:
 
     >>> count_coins(41)
     4
-    >>> count_coins(25)
+        >>> count_coins(73)
+    7
+    >>> count_coins(99)
+    9
+    >>> count_coins(30)
+    2
+    >>> count_coins(87)
+    6
+    >>> count_coins(124)
+    8
+    >>> count_coins(1)
     1
-    >>> count_coins(100)
-    4
     >>> count_coins(0)
     0
-    >>> count_coins(16)
-    3
     """
     coins = 0
 
