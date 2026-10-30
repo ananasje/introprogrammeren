@@ -1,6 +1,6 @@
 def print_pyramid(hoogte: int) -> None:
     """
-    Print een halve piramide van de gegeven hoogte.
+    Print een halve piramide van de gegeven hoogte:
     >>> print_pyramid(1)
     ##
     >>> print_pyramid(2)
