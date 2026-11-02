@@ -22,7 +22,6 @@ def compare(word1: str, word2: str) -> int:
         if letter1 > letter2:
             return 1
 
-
     return 0
 
 
