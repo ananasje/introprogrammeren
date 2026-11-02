@@ -9,7 +9,7 @@ def compare(word1: str, word2: str) -> int:
     1
     >>> compare("amanda", "Amanda")
     0
-    >>> compare("Blauw", "Gre")
+    >>> compare("Blauw", "")
     -1
     """
     for index in range(min(len(word1), len(word2))):
