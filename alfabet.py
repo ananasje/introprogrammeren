@@ -1,7 +1,7 @@
 
 def compare(word1: str, word2: str) -> int:
     """
-    >>> compare("T", "L")
+    >>> compare("Taylor", "Lana")
     1
     >>> compare("shark", "sWoRd")
     -1
@@ -9,10 +9,12 @@ def compare(word1: str, word2: str) -> int:
     1
     >>> compare("amanda", "Amanda")
     0
-    >>> compare("Appelblauwzeegroen", "duif")
+    >>> compare("abc", "abcd")
     -1
     """
-    for index in range(min(len(word1), len(word2))):
+    index = 0
+
+    while index < len(word1) and index < len(word2):
         letter1 = word1[index].lower()
         letter2 = word2[index].lower()
 
@@ -21,6 +23,14 @@ def compare(word1: str, word2: str) -> int:
 
         if letter1 > letter2:
             return 1
+
+        index += 1
+
+    if len(word1) < len(word2):
+        return -1
+
+    if len(word1) > len(word2):
+        return 1
 
     return 0
 
@@ -37,3 +47,4 @@ if __name__ == '__main__':
         print(word2 + " first")
     else:
         print("No need to decide!")
+
