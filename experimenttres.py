@@ -4,5 +4,7 @@ robots = 10
 
 
 while robots < 30:
+    dagen = dagen + 1
+    robots = robots + 4
 if dagen % 3 == 0:
     robots 
