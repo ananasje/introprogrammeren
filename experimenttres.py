@@ -1,3 +1,3 @@
 # supersecret database
 wachtwoord = input("Wat is de supergeheime wachtwoord, van ons supersec opsec")
-while wachtwoord != 
+while wachtwoord != "python123"
