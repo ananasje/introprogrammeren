@@ -4,3 +4,6 @@ if leeftijd > 18:
     
     elif leeftijd < 12:
         print(je moet 4 euro betalen!)
+        
+else:
+    
