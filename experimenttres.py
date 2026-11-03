@@ -4,4 +4,5 @@ if input < 12:
     print(je bent onder de twaalf!)
     print(prijs+ 5)
     else:
-        print(je bent meerderjarig
+        print(je bent meerderjarig)
+        print prijs 
