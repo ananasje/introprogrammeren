@@ -1,1 +1,1 @@
-input(int(ho))
+prijs=input(int(ho))
