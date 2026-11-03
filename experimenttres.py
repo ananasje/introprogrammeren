@@ -1,2 +1,3 @@
 prijs=input(int(hoe oud ben je?))
-if input < 12
+if input < 12:
+    print()
