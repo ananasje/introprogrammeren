@@ -1,5 +1,5 @@
 def training_sessions(target: int) -> int:  
-    return
+    return target + 7
     
 if __name__ == '__main__':
     
