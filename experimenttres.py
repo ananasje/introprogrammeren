@@ -3,4 +3,4 @@ dag = 4
 derdedag = -2
 
 while robots < 30:
-    robots = robots + 6 * dag 
+    robots = robots + 7 * dag 
