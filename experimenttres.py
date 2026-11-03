@@ -1,1 +1,1 @@
-leeftijd=int(input("Hoe oud ben je?"))
+leeftijd = int(input("Hoe oud ben je?"))
