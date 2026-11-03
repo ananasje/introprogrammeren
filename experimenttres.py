@@ -1,3 +1,4 @@
+dagen = 0
 robots = 10
 dag = 4
 derdedag = -2
