@@ -1,2 +1,2 @@
 # supersecret database
-wachtwoord = 
+wachtwoord = int(input("W"))
