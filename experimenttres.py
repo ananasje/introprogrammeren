@@ -3,5 +3,5 @@ def training_sessions(target: int) -> int:
     
 if __name__ == '__main__':
     target = 0
-    while target < 
+    while target < 50 
     print(training_sessions(target))
