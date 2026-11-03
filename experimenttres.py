@@ -1,4 +1,4 @@
-leeftijd=input(int(hoe oud ben je?)
+leeftijd = input(int(hoe oud ben je?)
 prijs = 0
 if leeftijd < 12:
     print(je bent onder de twaalf!)
