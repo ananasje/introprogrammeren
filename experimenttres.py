@@ -4,4 +4,4 @@ def training_sessions(target: int) -> int:
 if __name__ == '__main__':
     target = 0
     
-    print(remaining_battery(kilometers))
+    print(training_sessions(target)
