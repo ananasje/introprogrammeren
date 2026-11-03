@@ -1,5 +1,5 @@
 batterij = 100
-uur = 1
+uur = 15
 while batterij >= 20:
-    batterij = batterij - 15
+    batterij = batterij - uur
 print(batterij)
