@@ -4,3 +4,4 @@ for i in range(1,31):
         print("fizz")
     elif i % 4 == 0:
             print("buzz")
+    elif i % 3 and 
