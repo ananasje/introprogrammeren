@@ -2,4 +2,5 @@ robots = 10
 dag = 4
 derdedag = -2
 
-while robots <
+while robots < 30:
+    robots = robots + 
