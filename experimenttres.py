@@ -1,2 +1,2 @@
 leeftijd = int(input("Hoe oud ben je?"))
-if leeftijd
+if leeftijd > 18 
