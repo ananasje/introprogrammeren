@@ -11,3 +11,5 @@ while robots < 30:
         robots = robots - 2
 
 print(dagen)
+
+verdubbelen
