@@ -1,2 +1,2 @@
 for i in range(1,20)
-if i 
+if i % 2 == 
