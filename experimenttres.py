@@ -4,6 +4,6 @@ dag = 4
 
 
 while robots < 30:
-    dagen = robots + 7 * dag + derdedag
-    
+    robots = 10
+    if 
 print(dagen)
