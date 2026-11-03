@@ -1,5 +1,4 @@
-def 
-    
+def training_sessions(target: int) -> int:
     
 if __name__ == '__main__':
     
