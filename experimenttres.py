@@ -1,1 +1,1 @@
-for i in range(1,A)
+for i in range(1,11)
