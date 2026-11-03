@@ -4,6 +4,6 @@ dag = 4
 derdedag = -2
 
 while robots < 30:
-    robots = robots + 7 * dag + derdedag
+    dagen = robots + 7 * dag + derdedag
     
-print(robots)
+print(dagen)
