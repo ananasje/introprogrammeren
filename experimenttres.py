@@ -4,4 +4,4 @@ robots = 10
 
 
 while robots < 30:
-if dagen % 
+if dagen % 3
