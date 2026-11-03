@@ -1,4 +1,4 @@
-
+geld = 0
 weken = 0
 geld=int(input("hoeveel krijg je per week?"))
 
