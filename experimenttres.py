@@ -1,2 +1,2 @@
 prijs=input(int(hoe oud ben je?))
-if input < 
+if input < 12
