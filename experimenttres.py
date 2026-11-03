@@ -1,5 +1,5 @@
 def remaining_battery(kilometers: int) -> int:
-    return batterij - input * 3
+    return 100 - kilometers * 3à
     
     
 if __name__ == '__main__':
