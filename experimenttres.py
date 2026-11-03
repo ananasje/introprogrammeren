@@ -1,5 +1,5 @@
 def remaining_battery(kilometers: int) -> int:
-    kilometers
+    return kilometers
     
     
 if __name__ == '__main__':
