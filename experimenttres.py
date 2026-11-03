@@ -3,7 +3,7 @@ weken = 0
 geld=int(input("hoeveel krijg je per week?"))
 
 while geld < 100:
-    geld = geld + 15
+    geld = 0 + geld
     weken = weken +1
 
 print(weken)
