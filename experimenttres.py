@@ -1,1 +1,1 @@
-input=
+input(int(ho))
