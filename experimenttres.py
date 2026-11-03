@@ -1,1 +1,2 @@
 prijs=input(int(hoe oud ben je?))
+if input 
