@@ -1,3 +1,3 @@
 batterij = 100
 uur = 1
-while batterij 
+while batterij > 20
