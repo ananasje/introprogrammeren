@@ -1,2 +1,4 @@
-def robotbezorging(getal):
-    return getal * 2 
+def remaining_battery(kilometers: int) -> int:
+    """
+    Berekent hoeveel batterij er nog overblijft.
+    """
