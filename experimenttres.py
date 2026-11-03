@@ -1,2 +1,2 @@
-def verdubbelen(getal):
+def robotbezorging(getal):
     return getal * 2 
