@@ -1,1 +1,1 @@
-aantal = 100
+batterij = 100
