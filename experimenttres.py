@@ -3,4 +3,4 @@ if leeftijd > 18:
     print(je moet 12 euro betalen!)
     
     elif leeftijd < 12:
-        print(je moet )
+        print(je moet 4 euro betalen!)
