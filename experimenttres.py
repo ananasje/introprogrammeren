@@ -4,6 +4,6 @@ dag = 4
 
 
 while robots < 30:
-    robots = 10
+    robots = robots 
     if 
 print(dagen)
