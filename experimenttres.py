@@ -5,6 +5,6 @@ def training_sessions(target: int) -> int:
     
 if __name__ == '__main__':
     
-    while target < 50:
+    while punten < 50:
         
     print(training_sessions(target))
