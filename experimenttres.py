@@ -1,5 +1,4 @@
-def remaining_battery(kilometers: int) -> int:
-    return 100 - (kilometers * 3)
+def 
     
     
 if __name__ == '__main__':
