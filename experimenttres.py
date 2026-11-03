@@ -1,1 +1,1 @@
-prijs=input(int(hoe oud ben je))
+prijs=input(int(hoe oud ben je?))
