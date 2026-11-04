@@ -2,7 +2,7 @@ def sum_even_numbers(n: int) -> int:
     totaal = 0
     
     for n in range(0, n + 1):
-        getal == getal 
+        getal == getal % 2 
         totaal = totaal + getal 
         
     return totaal
