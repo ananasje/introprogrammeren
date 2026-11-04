@@ -4,5 +4,5 @@ def sum_numbers(n: int) -> int:
     return totaal + getal
     
     if __name__ == '__main__':
-        getal =
+        getal =int(input(Welk getal wil je?))
     totaal = totaal + getal
