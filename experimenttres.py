@@ -3,5 +3,7 @@ def is_long(word: str) -> bool:
         return False
     else:
         return True
+
+
 print(is_long("MIAUW"))
     
