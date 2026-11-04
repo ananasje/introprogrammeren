@@ -1,3 +1,3 @@
 def sum_numbers(n: int) -> int:
-    for n range in (0,n)
+    for n range  (0,n)
     return n
