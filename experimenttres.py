@@ -4,6 +4,6 @@ def count_a(word: str) -> int:
         if "a":
             teller = teller + 1
             
-return teller + 1
+return teller
 
 print(count_a("banaan"))
