@@ -1,5 +1,5 @@
 def count_a(word: str) -> int:
-    for word in range ("k"):
+    for word in range (""):
         return word
 
 print
