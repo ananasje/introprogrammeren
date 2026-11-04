@@ -4,4 +4,4 @@ def count_a(word: str) -> int:
         if "a":
             return teller + 1
 
-print(count_a("miauw"))
+print(count_a("banaan"))
