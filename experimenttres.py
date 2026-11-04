@@ -4,3 +4,4 @@ def discounted_price(price: int) -> int:
 if __name__ == '__main__':
     price = 20 
     
+    print(discounted_price(price))
