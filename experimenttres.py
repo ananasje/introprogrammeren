@@ -4,7 +4,7 @@ def sum_even_numbers(n: int) -> int:
     for getal in range(0, n + 1):
         if n % 2 == 0:
             totaal = totaal + getal 
-        return totaal
+    return totaal
         
     
 if __name__ == '__main__':
