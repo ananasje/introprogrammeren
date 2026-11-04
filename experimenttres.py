@@ -2,7 +2,7 @@ def ticket_price(aantal: int) -> int:
     if aantal < 5:
         return aantal * 10
     else:
-        return ticket_price * 8
+        return aantal * 8
     
     
 
