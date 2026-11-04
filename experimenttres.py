@@ -4,4 +4,5 @@ def sum_numbers(n: int) -> int:
     return totaal + getal
     
     if __name__ == '__main__':
+        
     totaal = totaal + getal
