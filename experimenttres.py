@@ -1,2 +1,2 @@
-naam = anais
+naam = "anais"
 print(naam[0])
