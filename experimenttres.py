@@ -1,5 +1,5 @@
 def first_last(word: str) -> str:
-    return word[0:7]
+    return word[-1]
     
 
 print(first_last("Hallo"))
