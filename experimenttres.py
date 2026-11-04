@@ -8,3 +8,4 @@ def sum_even_numbers(n: int) -> int:
     return totaal
     
     getal = int(input("Welk getalletje?"))
+    g
