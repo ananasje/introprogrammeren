@@ -4,6 +4,6 @@ def is_long(word: str) -> bool:
     else:
         return True
 
-woord = input("")
+woord = input("Geef een woord en we tellen de letters:")
 print(is_long(woord))
     
