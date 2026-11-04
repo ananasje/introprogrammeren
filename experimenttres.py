@@ -1,3 +1,3 @@
 boodschappen = ["brood", "melk", "eieren"]
-boodschappen =
+boodschappen[] =
 boodschappen.append("kaas")
