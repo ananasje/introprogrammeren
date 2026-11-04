@@ -1,4 +1,5 @@
 def sum_numbers(i: int) -> int:
+    totaal = 0
     for i in  range  (0,i):
         return i
         
