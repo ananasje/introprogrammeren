@@ -7,5 +7,5 @@ def sum_even_numbers(n: int) -> int:
         
     return totaal
     
-    getal = int(input(print("Welk getalletje?"))
+    getal = int(input(print("Welk getalletje?")))
     print()
