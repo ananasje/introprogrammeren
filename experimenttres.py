@@ -4,3 +4,5 @@ def sum_even_numbers(n: int) -> int:
         totaal = totaal + getal 
         
     return totaal
+    
+    getal = int(input())
