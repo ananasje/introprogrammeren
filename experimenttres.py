@@ -1,2 +1,2 @@
 def count_a(word: str) -> int:
-    for word in range 
+    for word in range
