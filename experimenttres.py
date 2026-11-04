@@ -1,6 +1,6 @@
 def is_long(word: str) -> bool:
     if len(word) > 5:
-        return False
+        return True
     else:
         return True
 
