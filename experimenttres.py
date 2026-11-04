@@ -1,5 +1,6 @@
 def ticket_price(aantal: int) -> int:
-    if tickets <
+    if tickets < 5 
+    
     
     
     
