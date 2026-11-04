@@ -6,6 +6,6 @@ def sum_even_numbers(n: int) -> int:
         
     return totaal
     
-    if __name__ == '__main__':
+if __name__ == '__main__':
     getal = int(input("Welk getalletje?"))
     print(
