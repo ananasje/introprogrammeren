@@ -1,4 +1,4 @@
 def is_long(word: str) -> bool:
-    if 
+    if len
     return 
     
