@@ -1,1 +1,1 @@
-first_last("python")
+def first_last("python")
