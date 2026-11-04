@@ -4,6 +4,6 @@ def is_long(word: str) -> bool:
     else:
         return True
 
-
+woord = 
 print(is_long("MIAUW"))
     
