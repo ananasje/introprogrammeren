@@ -5,4 +5,4 @@ def sum_numbers(i: int) -> int:
     for getal in  range  (0,i + 1):
         return i
         
-print(sum_numbers(5))
+print(sum_numbers(i))
