@@ -1,3 +1,3 @@
 def first_last(word: str) -> str:
-    return print(word[0:3])
+    return print(word[1:-1])
     
