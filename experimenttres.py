@@ -3,8 +3,9 @@ def sum_even_numbers(n: int) -> int:
     
     for n in range(0, n + 1):
         if n % 2 == 0:
+            totaal = totaal + getal 
+        
             return totaal
-        totaal = totaal + getal 
         
     
 if __name__ == '__main__':
