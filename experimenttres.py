@@ -1,4 +1,5 @@
 def is_long(word: str) -> bool:
-    if len(word) 
+    if len(word) < 5
+    
     return 
     
