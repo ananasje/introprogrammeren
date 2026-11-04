@@ -8,4 +8,4 @@ def sum_even_numbers(n: int) -> int:
     
 if __name__ == '__main__':
     getal = int(input("Welk getalletje?"))
-    print(
+    print(sum_even_numbers(getal)
