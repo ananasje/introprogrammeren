@@ -5,4 +5,4 @@ def sum_numbers(n: int) -> int:
     
 if __name__ == '__main__':
     getal =int(input("Welk getal wil je?"))
-        print(sum_numbers(getal))
+    print(sum_numbers(getal))
