@@ -1,2 +1,1 @@
-naam = "anais"
-print(naam[0])
+first_last
