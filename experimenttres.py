@@ -1,2 +1,2 @@
 boodschappen = ["brood", "melk", "eieren"]
-print(len(boo))
+print(len(boodschappen))
