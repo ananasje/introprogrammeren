@@ -5,5 +5,5 @@ def is_long(word: str) -> bool:
         return True
 
 woord = 
-print(is_long("MIAUW"))
+print(is_long(woord))
     
