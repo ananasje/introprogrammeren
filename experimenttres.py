@@ -1,2 +1,2 @@
 naam = anais
-print()
+print(naam)
