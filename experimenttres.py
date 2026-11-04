@@ -1,1 +1,1 @@
-def first_last(word: str)
+def first_last(word: str) -
