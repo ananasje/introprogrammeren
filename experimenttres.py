@@ -1,12 +1,1 @@
-def training_sessions(target: int) -> int:  
-    punten = 0
-    sessies =  0
-    while punten < target:
-        punten = punten + 7
-        sessies = sessies + 1
-        
-    return sessies
-        
-if __name__ == '__main__':
-    
-    print(training_sessions(50))
+def discounted_price(price: int) -> int:
