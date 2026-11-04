@@ -1,3 +1,3 @@
 def count_a(word: str) -> int:
-    for word in range str("a")
+    for word in range ("a")
     
