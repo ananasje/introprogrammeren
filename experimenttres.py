@@ -6,4 +6,4 @@ def count_a(word: str) -> int:
             
     return teller 
 
-print(count_a("bann"))
+print(count_a("banan"))
