@@ -6,6 +6,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     getal = int(x)
     getall = int(z)
     
+    if 
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
