@@ -25,7 +25,7 @@ def evaluate(x: int, y: str, z: int) -> float:
 
     else:
         totaal = x / z
- return float(totaal)
+        return float(totaal)
 
 
 if __name__ == '__main__':
