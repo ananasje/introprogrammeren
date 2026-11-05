@@ -12,7 +12,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     elif y == "-":
         return x - z
     
-    elif y == "-":
+    elif y == "":
         return x - z
         
 
