@@ -29,7 +29,7 @@ def meal(time: str) -> str | None:
 
 
 if __name__ == '__main__':
-    eten = (meal)
+    eten = (meal(uur))
     uur = input("Hoe laat is het?")
     if meal is not None:
     
