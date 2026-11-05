@@ -22,7 +22,7 @@ def meal(time: str) -> str | None:
     elif uur == 19 and minuten == 0:
         return "avondeten"
     
-    Else:
+    else:
         return None
         
 
