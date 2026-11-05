@@ -6,4 +6,4 @@ return teller
         
 
 numbers = [5, 12, 3, 20, 15]
-    print(count_big(numbers))
+print(count_big(numbers))
