@@ -6,4 +6,4 @@ def has_three(numbers: list[int]) -> bool:
         return True
         
 
-cijfers
+cijfers=
