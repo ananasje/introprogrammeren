@@ -5,7 +5,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(2, +, 2)
         '4.0'
     >>> evaluate(5, /, 2)
-        '4'
+        '2.5'
     >>> evaluate(2, +, 2)
         ''
         
