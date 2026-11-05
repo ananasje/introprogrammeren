@@ -23,9 +23,9 @@ def evaluate(x: int, y: str, z: int) -> float:
         totaal = x * z
         return float(totaal)
 
-    elif y == "/":
-        totaal = x / z
-        return float(totaal)
+    else:
+    totaal = x / z
+    return float(totaal)
 
 
 if __name__ == '__main__':
