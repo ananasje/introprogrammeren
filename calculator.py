@@ -4,9 +4,9 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     x, y, z = evaluate.split(" ")
     x = int(x)
-    y = int(z)
+    z = int(z)
     
-    if y
+    if y == ""
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
