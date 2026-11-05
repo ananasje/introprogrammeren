@@ -7,7 +7,7 @@ def meal(time: str) -> str | None:
     if uur == 7:
         return ontbijt
         
-    elif uur =< 8:
+    elif uur < 8:
         return ontbijt
 
 
