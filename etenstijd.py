@@ -5,7 +5,8 @@ def meal(time: str) -> str | None:
     minuten = int(minuten)
     
     if uur == 7:
-        return 
+        return ontbijt
+        
 
 
 if __name__ == '__main__':
