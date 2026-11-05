@@ -4,7 +4,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     x, y, z = evaluate.split(" ")
     getal = int(x)
-    minuten = int(minuten_str)
+    minuten = int(z)
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
