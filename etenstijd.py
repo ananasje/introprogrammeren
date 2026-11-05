@@ -7,6 +7,7 @@ def meal(time: str) -> str | None:
     if uur == 7:
         return ontbijt
         
+    elif uur =
 
 
 if __name__ == '__main__':
