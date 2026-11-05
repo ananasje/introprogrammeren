@@ -1,2 +1,3 @@
-boodschappen = ["brood", "melk", "eieren"]
-print(len(boodschappen))
+def count_big(numbers: list[int]) -> int:
+    teller = 0
+    
