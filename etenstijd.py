@@ -9,6 +9,7 @@ def meal(time: str) -> str | None:
         
     elif uur == 8 and minuten == 0:
         return "ontbijt"
+        
 
 
 
