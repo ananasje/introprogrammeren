@@ -6,7 +6,11 @@ def evaluate(x: int, y: str, z: int) -> float:
     x = int(x)
     z = int(z)
     
-    if y == ""
+    if y == "+":
+        return x + y
+        
+    elif y == "-":
+        return x - y
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
