@@ -5,9 +5,5 @@ def count_big(numbers: list[int]) -> int:
         return teller 
         
 
-        
-        
-    
-    
     numbers = [5, 12, 3, 20, 15]
     print(count_big(numbers))
