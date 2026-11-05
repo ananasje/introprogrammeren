@@ -6,10 +6,10 @@ def meal(time: str) -> str | None:
     >>> meal("2:00")
     
     >>> meal(7:59)
-    'ontbijt'
+    'Het is tijd voor ontbijt'
     
     >>> meal(18:01)
-    'avondeten'
+    'Het is tijd voor avondeten'
     """
     
     uur_str, minuten_str = time.split(":")
