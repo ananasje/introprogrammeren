@@ -4,8 +4,7 @@ def count_big(numbers: list[int]) -> int:
         teller = teller + 1
         return teller 
         
-    else:
-        teller = teller
+
         
         
     
