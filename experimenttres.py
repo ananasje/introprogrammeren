@@ -4,7 +4,7 @@ def highest_grade(grades: list[int]) -> int:
         if getal > hoogste:
             hoogste = getal
             
-    return getal
+    return hoogste
         
 cijfers = ([4, 7, 9, 3, 8, 6])
 
