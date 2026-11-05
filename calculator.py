@@ -24,7 +24,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return float(totaal)
 
     else:
-    totaal = x / z
+        totaal = x / z
     return float(totaal)
 
 
