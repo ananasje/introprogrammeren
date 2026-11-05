@@ -19,7 +19,8 @@ def evaluate(x: int, y: str, z: int) -> float:
         return totaal
     
     elif y == "/":
-        return x / z
+        getal * getall
+        return totaal
         
 
 if __name__ == '__main__':
