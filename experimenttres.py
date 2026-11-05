@@ -1,6 +1,6 @@
 def count_big(numbers: list[int]) -> int:
     teller = 0
-    if number > 10:
+    if getal > 10:
         teller = teller + 1
         
     
