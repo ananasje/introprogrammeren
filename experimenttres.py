@@ -1,5 +1,5 @@
 def long_names(names: list[str]) -> list[str]:
-    if len(names) > 4:
+    if len(name) > 4:
         pop.name
         return names
         
