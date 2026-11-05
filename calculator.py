@@ -11,7 +11,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return totaal
         
     elif y == "-":
-        totaal getal - getall
+        totaal = getal - getall
         return totaal
     
     elif y == "*":
