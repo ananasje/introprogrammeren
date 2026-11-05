@@ -29,8 +29,8 @@ def meal(time: str) -> str | None:
 
 
 if __name__ == '__main__':
-    eten = meal(uur)
     uur = input("Hoe laat is het?")
+    eten = meal(uur)
     if eten is not None:
     
         print("Het is tijd voor", eten)
