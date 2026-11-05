@@ -5,3 +5,4 @@ def sum_big(numbers: list[int]) -> int:
             getal = getal + getal
     return getal
     
+sum_big([5, 12, 3, 20, 15])
