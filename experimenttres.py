@@ -1,5 +1,5 @@
 def sum_big(numbers: list[int]) -> int:
-    totaal
+    totaal = 0
     for getal in numbers:
         if getal > 10:
             totaal = totaal + getal
