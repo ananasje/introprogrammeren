@@ -3,6 +3,5 @@ def long_names(names: list[str]) -> list[str]:
 
     for name in names:
         if len(name) > 4:
-            # Voeg name toe aan lange_namen
-
+            append.lange_namen
     return lange_namen
