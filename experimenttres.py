@@ -1,5 +1,5 @@
 def first_three(numbers: list[int]) -> list[int]:
-    return 
+    return [0:3]
 
 
 
