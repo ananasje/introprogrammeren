@@ -1,6 +1,6 @@
 def long_names(names: list[str]) -> list[str]:
     if len(name) > 4:
-        pop.name
+        pop.names
         return name
         
 namen = ["Sara", "Amira", "Bo", "Yasmine"]
