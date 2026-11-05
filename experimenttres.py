@@ -4,5 +4,5 @@ def total_cheap(prices: list[int]) -> int:
     for getal in prices:
         if getal < 20:
             totaal = totaal + getal
-        
+    
 print(total_cheap([10, 25, 5, 30, 15]))
