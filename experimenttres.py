@@ -3,5 +3,6 @@ def small_numbers(numbers: list[int]) -> list[int]:
         if getal < 10:
             small_numbers.append(getal)
             
-    return s
+    return small_numbers
+    
 print(small_numbers([4, 15, 7, 20, 3]))
