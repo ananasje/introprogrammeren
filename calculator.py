@@ -7,7 +7,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     z = int(z)
     
     if y == "+":
-        
+        totaal = 
         return x + z
         
     elif y == "-":
