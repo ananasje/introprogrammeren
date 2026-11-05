@@ -7,4 +7,4 @@ def count_passed(grades: list[int]) -> int:
     return totaal
     
 cijfers = [4, 7, 9, 3, 8, 6]
-print()
+print(count_passed(cijfers))
