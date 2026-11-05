@@ -6,4 +6,4 @@ def filter_a(words: list[str]) -> list[str]:
     
     return filteringvan_a
     
-prinnt
+print filter_a(["appel", "banaan", "aardbei", "kiwi", "ananas"])
