@@ -2,7 +2,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     Bereken het resultaat van de operatie y toegepast op x en z.
     """
-    uur_str, minuten_str = evaluate.split(" ")
+    x, minuten_str = evaluate.split(" ")
     uur = int(uur_str)
     minuten = int(minuten_str)
 
