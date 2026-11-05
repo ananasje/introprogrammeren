@@ -1,10 +1,9 @@
 def has_book(books: list[str], title: str) -> bool:
-    bibliotheek = ["Dune", "1984", "Frankenstein"]
-    for title in bibliotheek:
-        if title:
+    for boek in books:
+        if ...:
             return True
-        else:
-            return False
+
+    return False
     
 boekje = "Dracula"
 print(has_book(bibliotheek, "Dracula"))
