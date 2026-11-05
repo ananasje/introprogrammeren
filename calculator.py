@@ -3,7 +3,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     Bereken het resultaat van de operatie y toegepast op x en z.
     
     >>> evaluate(2, +, 2)
-        '4'
+        '4.0'
     >>> evaluate(7, /, 4)
         '4'
     >>> evaluate(2, +, 2)
