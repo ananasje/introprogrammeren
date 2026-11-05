@@ -10,13 +10,13 @@ def meal(time: str) -> str | None:
     elif uur == 8 and minuten == 0:
         return "ontbijt"
         
-    elif uur == 12
+    elif uur == 12:
         return "lunch"
     
     elif uur == 13 and minuten == 0:
         return "lunch"
     
-    elif uur == 18
+    elif uur == 18:
         return "avondeten"
         
     elif uur == 13 and minuten == 0:
