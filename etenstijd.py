@@ -13,10 +13,10 @@ def meal(time: str) -> str | None:
     'avondeten'
     """
     
-    uur, minuten = time.split(":")
-    uur = int(uur)
-    minuten = int(minuten)
-    
+    uur_str, minuten_str = time.split(":")
+uur = int(uur_str)
+minuten = int(minuten_str)
+
     if uur == 7:
         return "ontbijt"
         
