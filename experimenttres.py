@@ -1,6 +1,6 @@
 def small_numbers(numbers: list[int]) -> list[int]:
     small_numbers = []
-    for getal in range:
+    for getal in numbers:
         if getal < 10:
             small_numbers.append(getal)
             
