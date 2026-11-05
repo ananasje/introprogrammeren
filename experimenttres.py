@@ -6,4 +6,4 @@ def total_cheap(prices: list[int]) -> int:
             totaal = totaal + getal
             zeer_goedkoop.append(getal)
     return totaal
-print(total_cheap([10, 25, 5, 10, 15]))
+print(total_cheap([10, 25, 5, 30, 15]))
