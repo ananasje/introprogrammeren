@@ -1,1 +1,1 @@
-small_numbers([4, 15, 7, 20, 3])
+print(small_numbers([4, 15, 7, 20, 3])
