@@ -2,7 +2,8 @@ def meal(time: str) -> str | None:
     """
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
-    >>>
+    >>> meal("7:15")
+    'ontbijt'
     """
     
     uur, minuten = time.split(":")
