@@ -34,8 +34,6 @@ if __name__ == '__main__':
     print(evaluate(x, y, z))
         
 
-if __name__ == '__main__':
-    invoer = input( )
-    print(evaluate(invoer))
+
 
 
