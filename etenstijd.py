@@ -38,8 +38,6 @@ def meal(time: str) -> str | None:
         return None
         
 
-
-
 if __name__ == '__main__':
     uur = input("Hoe laat is het?")
     eten = meal(uur)
