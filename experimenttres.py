@@ -1,8 +1,8 @@
 def long_names(names: list[str]) -> list[str]:
+    lange_namen = []
+
     for name in names:
         if len(name) > 4:
-            remove.name
-    return names
-        
-namen = ["Sara", "Amira", "Bo", "Yasmine"]
-print(long_names(namen))
+            # Voeg name toe aan lange_namen
+
+    return lange_namen
