@@ -3,5 +3,5 @@ def long_names(names: list[str]) -> list[str]:
         pop.name
         return names
         
-name = ["Sara", "Amira", "Bo", "Yasmine"]
+namen = ["Sara", "Amira", "Bo", "Yasmine"]
 print(long_names(name))
