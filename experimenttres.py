@@ -5,5 +5,4 @@ def has_three(numbers: list[int]) -> bool:
     else:
         return True
         
-
-cijfers=
+print(has_three([1, 2, 3, 4]) 
