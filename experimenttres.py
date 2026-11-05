@@ -3,7 +3,9 @@ def count_big(numbers: list[int]) -> int:
     if getal > 10:
         teller = teller + 1
         
-    else
+    else:
+        teller = teller
+        
         
     
     
