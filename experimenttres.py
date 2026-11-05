@@ -1,6 +1,6 @@
 def has_book(books: list[str], title: str) -> bool:
     for boek in books:
-        if ...:
+        if boek == title:
             return True
 
     return False
