@@ -3,6 +3,6 @@ def sum_big(numbers: list[int]) -> int:
     for getal in numbers:
         if getal > 10:
             totaal = getal + getal
-    return getal
+    return totaal
     
 print(sum_big([5, 12, 3, 20, 15]))
