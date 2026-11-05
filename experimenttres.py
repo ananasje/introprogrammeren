@@ -5,4 +5,4 @@ def highest_grade(grades: list[int]) -> int:
         
         return getal
         
-highest_grade([4, 7, 9, 3, 8, 6])
+([4, 7, 9, 3, 8, 6])
