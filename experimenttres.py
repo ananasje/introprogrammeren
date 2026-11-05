@@ -1,9 +1,1 @@
-def total_cheap(prices: list[int]) -> int:
-    zeer_goedkoop = []
-    totaal = 0
-    for getal in prices:
-        if getal < 20:
-            totaal = totaal + getal
-            zeer_goedkoop.append(getal)
-    return totaal
-print(total_cheap([10, 25, 5, 30, 15]))
+def has_book(books: list[str], title: str) -> bool:
