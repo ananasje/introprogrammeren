@@ -15,6 +15,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return totaal
     
     elif y == "*":
+        getal * getall
         return getal * getall
     
     elif y == "/":
