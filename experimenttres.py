@@ -1,7 +1,7 @@
 def has_book(books: list[str], title: str) -> bool:
     bibliotheek = ["Dune", "1984", "Frankenstein"]
     for title in bibliotheek:
-        if boek:
+        if title:
             return True
         
     
