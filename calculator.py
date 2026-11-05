@@ -16,8 +16,8 @@ def evaluate(x: int, y: str, z: int) -> float:
         return totaal
 
     elif y == "-":
-        totaal = x - z
-        return float(totaal
+        totaal = float(x - z)
+        return totaal
 
     elif y == "*":
         totaal = x * z
