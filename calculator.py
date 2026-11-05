@@ -4,6 +4,10 @@ def evaluate(x: int, y: str, z: int) -> float:
     
     >>> evaluate(2, +, 2)
         '4'
+    >>> evaluate(2, +, 2)
+        '4'
+    >>> evaluate(2, +, 2)
+        '4'
         
     """
 
