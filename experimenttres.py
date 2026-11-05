@@ -4,4 +4,4 @@ def long_names(names: list[str]) -> list[str]:
         return names
         
 name = ["Sara", "Amira", "Bo", "Yasmine"]
-print()
+print(long_names(names))
