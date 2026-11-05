@@ -4,7 +4,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     x, y, z = evaluate.split(" ")
     getal = int(x)
-    z = int(z)
+    getall = int(z)
     
     if y == "+":
         totaal = 
