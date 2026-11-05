@@ -6,4 +6,4 @@ def has_book(books: list[str], title: str) -> bool:
         
     
 boekje = "Dracula"
-print(has_book(boekje))
+print(has_book(["Dune", "1984", "Frankenstein"], "1984"))
