@@ -3,7 +3,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     Bereken het resultaat van de operatie y toegepast op x en z.
     """
     x, y, z = evaluate.split(" ")
-    getal = int(uur_str)
+    getal = int(x)
     minuten = int(minuten_str)
 
 if __name__ == '__main__':
