@@ -20,7 +20,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return totaal
 
     elif y == "*":
-        totaal = x * z
+        totaal = float(x * z)
         return totaal
 
     else:
