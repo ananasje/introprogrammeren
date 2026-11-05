@@ -10,4 +10,4 @@ def count_big(numbers: list[int]) -> int:
     
     
     numbers = [5, 12, 3, 20, 15]
-    print(count_big())
+    print(count_big(numbers))
