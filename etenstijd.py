@@ -32,4 +32,4 @@ if __name__ == '__main__':
     uur = input("Hoe laat is het?")
     if meal is not None:
     
-        print("Het is tijd voor", )
+        print("Het is tijd voor", eten)
