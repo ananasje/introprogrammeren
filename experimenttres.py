@@ -5,5 +5,5 @@ def has_book(books: list[str], title: str) -> bool:
             return True
         
     
-boekje = 
+boekje = "Dracula"
 print(has_book(boekje))
