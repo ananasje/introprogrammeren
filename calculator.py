@@ -25,6 +25,6 @@ def evaluate(x: int, y: str, z: int) -> float:
 
 if __name__ == '__main__':
     invoer = input(" ")
-    print(evalu)
+    print(evaluate)
 
 
