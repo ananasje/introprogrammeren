@@ -7,8 +7,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     getall = int(z)
     
     if y == "+":
-        totaal = 
-        return x + z
+        totaal = getal + getall
+        return totaal
         
     elif y == "-":
         return x - z
