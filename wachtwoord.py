@@ -21,7 +21,7 @@ def check_letter(password: str) -> bool:
     True
     >>> check_letter("APPELBLAUWZEEGROEN")
     False
-    >>> check_letter("abcdefghi")
+    >>> check_letter("appelBlauwzeegroen")
     True
     """
     hoofdletter = False
