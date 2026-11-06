@@ -16,7 +16,7 @@ def check_letter(password: str) -> bool:
     for letter in password
     hoofdletter = False
     kleineletter = False
-    if letter.isupper()
+    if letter.isupper(password)
 def check_number(password: str) -> bool:
     """
     Controleer of het wachtwoord een cijfer bevat.
