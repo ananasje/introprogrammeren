@@ -23,7 +23,8 @@ def check_number(password: str) -> bool:
     Controleer of het wachtwoord een cijfer bevat.
     Gebruik een loop om door password te lopen.
     """
-
+    for number in password:
+    
 def check_password(password: str) -> bool:
     """
     Controleer of aan alledrie de eisen is voldaan.
