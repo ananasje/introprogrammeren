@@ -14,7 +14,8 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for letter in password
-    hoofdletter =
+    hoofdletter = False
+    kleineletter = False
 def check_number(password: str) -> bool:
     """
     Controleer of het wachtwoord een cijfer bevat.
