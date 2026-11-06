@@ -28,7 +28,8 @@ def check_number(password: str) -> bool:
             return True
     
 def check_password(password: str) -> bool:
-    for  
+    for dingen in password:
+        
 
 if __name__ == '__main__':
     <Hoofdprogramma mag maar één functie aanroepen>
