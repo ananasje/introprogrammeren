@@ -19,7 +19,7 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
      >>> check_letter("Appelblauwzeegroen")
     True
-    >>> check_letter("hoi")
+    >>> check_letter("APPELBLAUWZEEGROEN")
     False
     >>> check_letter("abcdefghi")
     True
