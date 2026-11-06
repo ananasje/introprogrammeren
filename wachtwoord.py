@@ -33,7 +33,7 @@ def check_letter(password: str) -> bool:
             return hoofdletter
         if letter.islower():
             kleineletter = True
-            return True
+            return Kleineletter
     else:
         return False
 def check_number(password: str) -> bool:
