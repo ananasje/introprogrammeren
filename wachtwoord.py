@@ -26,7 +26,7 @@ def check_number(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for number in password:
-        if number.isdigit(password):
+        if number.isdigit():
             return True
     
 def check_password(password: str) -> bool:
