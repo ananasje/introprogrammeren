@@ -31,7 +31,7 @@ def check_password(password: str) -> bool:
     for dingen in password:
         if check_letter and check_number and check_length == True:
             
-        return True
+            return True
 
 if __name__ == '__main__':
     <Hoofdprogramma mag maar één functie aanroepen>
