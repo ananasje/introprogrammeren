@@ -16,7 +16,7 @@ def check_letter(password: str) -> bool:
     hoofdletter = False
     kleineletter = False
     for letter in password:
-        if letter.isupper() letter.islower():
+        if letter.isupper():
             return True
 def check_number(password: str) -> bool:
     """
