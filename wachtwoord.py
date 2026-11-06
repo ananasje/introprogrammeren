@@ -34,7 +34,7 @@ def check_password(password: str) -> bool:
     for dingen in password:
         if check_letter(password) 
             and check_number(password) 
-                and check_length(password)  == True:
+            and check_length(password)  == True:
             
             return True
 
