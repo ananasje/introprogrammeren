@@ -34,7 +34,8 @@ def check_letter(password: str) -> bool:
         if letter.islower():
             kleineletter = True
             return Kleineletter
-        return hoofdletter and kleineletter
+    
+    return hoofdletter and kleineletter
 def check_number(password: str) -> bool:
     """
     Controleer of het wachtwoord een cijfer bevat.
