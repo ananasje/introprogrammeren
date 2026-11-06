@@ -36,7 +36,8 @@ def check_password(password: str) -> bool:
 if __name__ == '__main__':
     wachtwoord = input("Geef een wachtwoord:")
     print(check_password(wachtwoord))
-    if wachtwoord 
+    if wachtwoord = False:
+        print ()
     
     
     
