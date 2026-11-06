@@ -36,7 +36,7 @@ def check_password(password: str) -> bool:
             and check_number(password) 
             and check_length(password)  == True:
             
-            return True
+                return True
 
 if __name__ == '__main__':
     wachtwoord = input("Geef een wachtwoord:")
