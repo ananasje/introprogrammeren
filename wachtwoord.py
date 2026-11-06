@@ -34,4 +34,3 @@ def check_password(password: str) -> bool:
             return True
 
 if __name__ == '__main__':
-    
