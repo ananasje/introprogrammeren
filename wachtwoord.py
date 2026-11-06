@@ -35,7 +35,7 @@ def check_number(password: str) -> bool:
     """
     Controleer of het wachtwoord een cijfer bevat.
     Gebruik een loop om door password te lopen.
-     >>> check_length("abcdefgh")
+     >>> check_number("abcdefgh")
     True
     >>> check_length("hoi")
     False
