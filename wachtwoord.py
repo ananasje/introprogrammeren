@@ -32,6 +32,7 @@ def check_letter(password: str) -> bool:
             hoofdletter = True
             return hoofdletter
         if letter.islower():
+            kleineletter = True
             return True
     else:
         return False
