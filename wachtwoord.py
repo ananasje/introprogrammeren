@@ -30,7 +30,7 @@ def check_letter(password: str) -> bool:
     for letter in password:
         if letter.isupper():
             hoofdletter = True
-            return True
+            return hoofdletter
         if letter.islower():
             return True
     else:
