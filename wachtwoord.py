@@ -12,6 +12,7 @@ def check_length(password: str) -> bool:
         return True
     else:
         return False
+        
 def check_letter(password: str) -> bool:
     """
     Controleer of het wachtwoord zowel een grote als een
