@@ -5,7 +5,7 @@ def check_length(password: str) -> bool:
     True
     >>> check_length("miauw")
     False
-    >>> check_length("abcdefghi")
+    >>> check_length("muggengeheugen")
     True
     """
     if len(password) == 8 or len(password) > 8:
