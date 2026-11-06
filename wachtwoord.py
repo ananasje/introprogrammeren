@@ -35,7 +35,6 @@ def check_password(password: str) -> bool:
         if check_letter(password) 
             and check_number(password) 
             and check_length(password)  == True:
-            
                 return True
 
 if __name__ == '__main__':
