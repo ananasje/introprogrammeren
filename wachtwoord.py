@@ -38,7 +38,7 @@ if __name__ == '__main__':
     if 
     print("Het gegeven wachtwoord is valide.")
     
-    if (check_password(wachtwoord)) == None:
+    Else (check_password(wachtwoord)) == None:
         print("Het gegeven wachtwoord is niet valide.")
         
     
