@@ -29,6 +29,7 @@ def check_number(password: str) -> bool:
         if number.isdigit():
             return True
     
+    return False
 def check_password(password: str) -> bool:
     for dingen in password:
         if check_letter and check_number and check_length == True:
