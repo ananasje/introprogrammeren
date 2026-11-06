@@ -30,6 +30,7 @@ def check_number(password: str) -> bool:
 def check_password(password: str) -> bool:
     for dingen in password:
         if check_letter and check_number and check_length == True:
+            
         return True
 
 if __name__ == '__main__':
