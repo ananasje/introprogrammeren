@@ -39,7 +39,7 @@ def check_number(password: str) -> bool:
     True
     >>> check_length("67")
     False
-    >>> check_length("abcdefghi")
+    >>> check_length("67")
     True
     """
     for number in password:
