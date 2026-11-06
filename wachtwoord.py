@@ -37,7 +37,7 @@ def check_number(password: str) -> bool:
     Gebruik een loop om door password te lopen.
      >>> check_number("4ppelblauwzeegroen")
     True
-    >>> check_length("hoi")
+    >>> check_length("67")
     False
     >>> check_length("abcdefghi")
     True
