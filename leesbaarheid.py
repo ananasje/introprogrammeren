@@ -12,7 +12,7 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
-    letters = 0
+    letter = 0
     for teken in text:
         if teken.isalpha():
             letter += 1
