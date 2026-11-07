@@ -17,7 +17,7 @@ def calculate_grade(text: str) -> int:
         if teken.isalpha():
             letter += 1
             
-    return teken
+    return letter
     
     woord = 1
     for pos in range(1, len(text)):
