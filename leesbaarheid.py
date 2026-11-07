@@ -19,7 +19,7 @@ def calculate_grade(text: str) -> int:
             
     return letter
     
-    woord = 1
+    woord = 0
     for pos in range(1, len(text)):
         if text[pos - 1] == " " and text [pos].isalpha():
             woord += 1
