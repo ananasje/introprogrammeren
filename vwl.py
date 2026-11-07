@@ -16,4 +16,4 @@ def remove_vowels(zin: str) -> str:
         
 if __name__ == '__main__':
     zin = input("")
-    print(vowelremover(zin))
+    print(remove_vowels(zin))
