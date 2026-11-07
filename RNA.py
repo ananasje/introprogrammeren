@@ -22,7 +22,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
             nieuwe_string2 += "U"
         elif teken in Gg":
             nieuwe_string2 += "C"
-        elif teken == "Cc":
+        elCc":
             nieuwe_string2 += "G"
         else:
             nieuwe_string2 += "A"
