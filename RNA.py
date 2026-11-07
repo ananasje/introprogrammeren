@@ -29,5 +29,4 @@ def transcribe_dna_to_rna(dna: str) -> str:
     return nieuwe_string2
 if __name__ == '__main__':
     invoer = input("DNA:")
-    genen = (check_input(invoer))
     print("RNA:"(transcribe_dna_to_rna(genen)))
