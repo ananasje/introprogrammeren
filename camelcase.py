@@ -2,7 +2,7 @@ def convert(text: str) -> str:
     """
     >>> convert('camelCase')
     'camel_case'
-    >>> camelcase('waterMeloen')
+    >>> convert('waterMeloen')
     'water_meloen'
     """
     nieuwe_string = ""
