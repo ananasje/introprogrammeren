@@ -18,6 +18,8 @@ def calculate_grade(text: str) -> int:
             letter += 1
             
     return teken
+    
+    
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
