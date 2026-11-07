@@ -4,7 +4,7 @@ def yell(text: str) -> str:
     "i did, what u gonna do about it!!"
     
     >>> yell("cooked.")
-    "i did, what u gonna do about it!!"
+    "cooked!!"
     
     """
     nieuwe_string = ""
