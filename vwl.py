@@ -11,7 +11,7 @@ def vowelremover(zin: str) -> str:
             nieuwe_string += ""
         else:
             nieuwe_string += woord
-        return nieuwe_string
+    return nieuwe_string
         
 if __name__ == '__main__':
     zin = input("")
