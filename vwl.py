@@ -14,4 +14,4 @@ def vowelremover(zin: str) -> str:
         return nieuwe_string
         
 if __name__ == '__main__':
-    zin = input()
+    zin = input("")
