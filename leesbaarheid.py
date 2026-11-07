@@ -12,6 +12,8 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
+    letters = 0
+    if
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
