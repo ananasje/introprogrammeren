@@ -3,8 +3,8 @@ def yell(text: str) -> str:
     >>> yell("i did, what u gonna do about it?")
     "i did, what u gonna do about it??"
     
-    >>> yell("cooked.")
-    "cooked."
+    >>> yell('cooked.')
+    'cooked.'
     
     """
     nieuwe_string = ""
