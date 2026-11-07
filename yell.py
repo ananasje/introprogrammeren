@@ -1,6 +1,6 @@
 def yell(text: str) -> str:
     """
-    >>> yell()
+    >>> yell(i did, what u gonna do about it?)
     """
     nieuwe_string = ""
     for teken in text:
