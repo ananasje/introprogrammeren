@@ -6,7 +6,7 @@ def check_input(dna: str) -> bool:
     nieuwe_string = ""
     for elements in dna:
         if elements in "AaGgCcTt" == true:
-            
+            nieuq
     
     return nieuwe_string
 def transcribe_dna_to_rna(dna: str) -> str:
