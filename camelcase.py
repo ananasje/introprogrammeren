@@ -1,4 +1,4 @@
-def shout(text: str) -> str:
+def camelcase(text: str) -> str:
     """
     >>> shout('MIAUW')
     'MIAUW'
