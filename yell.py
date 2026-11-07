@@ -14,7 +14,7 @@ def yell(text: str) -> str:
         elif teken == ".":
             nieuwe_string += "!!"
         elif teken == "?":
-            nieuwe_string += "!!"
+            nieuwe_string += "??"
         else:
             nieuwe_string += teken
             
