@@ -1,3 +1,3 @@
 def vowelremover(zin: str) -> str:
 
-if __name__ == 
+if __name__ == 'main':
