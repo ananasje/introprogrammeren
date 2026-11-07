@@ -13,7 +13,7 @@ def camelcase(text: str) -> str:
     return nieuwe_string
 
 if __name__ == '__main__':
-    case = input("")
+    case = input("camelCase")
     print(camelcase(case))
     
     
