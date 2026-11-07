@@ -1,1 +1,1 @@
-def vowelremover -
+def vowelremover -> str:
