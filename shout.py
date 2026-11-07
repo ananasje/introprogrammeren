@@ -3,7 +3,7 @@ def shout(text: str) -> str:
     for letter in zin:
         return letter.isupper()
 if __name__ == '__main__':
-    
+    invoer = input("")
     
     
     
