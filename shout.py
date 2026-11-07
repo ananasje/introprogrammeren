@@ -4,7 +4,7 @@ def shout(text: str) -> str:
     nieuwe_string = ""
     for letter in zin:
         if letter in zin:
-            nieuwe_string += letter.isupper()
+            nieuwe_string += letter.upper()
     return nieuwe_string
 
 
