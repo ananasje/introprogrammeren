@@ -1,4 +1,4 @@
-def camelcase(text: str) -> str:
+def convert(text: str) -> str:
     """
     >>> camelcase('camelCase')
     'camel_case'
