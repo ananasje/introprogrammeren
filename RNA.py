@@ -2,7 +2,7 @@ def check_input(dna: str) -> bool:
     """
     >>> check_input('miauw')
     False
-    >>> check_input('miauw')
+    >>> check_input('AGCT')
     False
     """
     for elements in dna:
