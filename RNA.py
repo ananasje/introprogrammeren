@@ -20,9 +20,9 @@ def transcribe_dna_to_rna(dna: str) -> str:
     for teken in dna:
         if teken in "Aa":
             nieuwe_string2 += "U"
-        elif teken == "Gg":
+        elif teken in "Gg":
             nieuwe_string2 += "C"
-        elif teken == "Cc":
+        elif teken in "Cc":
             nieuwe_string2 += "G"
         else:
             nieuwe_string2 += "A"
