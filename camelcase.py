@@ -5,7 +5,7 @@ def camelcase(text: str) -> str:
     nieuwe_string = ""
     for letter in text:
         if letter in text.isupper() = True:
-            nieuwe_string+= "_"
+            nieuwe_string += "_"
     
     return nieuwe_string
 
