@@ -14,7 +14,9 @@ def calculate_grade(text: str) -> int:
     """
     letters = 0
     for teken in text:
-        if teken.isalpha()
+        if teken.isalpha():
+            letter += 1
+            
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
