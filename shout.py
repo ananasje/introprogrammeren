@@ -1,6 +1,7 @@
 def shout(text: str) -> str:
     """
-    >>> shout('')
+    >>> shout('MIAUW')
+    'MIAUW'
     """
     nieuwe_string = ""
     for letter in zin:
