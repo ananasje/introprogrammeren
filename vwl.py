@@ -1,4 +1,4 @@
-def vowelremover(zin: str) -> str:
+def remove_vowels(zin: str) -> str:
     """
     >>> remove_vowels('hoedje van papier')
     'hdj vn ppr'
