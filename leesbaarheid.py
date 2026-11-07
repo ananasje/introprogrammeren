@@ -19,7 +19,8 @@ def calculate_grade(text: str) -> int:
             
     return teken
     
-    
+    zinnen = 0
+    for zin in tekst:
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
