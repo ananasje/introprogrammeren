@@ -21,11 +21,11 @@ def transcribe_dna_to_rna(dna: str) -> str:
         if teken == "Aa":
             nieuwe_string2 += "U"
         elif teken == "Gg":
-            nieuwe_string += "C"
+            nieuwe_string2 += "C"
         elif teken == "Cc":
-            nieuwe_string += "G"
+            nieuwe_string2 += "G"
         else teken == "Tt":
-            nieuwe_string += "A"
+            nieuwe_string2 += "A"
         
     return nieuwe_string2
 if __name__ == '__main__':
