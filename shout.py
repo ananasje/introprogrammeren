@@ -5,7 +5,7 @@ def shout(text: str) -> str:
         return letter.isupper()
 if __name__ == '__main__':
     invoer = input("")
-    
+    print(shout(invoer))
     
     
     
