@@ -1,3 +1,3 @@
-def vowelremover(zin: ) -> str:
+def vowelremover(zin: str) -> str:
 
 if ___main____
