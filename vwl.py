@@ -1,6 +1,6 @@
 def vowelremover(zin: str) -> str:
     """
-    >>> vowelremover('hoedje van papier')
+    >>> remove_vowels('hoedje van papier')
     'hdj vn ppr'
     >>> remove_vowels('ik vouw papier, kom niet zeggen dat je mr vouwt')
     'k vw ppr, km nt zggn dt j mr vwt'
