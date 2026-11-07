@@ -1,4 +1,4 @@
-def calculate_grade(text: str) -> int:
+def yell(text: str) -> int:
 """
 x
 """
