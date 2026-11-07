@@ -19,7 +19,7 @@ def calculate_grade(text: str) -> int:
             
     return teken
     
-    zinnen = 0
+    woord = 0
     for zin in tekst:
         if
 
