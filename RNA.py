@@ -13,7 +13,7 @@ def check_input(dna: str) -> bool:
 def transcribe_dna_to_rna(dna: str) -> str:
     """
     >>> transcribe_dna_to_rna('miauw')
-    False
+    
     """
     nieuwe_string2 = ""
     for teken in dna:
