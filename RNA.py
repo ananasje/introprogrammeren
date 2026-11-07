@@ -32,7 +32,7 @@ if __name__ == '__main__':
     invoer = input("DNA:"):
         if (check_input(invoer)) == True:
             print("RNA:"transcribe_dna_to_rna(invoer))
-    else:
-        print("That is not a valid DNA string")
+        else:
+            print("That is not a valid DNA string")
     
     
