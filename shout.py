@@ -2,7 +2,7 @@ def shout(text: str) -> str:
     """
     >>> shout('MIAUW')
     'MIAUW'
-    >>> shout('')
+    >>> shout('stan stayc')
     'MIAUW'
     """
     nieuwe_string = ""
