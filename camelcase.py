@@ -2,7 +2,7 @@ def camelcase(text: str) -> str:
     """
     >>> camelcase('camelCase')
     'camel_case'
-    >>> camelcase('')
+    >>> camelcase('waterMeloen')
     'camel_case'
     """
     nieuwe_string = ""
