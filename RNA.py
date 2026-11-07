@@ -22,9 +22,9 @@ def transcribe_dna_to_rna(dna: str) -> str:
             nieuwe_string += "U"
         elif teken == "Gg":
             nieuwe_string += "C"
-        elif teken = "Cc":
+        elif teken == "Cc":
             nieuwe_string += "G"
-        else teken = "Tt":
+        else teken == "Tt":
             nieuwe_string += "A"
 if __name__ == '__main__':
     invoer = input("DNA:")
