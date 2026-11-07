@@ -3,7 +3,7 @@ def vowelremover(zin: str) -> str:
     >>> vowelremover('hoedje van papier')
     'hdj vn ppr'
     vowelremover('ik vouw papier, kom niet zeggen dat je mr vouwt')
-    'hdj vn ppr'
+    'k vw ppr, km nt zggn dt j mr vwt'
     """
     nieuwe_string = ""
     for woord in zin:
