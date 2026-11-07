@@ -5,7 +5,7 @@ def check_input(dna: str) -> bool:
     """
     nieuwe_string = ""
     for elements in dna:
-        if "AaGgCcTt" = true:
+        if "AaGgCcTt" == true:
             dna == nieuwe_string
     
     return nieuwe_string
