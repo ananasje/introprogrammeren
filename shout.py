@@ -1,5 +1,6 @@
 def shout(text: str) -> str:
     """
+    
     """
     nieuwe_string = ""
     for letter in zin:
