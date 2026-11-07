@@ -25,7 +25,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
         elif teken = "Cc":
             nieuwe_string += "G"
         else teken = "Tt":
-            nieuwe_string += "C"
+            nieuwe_string += "T"
 if __name__ == '__main__':
     invoer = input("DNA:")
     genen = (check_input(invoer))
