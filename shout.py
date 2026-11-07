@@ -1,6 +1,7 @@
 def shout(text: str) -> str:
     nieuwe_string = ""
-    for letter 
+    for letter in zin:
+        if 
 if __name__ == '__main__':
     
     
