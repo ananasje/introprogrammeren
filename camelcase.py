@@ -17,6 +17,6 @@ def convert(text: str) -> str:
 
 if __name__ == '__main__':
     case = input("camelCase:")
-    print("snake_case:", camelcase(case))
+    print("snake_case:", convert(case))
     
     
