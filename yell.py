@@ -3,7 +3,7 @@ def yell(text: str) -> str:
     >>>
     x
     """
-   zin = list()
+   zin = list("")
 
 if __name__ == '__main__':
     zinnetje = input("")
