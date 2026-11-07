@@ -4,7 +4,7 @@ def yell(text: str) -> str:
     x
     """
     nieuwe_string = ""
-    for teken in str
+    for teken in str:
     if teken == "!":
         nieuwe_string += "!"
     elif teken == ".":
