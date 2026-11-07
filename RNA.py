@@ -20,6 +20,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
     for teken in dna:
         if teken = "Aa":
             nieuwe_string += "U"
+        elif teken = "Aa":
+            nieuwe_string += "U"
 if __name__ == '__main__':
     invoer = input("DNA:")
     genen = (check_input(invoer))
