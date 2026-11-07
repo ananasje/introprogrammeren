@@ -1,6 +1,6 @@
 def convert(text: str) -> str:
     """
-    >>> camelcase('camelCase')
+    >>> convert('camelCase')
     'camel_case'
     >>> camelcase('waterMeloen')
     'water_meloen'
