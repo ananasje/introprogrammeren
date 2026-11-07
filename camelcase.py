@@ -14,6 +14,6 @@ def camelcase(text: str) -> str:
 
 if __name__ == '__main__':
     case = input("camelCase")
-    print(camelcase(case))
+    print("camelcase(case))
     
     
