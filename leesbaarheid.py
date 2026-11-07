@@ -34,6 +34,7 @@ def calculate_grade(text: str) -> int:
             zin += 1
         if text[pos - 1] == "!":
             zin += 1
+    TR
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
