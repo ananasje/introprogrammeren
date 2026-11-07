@@ -22,7 +22,40 @@ def transcribe_dna_to_rna(dna: str) -> str:
             nieuwe_string2 += "U"
         elif teken in Gg":
             nieuwe_string2 += "C"
+        def check_input(dna: str) -> bool:
+    """
+    Controleert of de input een correcte DNA-string is.
+    Accepteert zowel hoofd- als kleine letters.
+    """
+    nieuwe_string = ""
+    for elements in dna:
+        if elements == "AaGgCcTt":
+            dna == nieuwe_string
+    
+    return nieuwe_string
+def transcribe_dna_to_rna(dna: str) -> str:
+    """
+    Schrijft een string met DNA-elementen in hoofd- en/of kleine
+    letters om naar een string met RNA-elementen (als hoofdletters).
+    Ga ervan uit dat een valide string wordt gegeven (dus geen
+    check aanroepen).
+    """
+    nieuwe_string2 = ""
+    for teken in dna:
+        if teken == "Aa":
+            nieuwe_string2 += "U"
+        elif teken == "Gg":
+            nieuwe_string2 += "C"
+        elif teken == "Cc":
+            nieuwe_string2 += "G"
+        else:
+            nieuwe_string2 += "A"
         
+    return nieuwe_string2
+if __name__ == '__main__':
+    invoer = input("DNA:")
+    genen = (check_input(invoer))
+    print("RNA:"(transcribe_dna_to_rna(genen)))
             nieuwe_string2 += "G"
         else:
             nieuwe_string2 += "A"
