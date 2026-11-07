@@ -14,7 +14,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
     >>> transcribe_dna_to_rna('miauw')
     'That is not a valid DNA string'
-    
+    >>> transcribe_dna_to_rna('miauw')
+    'That is not a valid DNA string'
     """
     nieuwe_string2 = ""
     for teken in dna:
