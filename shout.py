@@ -1,7 +1,7 @@
 def shout(text: str) -> str:
     nieuwe_string = ""
     for letter in zin:
-        if 
+        if l
         nieuwe_string += letter.isupper()
         return nieuwe_string
 if __name__ == '__main__':
