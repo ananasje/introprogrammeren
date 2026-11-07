@@ -7,6 +7,6 @@ def vowelremover(zin: str) -> str:
     """
     nieuwe_string = ""
     for woord in zin:
-        if woord in "aAeE"
+        if woord in "aAeEiI"
         
 if __name__ == '__main__':
