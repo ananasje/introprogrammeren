@@ -19,7 +19,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     nieuwe_string2 = ""
     for dingen in dna:
         if "Aa" == true:
-            
+            "Aa" 
 if __name__ == '__main__':
     invoer = input("DNA:")
     genen = (check_input(invoer))
