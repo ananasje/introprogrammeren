@@ -9,7 +9,7 @@ def yell(text: str) -> str:
         nieuwe_string += "!"
     elif teken == ".":
         nieuwe_string += "!!"
-    elif teken == "":
+    elif teken == "?":
         nieuwe_string += "!!"
 
 if __name__ == '__main__':
