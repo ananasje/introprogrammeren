@@ -3,7 +3,7 @@ def check_input(dna: str) -> bool:
     >>> check_input('miauw')
     False
     >>> check_input('AGCT')
-    False
+    True
     """
     for elements in dna:
         if elements not in "AaGgCcTt":
