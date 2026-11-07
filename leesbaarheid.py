@@ -30,6 +30,8 @@ def calculate_grade(text: str) -> int:
     for pos in range(1, len(text)):
         if text[pos - 1] == " ":
             zin += 1
+        if text[pos - 1] == " ":
+            zin += 1
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
