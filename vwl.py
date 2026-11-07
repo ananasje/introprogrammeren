@@ -6,4 +6,5 @@ def vowelremover(zin: str) -> str:
     'hdj vn ppr'
     """
     nieuwe_string = ""
+    if 
 if __name__ == '__main__':
