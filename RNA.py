@@ -7,8 +7,7 @@ def check_input(dna: str) -> bool:
     for elements in dna:
         if elements in "AaGgCcTt" == true:
             nieuwe_string = dna
-    
-    return nieuwe_string
+        return nieuwe_string
 def transcribe_dna_to_rna(dna: str) -> str:
     """
     Schrijft een string met DNA-elementen in hoofd- en/of kleine
