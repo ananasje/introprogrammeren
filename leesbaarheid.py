@@ -20,7 +20,7 @@ def calculate_grade(text: str) -> int:
     return teken
     
     woord = 1
-    for pos in range(1, len(tek:
+    for pos in range(1, len(text):
         if
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
