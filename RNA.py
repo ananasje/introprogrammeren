@@ -4,7 +4,7 @@ def check_input(dna: str) -> bool:
     Accepteert zowel hoofd- als kleine letters.
     """
     for elements in dna:
-        if elements in "AaGgCcTt"
+        if elements in "AaGgCcTt":
     return True
 def transcribe_dna_to_rna(dna: str) -> str:
     """
