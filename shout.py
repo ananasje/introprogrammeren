@@ -3,7 +3,7 @@ def shout(text: str) -> str:
     >>> shout('MIAUW')
     'MIAUW'
     >>> shout('stan stayc')
-    'MIAUW'
+    'STAN STAYC'
     """
     nieuwe_string = ""
     for letter in zin:
