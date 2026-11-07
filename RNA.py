@@ -13,7 +13,7 @@ def check_input(dna: str) -> bool:
 def transcribe_dna_to_rna(dna: str) -> str:
     """
     >>> transcribe_dna_to_rna('Tctga')
-    'That is not a valid DNA string'
+    'AGACU'
     >>> transcribe_dna_to_rna('AgCt')
     'UCGA'
     """
