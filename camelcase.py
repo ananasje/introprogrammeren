@@ -15,7 +15,7 @@ def shout(text: str) -> str:
 
 
 if __name__ == '__main__':
-    zin = input("")
+    case = input("")
     print(shout(zin))
     
     
