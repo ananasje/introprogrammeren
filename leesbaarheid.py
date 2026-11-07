@@ -28,9 +28,9 @@ def calculate_grade(text: str) -> int:
     
     zin = 1
     for pos in range(1, len(text)):
-        if text[pos - 1] == " ":
-            zin += 1
         if text[pos - 1] == ".":
+            zin += 1
+        if text[pos - 1] == "":
             zin += 1
         if text[pos - 1] == "!":
             zin += 1
