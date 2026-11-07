@@ -8,8 +8,8 @@ def shout(text: str) -> str:
     'STREAM STAYC'
     """
     nieuwe_string = ""
-    for letter in zin:
-        if letter in zin:
+    for letter in text:
+        if letter in text:
             nieuwe_string += letter.upper()
     return nieuwe_string
 
