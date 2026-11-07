@@ -12,7 +12,7 @@ def check_input(dna: str) -> bool:
         return True
 def transcribe_dna_to_rna(dna: str) -> str:
     """
-    >>> check_input('miauw')
+    >>> transcribe_dna_to_rna('miauw')
     False
     """
     nieuwe_string2 = ""
