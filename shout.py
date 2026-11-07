@@ -4,6 +4,8 @@ def shout(text: str) -> str:
     'MIAUW'
     >>> shout('stan stayc')
     'STAN STAYC'
+    >>> shout('stan stayc')
+    'STAN STAYC'
     """
     nieuwe_string = ""
     for letter in zin:
