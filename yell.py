@@ -6,5 +6,5 @@ def yell(text: str) -> str:
    
 
 if __name__ == '__main__':
-    zinnetje = inp("")
+    zinnetje = input("")
     print(yell(zinnetje))
