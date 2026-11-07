@@ -1,6 +1,6 @@
 def camelcase(text: str) -> str:
     """
-    >>> 
+    >>> camelcase(')
     """
     nieuwe_string = ""
     for letter in text:
