@@ -1,3 +1,3 @@
 def shout(text: str) -> str:
 
-if __name__ == '__main'
+if __name__ == '__main__'
