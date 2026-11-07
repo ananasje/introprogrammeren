@@ -6,7 +6,7 @@ def shout(text: str) -> str:
     return nieuwe_string
 if __name__ == '__main__':
     zin = input("")
-    print(shout(invoer))
+    print(shout(zin))
     
     
     
