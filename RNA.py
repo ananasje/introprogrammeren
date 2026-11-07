@@ -9,7 +9,7 @@ def check_input(dna: str) -> bool:
         if elements not in "AaGgCcTt":
             return False
         
-        return True
+    return True
 def transcribe_dna_to_rna(dna: str) -> str:
     """
     >>> transcribe_dna_to_rna('miauw')
