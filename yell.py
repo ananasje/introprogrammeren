@@ -1,4 +1,4 @@
-def yell(text: str) -> int:
+def yell(text: str) -> str:
 """
 x
 """
