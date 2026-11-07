@@ -4,6 +4,7 @@ def vowelremover(zin: str) -> str:
     'hdj vn ppr'
     vowelremover('ik vouw papier, kom niet zeggen dat je mr vouwt')
     'k vw ppr, km nt zggn dt j mr vwt'
+    
     """
     nieuwe_string = ""
     for woord in zin:
