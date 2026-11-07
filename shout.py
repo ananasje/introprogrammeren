@@ -4,6 +4,8 @@ def shout(text: str) -> str:
         if letter in zin:
             nieuwe_string += letter.isupper()
     return nieuwe_string
+
+
 if __name__ == '__main__':
     zin = input("")
     print(shout(zin))
