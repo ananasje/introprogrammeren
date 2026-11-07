@@ -3,7 +3,7 @@ def yell(text: str) -> str:
     >>> yell("i did, what u gonna do about it?")
     "i did, what u gonna do about it!!"
     
-    >>> yell("i did, what u gonna do about it?")
+    >>> yell("cooked.")
     "i did, what u gonna do about it!!"
     
     """
