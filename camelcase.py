@@ -3,7 +3,7 @@ def camelcase(text: str) -> str:
     >>> camelcase('camelCase')
     'camel_case'
     >>> camelcase('waterMeloen')
-    'camel_case'
+    'waterMeloen'
     """
     nieuwe_string = ""
     for letter in text:
