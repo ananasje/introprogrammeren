@@ -6,7 +6,7 @@ def yell(text: str) -> str:
     nieuwe_string = ""
     for teken in text:
         if teken == "!":
-            nieuwe_string += teken  "!!"
+            nieuwe_string += teken("!!")
         elif teken == ".":
             nieuwe_string += "!!"
         elif teken == "?":
