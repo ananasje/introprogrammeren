@@ -21,7 +21,7 @@ def calculate_grade(text: str) -> int:
     
     woord = 1
     for pos in range(1, len(text)):
-        if tekst[pos - 1] == " " and text [pos].isalpha()
+        if text[pos - 1] == " " and text [pos].isalpha()
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
