@@ -1,7 +1,7 @@
 def yell(text: str) -> str:
-"""
-x
-"""
+    """
+    x
+    """
 
 
 if __name__ == '__main__':
