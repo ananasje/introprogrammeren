@@ -4,7 +4,7 @@ def uniq(lst: list[object]) -> list[object]:
     
     >>> uniq([])
     []
-    >>> unique([1, 2, 3])
+    >>> uniq([1, 2, 3])
     [1, 2, 3]
     
     """
