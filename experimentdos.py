@@ -9,4 +9,3 @@ def list_count_element(lst: list[object], elt: object) -> int:
 def list_count_even(lst: list[int]) -> int:
     aantal = 0
 
-prin
