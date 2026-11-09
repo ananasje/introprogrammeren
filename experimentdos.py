@@ -1,11 +1,12 @@
-keuze = input("Quelle est-la temprature?:" )
+def list_count_element(lst: list[object], elt: object) -> int:
+    aantal = 0
+    for number in lst: 
+        if number == elt:
+            aantal += elt
+        return aantal
 
 
-if keuze > 30:
-    print("tis mapangpang heet")
-    print("ga water drinken")
-elif keuze > 15:
-    print("perfecte tempratuur")
-elif keuze < 5:
-    print("BRRR")
-print("klaar")
+def list_count_even(lst: list[int]) -> int:
+    aantal = 0
+
+prin
