@@ -8,6 +8,7 @@ def unique(lst: list[object]) -> list[object]:
     [1, 2, 3]
     
     """
+    
     nieuwe_lijst = []
 
     for pos in range(len(lst)):
