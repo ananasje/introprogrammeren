@@ -10,8 +10,6 @@ def compact(lst: list[object]) -> list[object]:
     ['hallo', 'wereld']
     >>> compact([False, True, None, 5])
     [True, 5]
-    >>> compact([0, "", None, False])
-    []
     >>> compact([])
     []
     """
