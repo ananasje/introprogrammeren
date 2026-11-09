@@ -1,7 +1,6 @@
 
 def unique(lst: list[object]) -> list[object]:
     """
-    Maakt een nieuwe lijst met alleen unieke elementen.
 
     >>> unique([1, 2, 2, 3, 1, 4])
     [1, 2, 3, 4]
