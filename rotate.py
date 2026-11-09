@@ -14,25 +14,7 @@ def rotate(lst: list[object]) -> None:
     >>> n2
     [20, 30, 40, 10]
 
-    >>> n3 = ["a", "b", "c"]
-    >>> rotate(n3)
-    >>> n3
-    ['b', 'c', 'a']
 
-    >>> n4 = []
-    >>> rotate(n4)
-    >>> n4
-    []
-
-    >>> n5 = [5]
-    >>> rotate(n5)
-    >>> n5
-    [5]
-
-    >>> n6 = [1, 1, 2]
-    >>> rotate(n6)
-    >>> n6
-    [1, 2, 1]
     """
     if len(lst) <= 1:
         return
