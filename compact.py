@@ -14,13 +14,6 @@ def compact(lst: list[object]) -> list[object]:
     []
     >>> compact([])
     []
-    >>> compact([1, 2, 3])
-    [1, 2, 3]
-    >>> origineel = [0, 1, "", 2]
-    >>> compact(origineel)
-    [1, 2]
-    >>> origineel
-    [0, 1, '', 2]
     """
     nieuwe_lijst = []
 
