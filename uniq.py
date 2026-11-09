@@ -10,7 +10,7 @@ def unique(lst: list[object]) -> list[object]:
     """
     
     nieuwe_lijst = []
-
+1
     for pos in range(len(lst)):
         if lst[pos] not in nieuwe_lijst:
             nieuwe_lijst.append(lst[pos])
