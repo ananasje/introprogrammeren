@@ -6,6 +6,4 @@ def list_count_element(lst: list[object], elt: object) -> int:
         return aantal
 
 print(list_count_element(1,2,2,3))
-def list_count_even(lst: list[int]) -> int:
-    aantal = 0
 
