@@ -9,6 +9,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     #whats 9 plus 10= tweny won
     >>>chunk([9, 10, 21], 2)
     [[9,10], [21]]
+    
     """
     resultaat = []
     groep = []
