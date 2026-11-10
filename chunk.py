@@ -5,4 +5,5 @@ def chunk(lst: list[int], n: int) -> list:
         groep.append(element)
         if len(groep) == n:
             resultaat.append(groep)
-            
+            groep = []
+        
