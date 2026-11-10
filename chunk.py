@@ -4,6 +4,8 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     [[1, 2], [3, 4], [5]]
     >>>chunk([2, 6, 7], 3)
     [[2, 6, 7]]
+    >>>chunk([2, 6, 7], 3)
+    [[2, 6, 7]]
     """
     resultaat = []
     groep = []
