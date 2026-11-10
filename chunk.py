@@ -7,4 +7,4 @@ def chunk(lst: list[int], n: int) -> list:
             resultaat.append(groep)
             groep = []
     
-    reresultaat
+    return resultaat
