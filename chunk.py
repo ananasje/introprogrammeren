@@ -6,7 +6,6 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     [[2, 6, 7]]
     >>> chunk([1, 0, 1, 0, 1, 0, 1, 0, 1,0], 2)
     [[1,0], [1,0], [1,0], [1,0], [1,0]]
-    #whats 9 plus 10= tweny won
     >>> chunk([9, 10, 21], 2)
     [[9,10], [21]]
     
