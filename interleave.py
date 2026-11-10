@@ -1,1 +1,1 @@
-def chunk(lst: list[int], list: int) -> list[list[int]]:
+def chunk(lst: list[int], lsts: int) -> list[list[int]]:
