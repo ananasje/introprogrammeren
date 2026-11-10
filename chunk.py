@@ -13,8 +13,3 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
         resultaat.append(groep)
 
     return resultaat
-
-if __name__ == '__main__':
-    invoer = input(print(""))
-    print(chunk(n: (invoer)))
-    print()
