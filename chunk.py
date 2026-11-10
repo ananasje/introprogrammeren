@@ -11,5 +11,5 @@ def chunk(lst: list[int], n: int) -> list:
 
 if __name__ == '__main__':
     invoer = input(print(""))
-    print(groep(lst(invoer)))
+    print(chunk(lst(invoer)))
     print()
