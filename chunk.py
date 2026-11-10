@@ -9,4 +9,4 @@ def chunk(lst: list[int], n: int) -> list:
     
     return resultaat
 
-if __name__ = '__main__':
+if __name__ == '__main__':
