@@ -8,3 +8,5 @@ def chunk(lst: list[int], n: int) -> list:
             groep = []
     
     return resultaat
+
+if '__main__'
