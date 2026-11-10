@@ -4,4 +4,4 @@ def chunk(lst: list[int], lsts: list[int]) -> list[list[int]]:
 
     resultaat = []
 
-for pos in range(len(lijst1)):
+    for pos in range(len(lijst1)):
