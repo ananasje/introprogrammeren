@@ -5,7 +5,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     >>>chunk([2, 6, 7], 3)
     [[2, 6, 7]]
     >>>chunk([1, 0, 1, 1, 0, 1, 1, 0, 1], 2)
-    [[1,0]]
+    [[1,0],]
     """
     resultaat = []
     groep = []
