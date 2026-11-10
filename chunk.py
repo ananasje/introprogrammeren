@@ -3,3 +3,4 @@ def chunk(lst: list[int], n: int) -> list:
     groep = []
     groep2 = []
     if len(groep) == n:
+        groep.append(element)
