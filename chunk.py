@@ -1,6 +1,7 @@
 def chunk(lst: list[int], n: int) -> list[list[int]]:
     """
-    >>>chunk(")
+    >>>chunk([1, 2, 3, 4, 5], 2)
+    
     """
     resultaat = []
     groep = []
