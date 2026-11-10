@@ -2,7 +2,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     """
     >>>chunk([1, 2, 3, 4, 5], 2)
     [[1, 2], [3, 4], [5]]
-    >>>chunk([2, 6, 7], 2)
+    >>>chunk([0, 6, 7], )
     [[1, 2], [3, 4], [5]]
     """
     resultaat = []
