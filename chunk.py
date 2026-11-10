@@ -8,7 +8,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     [[1,0], [1,0], [1,0], [1,0], [1,0],]
     #whats 9 plus 10= tweny won
     >>>chunk([9, 10, 21], 2)
-    [[9,10], [21]
+    [[9,10], [21]]
     """
     resultaat = []
     groep = []
