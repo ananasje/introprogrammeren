@@ -1,4 +1,5 @@
 def chunk(lst: list[int], n: int) -> list[list[int]]:
+    
     resultaat = []
     groep = []
 
