@@ -5,4 +5,5 @@ def contig(lst: list[int]) -> list[num(int)]:
         lege_lijst.append(number)
         if number - lst[pos + 1] == -1:
             
+            
 if __name__ == '__main__':
