@@ -6,5 +6,5 @@ def contig(lst: list[int]) -> list[num(int)]:
         if number - lst[pos + 1] == -1:
             lege_lijst.append(lst[pos + 1])
             nieuwe_lijst.append(lege_lijst)
-            
+            lege_lijst = []
 if __name__ == '__main__':
