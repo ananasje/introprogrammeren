@@ -1,6 +1,6 @@
 def contig(lst: list[int]) -> list[list[int]]:
-    nieuwe_lijst:[]
-    lege_lijst: []
+    nieuwe_lijst = []
+    lege_lijst =  []
     for number in range(len(lst)):
         lege_lijst.append(number)
         if number - lst[pos + 1] == -1:
