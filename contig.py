@@ -10,3 +10,4 @@ def contig(lst: list[int]) -> list[num(int)]:
             
     return nieuwe_lijst
 if __name__ == '__main__':
+    
