@@ -1,4 +1,4 @@
-def contig(lst: list[int]) -> list[num(int)]:
+def contig(lst: list[int]) -> list[list[int]]:
     nieuwe_lijst:[]
     lege_lijst: []
     for number in range(len(lst)):
