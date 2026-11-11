@@ -1,1 +1,1 @@
-def contig(num:int)
+def contig(num:int) -> lst:
