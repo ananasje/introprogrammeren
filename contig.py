@@ -1,3 +1,3 @@
-def contig(num:int) -> lst:
+def contig(num:int) -> 
 
-if __
+if __name__ == '__main__':
