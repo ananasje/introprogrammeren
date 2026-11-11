@@ -9,5 +9,3 @@ def contig(lst: list[int]) -> list[num(int)]:
             lege_lijst = []
             
     return nieuwe_lijst
-if __name__ == '__main__':
-    invoer = print(input(int()))
