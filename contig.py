@@ -4,7 +4,7 @@ def contig(lst: list[int]) -> list[num(int)]:
     for number in range(len(lst)):
         lege_lijst.append(number)
         if number - lst[pos + 1] == -1:
-            lege_lijst.append(lst)
+            lege_lijst.append(lst[pos + 1])
             nieuwe_lijst.append(lege_lijst)
             
 if __name__ == '__main__':
