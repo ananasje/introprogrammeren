@@ -1,7 +1,7 @@
 def contig(lst: list[int]) -> list[list[int]]:
     nieuwe_lijst = []
     lege_lijst =  []
-    for pos in range(len(lst)):
+    for pos in range(len(lst)-1):
         lege_lijst.append(number)
         
         if lst[pos + 1] == lst[pos] + 1:
