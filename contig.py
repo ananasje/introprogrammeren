@@ -1,3 +1,3 @@
 def contig(num: int) -> list[num(int)]:
-    for 
+    for number =
 if __name__ == '__main__':
