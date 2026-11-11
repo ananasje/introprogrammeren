@@ -1,1 +1,1 @@
-def contig(:)
+def contig(num:)
