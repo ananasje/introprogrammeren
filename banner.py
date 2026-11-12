@@ -1,26 +1,59 @@
+
 def longest_word_from_list(lst: list[str]) -> str:
+    """
+    Geeft het langste woord uit een lijst terug.
+
+    >>> longest_word_from_list(["kat", "olifant", "hond"])
+    'olifant'
+    >>> longest_word_from_list(["Python", "is", "leuk"])
+    'Python'
+    >>> longest_word_from_list([])
+    ''
+    """
     lang_wrd = ""
-    
+
     for woord in lst:
         if len(woord) > len(lang_wrd):
-        lang_wrd = woord
-            
+            lang_wrd = woord
+
     return lang_wrd
-    
+
+
 def print_banner(lst: list[str]) -> None:
+    """
+    Print de woorden met hekjes boven en onder.
+
+    >>> print_banner(["Hallo", "wereld"])
+    ######
+    Hallo
+    wereld
+    ######
+    >>> print_banner(["Ik", "leer", "Python"])
+    ######
+    Ik
+    leer
+    Python
+    ######
+    """
     langste = longest_word_from_list(lst)
     hekjes = "#" * len(langste)
 
     print(hekjes)
 
-    for word in lst:
-        print(word)
-    
+    for woord in lst:
+        print(woord)
+
     print(hekjes)
-    
-    
+
+
 def string_to_list(text: str) -> list[str]:
     """
+    Zet een string om naar een lijst met woorden zonder split.
+
+    >>> string_to_list("Ik leer Python")
+    ['Ik', 'leer', 'Python']
+    >>> string_to_list("Margherita Tutta la Vita")
+    ['Margherita', 'Tutta', 'la', 'Vita']
     >>> string_to_list("")
     []
     """
@@ -39,7 +72,11 @@ def string_to_list(text: str) -> list[str]:
 
     return nieuwe_lijst
 
-    nieuwe_lijst = []
-    
+
+if __name__ == '__main__':
+    boodschap = input("Boodschap: ")
+    woorden = string_to_list(boodschap)
+    print_banner(woorden)
+
     
     
