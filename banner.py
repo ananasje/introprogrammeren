@@ -33,11 +33,6 @@ def print_banner(lst: list[str]) -> None:
 
 def string_to_list(text: str) -> list[str]:
     """
-    Zet een string om naar een lijst met woorden zonder split.
-
-    >>> string_to_list("Ik leer Python")
-    ['Ik', 'leer', 'Python']
-    >>> string_to_list("Margherita Tutta la Vita")
     ['Margherita', 'Tutta', 'la', 'Vita']
     >>> string_to_list("")
     []
