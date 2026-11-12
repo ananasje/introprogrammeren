@@ -45,6 +45,8 @@ def string_to_list(text: str) -> list[str]:
     """
     >>> string_to_list("")
     []
+    >>> string_to_list("Ik leer Python")
+    ['Ik', 'leer', 'Python']
     """
     nieuwe_lijst = []
     woord = ""
