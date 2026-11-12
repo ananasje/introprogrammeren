@@ -2,6 +2,8 @@ def longest_word_from_list(lst: list[str]) -> str:
     """
     >>> longest_word_from_list(["kat", "cake", "sushi"])
     'sushi'
+    >>> longest_word_from_list(["Ik", "ben", "moe"])
+    'Python'
     """
     lang_wrd = ""
 
