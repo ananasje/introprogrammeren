@@ -19,6 +19,34 @@ def longest_word_from_list(lst: list[str]) -> str:
     print(hekjes)
     
     
+def string_to_list(text: str) -> list[str]:
+    """
+    Zet een string om naar een lijst met woorden.
+
+    >>> string_to_list("Ik leer Python")
+    ['Ik', 'leer', 'Python']
+    >>> string_to_list("Hallo wereld")
+    ['Hallo', 'wereld']
+    >>> string_to_list("Margherita Tutta la Vita")
+    ['Margherita', 'Tutta', 'la', 'Vita']
+    >>> string_to_list("")
+    []
+    """
+    nieuwe_lijst = []
+    woord = ""
+
+    for teken in text:
+        if teken == " ":
+            nieuwe_lijst.append(woord)
+            woord = ""
+        else:
+            woord += teken
+
+    if woord != "":
+        nieuwe_lijst.append(woord)
+
+    return nieuwe_lijst
+
     nieuwe_lijst = []
     
     
