@@ -2,7 +2,7 @@ def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
     """
     >>>interleave(lst1 = [6, 7], lst2 = [6, 8])
     '6,6,7,8'
-    >>>interleave(lst1 = [1, 7], lst2 = [6, 8])
+    >>>interleave(lst1 = [1, ], lst2 = [6, 8])
     '6,6,7,8'
     """
     resultaat = []
