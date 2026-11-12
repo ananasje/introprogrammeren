@@ -23,6 +23,7 @@ def print_banner(lst: list[str]) -> None:
     Stan
     Stayc
     ######
+    
     """
     langste = longest_word_from_list(lst)
     hekjes = "#" * len(langste)
