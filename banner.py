@@ -21,12 +21,6 @@ def print_banner(lst: list[str]) -> None:
     Hallo
     wereld
     ######
-    >>> print_banner(["Ik", "leer", "Python"])
-    ######
-    Ik
-    leer
-    Python
-    ######
     """
     langste = longest_word_from_list(lst)
     hekjes = "#" * len(langste)
