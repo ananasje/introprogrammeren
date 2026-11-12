@@ -1,6 +1,6 @@
 def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
     """
-    >>>interleave
+    >>>interleave(lst1 = )
     """
     resultaat = []
 
