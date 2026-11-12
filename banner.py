@@ -21,7 +21,6 @@ def print_banner(lst: list[str]) -> None:
     
 def string_to_list(text: str) -> list[str]:
     """
-    Zet een string om naar een lijst met woorden.
 
     >>> string_to_list("Ik leer Python")
     ['Ik', 'leer', 'Python']
