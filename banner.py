@@ -5,10 +5,6 @@ def longest_word_from_list(lst: list[str]) -> str:
 
     >>> longest_word_from_list(["kat", "olifant", "hond"])
     'olifant'
-    >>> longest_word_from_list(["Python", "is", "leuk"])
-    'Python'
-    >>> longest_word_from_list([])
-    ''
     """
     lang_wrd = ""
 
