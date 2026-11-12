@@ -1,1 +1,5 @@
-def chunk(lst: list[int], lsts: list[int]) -> list[list[int]]:
+def interleave(
+    lijst1: list[object],
+    lijst2: list[object],
+    keep: bool
+) -> list[object]:
