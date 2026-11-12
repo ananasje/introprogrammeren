@@ -5,7 +5,7 @@ def longest_word_from_list(lst: list[str]) -> str:
         if len(woord) > len(lang_wrd):
         lang_wrd = woord
             
-            
+    return lang_wrd
     
     
     
