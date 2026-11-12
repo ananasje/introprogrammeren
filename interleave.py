@@ -1,5 +1,5 @@
 def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
-        resultaat = []
+    resultaat = []
 
     kortste = min(len(lijst1), len(lijst2))
 
