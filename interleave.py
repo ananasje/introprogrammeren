@@ -6,3 +6,4 @@ def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
     for pos in range(kortste):
         resultaat.append(lt1[pos])
         resultaat.append(lt2[pos])
+    
