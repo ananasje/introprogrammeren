@@ -8,8 +8,8 @@ def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
         resultaat.append(lt2[pos])
     
     if keep == True:
-    for pos in range(kortste, len(lijst1)):
-        resultaat.append(lijst1[pos])
+        for pos in range(kortste, len(lijst1)):
+            resultaat.append(lijst1[pos])
 
-    for pos in range(kortste, len(lijst2)):
-        resultaat.append(lijst2[pos])
+        for pos in range(kortste, len(lijst2)):
+            resultaat.append(lijst2[pos])
