@@ -33,7 +33,6 @@ def print_banner(lst: list[str]) -> None:
 
 def string_to_list(text: str) -> list[str]:
     """
-    ['Margherita', 'Tutta', 'la', 'Vita']
     >>> string_to_list("")
     []
     """
