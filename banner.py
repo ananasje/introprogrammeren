@@ -1,7 +1,7 @@
 def longest_word_from_list(lst: list[str]) -> str:
     """
     >>> longest_word_from_list(["kat", "cake", "sushi"])
-    'olifant'
+    'sushi'
     """
     lang_wrd = ""
 
