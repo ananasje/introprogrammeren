@@ -46,7 +46,7 @@ def string_to_list(text: str) -> list[str]:
     >>> string_to_list("")
     []
     >>> string_to_list("Ik heb genug")
-    ['Ik', 'leer', 'genug']
+    ['Ik', 'heb', 'genug']
     """
     nieuwe_lijst = []
     woord = ""
