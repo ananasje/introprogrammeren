@@ -7,3 +7,4 @@ def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
         resultaat.append(lt1[pos])
         resultaat.append(lt2[pos])
     
+    if keep == True:
