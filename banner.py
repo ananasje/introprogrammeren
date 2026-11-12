@@ -7,7 +7,7 @@ def longest_word_from_list(lst: list[str]) -> str:
             
     return lang_wrd
     
-    def print_banner(lst: list[str]) -> None:
+def print_banner(lst: list[str]) -> None:
     langste = longest_word_from_list(lst)
     hekjes = "#" * len(langste)
 
