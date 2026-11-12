@@ -7,6 +7,9 @@ def longest_word_from_list(lst: list[str]) -> str:
             
     return lang_wrd
     
+    langste = longest_word_from_list(lst)
+    
+    
     
     
     
