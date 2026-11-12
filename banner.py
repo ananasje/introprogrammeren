@@ -16,7 +16,7 @@ def longest_word_from_list(lst: list[str]) -> str:
     for word in lst:
         print(word)
     
-    
+    print(hekjes)
     
     
     nieuwe_lijst = []
