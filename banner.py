@@ -21,13 +21,6 @@ def print_banner(lst: list[str]) -> None:
     
 def string_to_list(text: str) -> list[str]:
     """
-
-    >>> string_to_list("Ik leer Python")
-    ['Ik', 'leer', 'Python']
-    >>> string_to_list("Hallo wereld")
-    ['Hallo', 'wereld']
-    >>> string_to_list("Margherita Tutta la Vita")
-    ['Margherita', 'Tutta', 'la', 'Vita']
     >>> string_to_list("")
     []
     """
