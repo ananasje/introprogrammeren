@@ -11,5 +11,5 @@ def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
         for pos in range(kortste, len(lt1)):
             resultaat.append(lijst1[pos])
 
-        for pos in range(kortste, len(l)):
+        for pos in range(kortste, len(lt2)):
             resultaat.append(lijst2[pos])
