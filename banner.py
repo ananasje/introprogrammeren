@@ -23,6 +23,11 @@ def print_banner(lst: list[str]) -> None:
     Stan
     Stayc
     ######
+    >>> print_banner(["Stan", "Stayc"])
+    ######
+    Stan
+    Stayc
+    ######
     
     """
     langste = longest_word_from_list(lst)
