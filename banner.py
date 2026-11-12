@@ -19,10 +19,10 @@ def longest_word_from_list(lst: list[str]) -> str:
 def print_banner(lst: list[str]) -> None:
     """
     >>> print_banner(["Stan", "Stayc"])
-    ######
+    #####
     Stan
     Stayc
-    ######
+    #####
     >>> print_banner(["Bomba", "Khalas"])
     ######
     Bomba
