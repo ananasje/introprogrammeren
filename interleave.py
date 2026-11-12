@@ -13,7 +13,8 @@ def interleave(lt1: list[object],lt2: list[object],keep: bool) -> list[object]:
     kortste = len(lt1)
 
     if len(lt2) < kortste:
-    kortste = len(lt2)
+        kortste = len(lt2)
+        
     for pos in range(kortste):
         resultaat.append(lt1[pos])
         resultaat.append(lt2[pos])
