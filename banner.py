@@ -23,7 +23,7 @@ def print_banner(lst: list[str]) -> None:
     Stan
     Stayc
     ######
-    >>> print_banner(["Stan", "Stayc"])
+    >>> print_banner(["Bomba", "Khalas"])
     ######
     Stan
     Stayc
