@@ -25,8 +25,8 @@ def print_banner(lst: list[str]) -> None:
     ######
     >>> print_banner(["Bomba", "Khalas"])
     ######
-    Stan
-    Stayc
+    Bomba
+    Khalas
     ######
     
     """
