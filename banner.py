@@ -14,9 +14,7 @@ def longest_word_from_list(lst: list[str]) -> str:
 
 def print_banner(lst: list[str]) -> None:
     """
-    Print de woorden met hekjes boven en onder.
-
-    >>> print_banner(["Hallo", "wereld"])
+>>> print_banner(["Hallo", "wereld"])
     ######
     Hallo
     wereld
