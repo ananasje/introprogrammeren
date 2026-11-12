@@ -3,7 +3,7 @@ def longest_word_from_list(lst: list[str]) -> str:
     
     for woord in lst:
         if len(woord):
-        if len(woord)
+        if len(woord) >
     
     
     
