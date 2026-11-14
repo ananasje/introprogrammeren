@@ -7,5 +7,6 @@ def get_positive(lst: list[int]) -> list[int]:
     >>> get_positive([])
     []
     """
+    new_list = []
     
     while
