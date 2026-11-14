@@ -12,5 +12,6 @@ def count_uppercase_words(words: list[str]) -> int:
     for woord in words:
         for teken in woord:
             if teken.isalpha and teken.isupper() > 2:
-                count += 1:
-                    
+                count += 1
+        
+    return count
