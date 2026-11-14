@@ -4,7 +4,8 @@ def longest_streak(lst: list[int]) -> int:
     for pos in range(1, len(lst)):
         if lst[pos] == lst[pos - 1]:
             teller += 1
-            rec
+            record = teller
+            teller =
         else:
             teller = 1
 
