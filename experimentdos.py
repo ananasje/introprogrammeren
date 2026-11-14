@@ -6,7 +6,7 @@ def count_vowels(word: str) -> int:
     1
     >>> count_vowels("AEIOU")
     5
-    >>> count_vowels("")
+    >>> count_vowels("")  
     0
     """
     aantal = 0
