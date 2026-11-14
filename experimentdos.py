@@ -1,19 +1,11 @@
-def count_positive(lst: list[int]) -> int:
+def get_positive(lst: list[int]) -> list[int]:
     """
-    >>> count_positive([-2, 4, 0, 7])
-    2
-    >>> count_positive([-3, -1])
-    0
-    >>> count_positive([])
-    0
+    >>> get_positive([-2, 4, 0, 7])
+    [4, 7]
+    >>> get_positive([-3, -1])
+    []
+    >>> get_positive([])
+    []
     """
     
-    totaal = 0
-    i = 0
-    
-    while i < len(lst):
-        if lst[i]  < 0:
-            
-        totaal += 1
-        i += 1
-    return totaal
+    while
