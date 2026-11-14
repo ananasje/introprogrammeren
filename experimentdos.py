@@ -7,3 +7,4 @@ def count_uppercase_words(words: list[str]) -> int:
     >>> count_uppercase_words([])
     0
     """
+    
