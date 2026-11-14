@@ -1,16 +1,11 @@
-def get_decreases(lst: list[int]) -> list[int]:
+def merge_sorted(lst1: list[int], lst2: list[int]) -> list[int]:
     """
-    >>> get_decreases([5, 3, 7, 2, 1])
-    [3, 2, 1]
-    >>> get_decreases([1, 2, 3])
-    []
-    >>> get_decreases([4, 4, 2])
-    [2]
+    >>> merge_sorted([1, 3, 5], [2, 4, 6])
+    [1, 2, 3, 4, 5, 6]
+    >>> merge_sorted([1, 2], [3, 4, 5])
+    [1, 2, 3, 4, 5]
+    >>> merge_sorted([], [2, 4])
+    [2, 4]
+    >>> merge_sorted([1, 3], [1, 3])
+    [1, 1, 3, 3]
     """
-    nieuwe_lijst = []
-    for pos in range(1, len(lst)):
-        if lst[pos] < lst[pos - 1]:
-            nieuwe_lijst.append(lst[pos])
-    
-    return nieuwe_lijst
-    
