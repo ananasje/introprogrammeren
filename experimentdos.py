@@ -8,6 +8,6 @@ def get_decreases(lst: list[int]) -> list[int]:
     [2]
     """
     nieuwe_lijst = []
-    for pos in range(len(lst)-1):
+    for pos in range(len(lst)):
         if lst[pos] > 
     
