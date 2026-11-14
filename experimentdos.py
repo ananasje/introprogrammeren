@@ -9,3 +9,4 @@ def count_vowels(word: str) -> int:
     >>> count_vowels("")
     0
     """
+    
