@@ -18,3 +18,4 @@ def count_long_words(words: list[str]) -> int:
             if teken.lower() in klinker:
                 klinker >= 2
                 count += 1
+    return count
