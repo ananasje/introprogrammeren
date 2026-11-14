@@ -8,4 +8,4 @@ def vowely_words(words: list[str]) -> list[str]:
     []
     """
     nieuwe_lijst = []
-    for woord
+    for woord 
