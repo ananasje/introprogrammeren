@@ -6,4 +6,5 @@ def longest_streak(lst: list[int]) -> int:
             teller += 1
         
         else:
-            count += 
+            teller += teller
+    return 
