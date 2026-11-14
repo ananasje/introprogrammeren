@@ -9,6 +9,6 @@ def count_decreases(lst: list[int]) -> int:
     >>> count_decreases([])
     0
     """
-    
+    count = 0
     for pos in range(len(lst)):
         
