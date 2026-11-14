@@ -10,4 +10,5 @@ def count_decreases(lst: list[int]) -> int:
     0
     """
     
-    for pos in range(len(lst))
+    for pos in range(len(lst)):
+        
