@@ -7,7 +7,7 @@ def count_words_with_digit(words: list[str]) -> int:
     >>> count_words_with_digit([])
     0
     """
-    teller = 0
+    count = 0
     
     for teken in words:
         if teken in "1234567890":
