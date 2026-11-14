@@ -4,7 +4,8 @@ def vowely_words(words: list[str]) -> list[str]:
     for woord in words:
         aantal = 0
 
-        # Hier moet je de klinkers tellen
+    for teken in woord:
+        if teken.lower() = "aeiou"
 
         if aantal >= 2:
             resultaat.append(woord)
