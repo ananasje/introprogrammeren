@@ -11,10 +11,10 @@ def count_long_words(words: list[str]) -> int:
     """
     klinker = "aeiou"
     count = 0
-    medeklinkers = 0
+    
     
     for woord in words:
-        
+        medeklinkers = 0
         for teken in woord:
             if teken.isalpha() and teken.lower() not in "aeiou":
                 medeklinkers += 1
