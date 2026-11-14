@@ -11,4 +11,4 @@ def get_positive(lst: list[int]) -> list[int]:
     
     while
     
-    i + 1
+    i += 1
