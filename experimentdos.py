@@ -8,4 +8,4 @@ def get_decreases(lst: list[int]) -> list[int]:
     [2]
     """
     nieuwe_lijst = []
-    for 
+    for n in
