@@ -21,6 +21,6 @@ def count_long_words(words: list[str]) -> int:
                 
                 if medeklinkers >= 2:
                 
-                count += 1
+                    count += 1
                 
     return count
