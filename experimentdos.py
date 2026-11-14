@@ -16,5 +16,6 @@ def count_words_with_digit(words: list[str]) -> int:
             if teken.isdigit():
                 heeft_cijfer = True
             
+        if heeft_cijfer
                 count += 1
     return count
