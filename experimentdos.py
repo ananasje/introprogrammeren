@@ -1,1 +1,0 @@
-for pos in range(1, len(lst)):
