@@ -10,4 +10,6 @@ def merge_sorted(lst1: list[int], lst2: list[int]) -> list[int]:
     [1, 1, 3, 3]
     """
     
-    nieuwe
+    nieuwe_lijst = []
+    
+    
