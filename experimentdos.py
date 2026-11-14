@@ -16,3 +16,4 @@ def count_positive(lst: list[int]) -> int:
             
         totaal += 1
         i += 1
+    return totaal
