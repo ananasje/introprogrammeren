@@ -17,6 +17,6 @@ def count_long_words(words: list[str]) -> int:
         for teken in woord:
             if teken.lower() not in klinker:
                 klinker >= 2
-                count += 1
+                count = 0
                 
     return count
