@@ -8,6 +8,6 @@ def sum_numbers(lst: list[int]) -> int:
     0
     """
     
-    totaal + 0
+    totaal = 0
     
         
