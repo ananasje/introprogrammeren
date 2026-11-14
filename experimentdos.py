@@ -16,3 +16,4 @@ def count_vowels(word: str) -> int:
         else:
             aantal == aantal
             
+            
