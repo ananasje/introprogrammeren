@@ -7,4 +7,4 @@ def get_decreases(lst: list[int]) -> list[int]:
     >>> get_decreases([4, 4, 2])
     [2]
     """
-    
+    nieuwe_lijst =
