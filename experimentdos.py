@@ -10,7 +10,7 @@ def same_positions(lst1: list[int], lst2: list[int]) -> int:
     0
     """
     count = 0
-    for pos in lst1 and lst2:
+    for pos in range:
         if lst1[pos] == lst2[pos]:
             count += 1
     
