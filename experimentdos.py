@@ -6,6 +6,7 @@ def longest_word_length(s: str) -> int:
         if teken == " ":
             if huidige_lengte  > langste_lengte
             huidige_lengte  = langste_lengte
+            
         else:
             huidige_lengte += 1
         
