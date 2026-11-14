@@ -13,7 +13,7 @@ def count_long_words(words: list[str]) -> int:
     count = 0
     for woord in words:
         for teken in woord:
-            if teken.lower() in woord:
+            if teken.lower() in klinker:
                 
                 
                 count += 1
