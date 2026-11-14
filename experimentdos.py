@@ -13,4 +13,5 @@ def count_long_words(words: list[str]) -> int:
     for woord in words:
         for teken in woord:
             if teken.lower() in "aeiou":
+                
                 count += 1
