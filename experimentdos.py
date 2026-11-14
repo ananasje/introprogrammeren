@@ -19,7 +19,7 @@ def count_long_words(words: list[str]) -> int:
             if teken.isalpha() and teken.lower() not in "aeiou":
                 medeklinkers += 1
                 
-                if medeklinker
+                if medeklinkers > 2:
                 count = 0
                 
     return count
