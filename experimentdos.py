@@ -1,26 +1,9 @@
-def count_long_words(words: list[str]) -> int:
+def count_uppercase_words(words: list[str]) -> int:
     """
-    >>> count_long_words(["kat", "school", "fiets"])
+    >>> count_uppercase_words(["PyTHon", "HELLO", "Python"])
     2
-    >>> count_long_words(["boom", "aap", "zon"])
-    0
-    >>> count_long_words(["STRAND", "auto", "boom"])
+    >>> count_uppercase_words(["ABC", "abc", "aBc"])
     1
-    >>> count_long_words([])
+    >>> count_uppercase_words([])
     0
     """
-    klinker = "aeiou"
-    count = 0
-    
-    
-    for woord in words:
-        medeklinkers = 0
-        for teken in woord:
-            if teken.isalpha() and teken.lower() not in "aeiou":
-                medeklinkers += 1
-                
-        if medeklinkers >= 3:
-                
-            count += 1
-                
-    return count
