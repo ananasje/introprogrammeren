@@ -15,5 +15,4 @@ def count_positive(lst: list[int]) -> int:
         if lst[i]  < 0:
             
         totaal += 1
-    
-    i += 1
+        i += 1
