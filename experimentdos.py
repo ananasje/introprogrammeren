@@ -6,7 +6,8 @@ def vowely_words(words: list[str]) -> list[str]:
 
     for teken in woord:
         if teken.lower() = "aeiou":
-            aantaam+=
+            aantal+= 1
+        
         if aantal >= 2:
             resultaat.append(woord)
 
