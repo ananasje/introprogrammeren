@@ -9,4 +9,4 @@ def count_vowels(word: str) -> int:
     >>> count_vowels("")
     0
     """
-    for teken in 
+    for teken in str
