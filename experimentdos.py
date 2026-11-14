@@ -8,3 +8,4 @@ def count_words_with_digit(words: list[str]) -> int:
     0
     """
     teller = 0
+    
