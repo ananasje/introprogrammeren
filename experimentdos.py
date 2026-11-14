@@ -9,5 +9,6 @@ def sum_numbers(lst: list[int]) -> int:
     """
     
     totaal = 0
+    while i
     
         
