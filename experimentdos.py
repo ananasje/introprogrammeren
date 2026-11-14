@@ -12,6 +12,6 @@ def count_positive(lst: list[int]) -> int:
     while i < len(lst):
         if lst[i]  < 0:
             
-        totaal += i
+        totaal += 1
     
     i += 1
