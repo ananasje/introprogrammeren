@@ -9,3 +9,4 @@ def count_words_with_digit(words: list[str]) -> int:
     """
     teller = 0
     
+    for 
