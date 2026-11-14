@@ -7,4 +7,5 @@ def vowely_words(words: list[str]) -> list[str]:
     >>> vowely_words([])
     []
     """
-    nieuw list 
+    nieuwe_lijst = []
+    
