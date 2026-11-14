@@ -1,10 +1,10 @@
-def sum_numbers(lst: list[int]) -> int:
+def count_positive(lst: list[int]) -> int:
     """
-    >>> sum_numbers([2, 4, 6])
-    12
-    >>> sum_numbers([5, 10])
-    15
-    >>> sum_numbers([])
+    >>> count_positive([-2, 4, 0, 7])
+    2
+    >>> count_positive([-3, -1])
+    0
+    >>> count_positive([])
     0
     """
     
