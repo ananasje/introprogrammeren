@@ -12,4 +12,6 @@ def count_decreases(lst: list[int]) -> int:
     count = 0
     for pos in range(len(lst)):
         if lst[pos] > lst[pos + 1]:
+            count += 1
+    return count
             
