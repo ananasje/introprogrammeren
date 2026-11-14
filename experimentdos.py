@@ -9,7 +9,7 @@ def count_words_with_digit(words: list[str]) -> int:
     """
     count = 0
     
-    for w in words:
+    for woord in words:
         if teken in "1234567890":
             count += 1
         else:
