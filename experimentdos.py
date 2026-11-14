@@ -13,5 +13,5 @@ def count_words_with_digit(words: list[str]) -> int:
         if teken in "1234567890":
             count += 1
         else:
-             count == 0
+            count == 0
     return count
