@@ -1,17 +1,11 @@
-def count_uppercase_words(words: list[str]) -> int:
+def same_positions(lst1: list[int], lst2: list[int]) -> int:
     """
-    >>> count_uppercase_words(["PyTHon", "HELLO", "Python"])
+    >>> same_positions([1, 2, 3], [1, 5, 3])
     2
-    >>> count_uppercase_words(["ABC", "abc", "aBc"])
-    1
-    >>> count_uppercase_words([])
+    >>> same_positions([4, 5, 6], [1, 2, 3])
+    0
+    >>> same_positions([7, 8], [7, 8])
+    2
+    >>> same_positions([], [])
     0
     """
-    count = 0
-    
-    for woord in words:
-        for teken in woord:
-            if teken.isalpha and teken.isupper() >= 2:
-                count += 1
-        
-    return count
