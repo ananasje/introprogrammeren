@@ -9,4 +9,5 @@ def longest_word_length(s: str) -> int:
         else:
             huidige_lengte += 1
         
-    if huidige_lengte 
+    if huidige_lengte > langste_lengte:
+        langste_lengte += 
