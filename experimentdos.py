@@ -9,6 +9,6 @@ def get_positive(lst: list[int]) -> list[int]:
     """
     new_list = []
     i = 0
-    while i < len(l)
+    while i < len(lst)
     
     i += 1
