@@ -1,20 +1,9 @@
-def count_vowels(word: str) -> int:
+def vowely_words(words: list[str]) -> list[str]:
     """
-    >>> count_vowels("olifant")
-    3
-    >>> count_vowels("Python")
-    1
-    >>> count_vowels("AEIOU")
-    5
-    >>> count_vowels("")  jkTFU
-    0
+    >>> vowely_words(["kat", "olifant", "boom", "fiets"])
+    ['olifant', 'boom', 'fiets']
+    >>> vowely_words(["bus", "trein", "school"])
+    ['trein', 'school']
+    >>> vowely_words([])
+    []
     """
-    aantal = 0
-    for teken in str:
-        if teken.upper() == "AEIOU":
-            aantal += 1 
-        else:
-            aantal == aantal
-            
-        return aantal 
-            
