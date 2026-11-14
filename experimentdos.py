@@ -12,5 +12,5 @@ def merge_sorted(lst1: list[int], lst2: list[int]) -> list[int]:
     
     nieuwe_lijst = []
     i = 0
-j = 0
+    j = 0
     for i in 
