@@ -11,6 +11,6 @@ def get_positive(lst: list[int]) -> list[int]:
     i = 0
     while i < len(lst):
         if lst[i] > 0:
-            
+            new_list.append(lst[i])
     
     i += 1
