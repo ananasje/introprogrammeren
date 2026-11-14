@@ -18,4 +18,5 @@ def count_words_with_digit(words: list[str]) -> int:
             
         if heeft_cijfer:
             count += 1
+            
     return count
