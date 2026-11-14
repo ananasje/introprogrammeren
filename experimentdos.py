@@ -13,4 +13,6 @@ def count_vowels(word: str) -> int:
     for teken in str:
         if teken.upper() == "AEIOU":
             aantal += 1 
+        else:
+            aantal == aantal
             
