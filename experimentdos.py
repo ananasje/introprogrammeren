@@ -3,4 +3,5 @@ def longest_word_length(s: str) -> int:
     langste_lengte = 0
 
     for teken in s:
-        if teken == " "
+        if teken == " ":
+            
