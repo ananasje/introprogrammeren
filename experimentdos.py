@@ -10,4 +10,4 @@ def count_vowels(word: str) -> int:
     0
     """
     for teken in str:
-        if teken == "Aa"
+        if teken == "AEIOU"
