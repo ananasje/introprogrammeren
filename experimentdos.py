@@ -11,6 +11,7 @@ def count_long_words(words: list[str]) -> int:
     """
     klinker = "aeiou"
     count = 0
+    medeklinkers =
     
     for woord in words:
         
