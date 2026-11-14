@@ -1,13 +1,12 @@
 def vowely_words(words: list[str]) -> list[str]:
-    """
-    >>> vowely_words(["kat", "olifant", "boom", "fiets"])
-    ['olifant', 'boom', 'fiets']
-    >>> vowely_words(["bus", "trein", "school"])
-    ['trein', 'school']
-    >>> vowely_words([])
-    []
-    """
-    nieuwe_lijst = []
+    resultaat = []
+
     for woord in words:
-        
-    for teken in woord:
+        aantal = 0
+
+        # Hier moet je de klinkers tellen
+
+        if aantal >= 2:
+            resultaat.append(woord)
+
+    return resultaat
