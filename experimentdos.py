@@ -9,3 +9,5 @@ def merge_sorted(lst1: list[int], lst2: list[int]) -> list[int]:
     >>> merge_sorted([1, 3], [1, 3])
     [1, 1, 3, 3]
     """
+    
+    nieuwe
