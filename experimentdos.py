@@ -10,6 +10,7 @@ def count_words_with_digit(words: list[str]) -> int:
     count = 0
     
     for woord in words:
+        heeft_cijfer = True
         for teken in woord:
             
             if teken.isdigit():
