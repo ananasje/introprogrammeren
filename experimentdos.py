@@ -12,6 +12,6 @@ def same_positions(lst1: list[int], lst2: list[int]) -> int:
     count = 0
     for pos in lst1 and lst2:
         if pos[lst1] - pos[lst2] == 0:
-        count += 1
+            count += 1
     
     return count
