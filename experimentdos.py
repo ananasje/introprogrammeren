@@ -9,3 +9,4 @@ def same_positions(lst1: list[int], lst2: list[int]) -> int:
     >>> same_positions([], [])
     0
     """
+    
