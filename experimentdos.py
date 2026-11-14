@@ -9,3 +9,5 @@ def count_decreases(lst: list[int]) -> int:
     >>> count_decreases([])
     0
     """
+    
+    
