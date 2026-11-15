@@ -3,7 +3,7 @@ def special_sort(l: list[int]) -> list[int]:
     i = 0
     j = i + 1
     
-    for i in range(1,len[lst]):
+    for i in range(1,len[l]):
         if lst[i] < lst[j]:
             nieuwe_lijst.append(lst[i])
         else:
