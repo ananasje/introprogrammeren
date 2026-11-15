@@ -29,5 +29,5 @@ def merge_alternating(lst1: list[int], lst2: list[int]) -> list[int]:
         nieuwe_lijst.append(lst1[pos])
 
     for pos in range(j, len(lst2)):
-    # Voeg resterende elementen van lst2 toe
+        nieuwe_lijst.append(lst2[pos])
         
