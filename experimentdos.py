@@ -10,5 +10,5 @@ def get_smaller(lst: list[int]) -> list[int]:
     []
     """
     
-    For pos in ra
+    For pos in range()
         
