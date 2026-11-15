@@ -13,6 +13,6 @@ def get_smaller(lst: list[int]) -> list[int]:
     for pos in range(1, len(lst)):
         if pos < lst[pos - 1]:
             nieuwe_lijst.append(lst[pos])
-            
+        
         
         
