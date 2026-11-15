@@ -28,6 +28,6 @@ def merge_alternating(lst1: list[int], lst2: list[int]) -> list[int]:
     for pos in range(i, len(lst1)):
     # Voeg resterende elementen van lst1 toe
 
-for pos in range(j, len(lst2)):
+    for pos in range(j, len(lst2)):
     # Voeg resterende elementen van lst2 toe
         
