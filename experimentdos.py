@@ -20,3 +20,4 @@ def merge_alternating(lst1: list[int], lst2: list[int]) -> list[int]:
     j = 0
     while i < len(lst1) and  j < len(lst2):
         nieuwe_lijst.append(lst[i])
+        
