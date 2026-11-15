@@ -9,5 +9,5 @@ def get_smaller(lst: list[int]) -> list[int]:
     >>> get_smaller([])
     []
     """
-    
+    F
         
