@@ -1,4 +1,4 @@
 def special_sort(l: list[int]) -> list[int]:
-    n
+    nieuwe_lijst = 
         
         
