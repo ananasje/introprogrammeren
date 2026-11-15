@@ -3,7 +3,7 @@ def selection_sort(l: list[int]) -> list[int]:
         kleinste_pos = i
 
         for j in range(i, len(l)):
-            if l(j) len(j):
+            if l[i] < l[i]:
                 kleinste_pos = j
 
         l[i], l[kleinste_pos] = l[kleinste_pos], l[i]
