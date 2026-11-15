@@ -15,4 +15,5 @@ def merge_alternating(lst1: list[int], lst2: list[int]) -> list[int]:
     >>> merge_alternating([], [])
     []
     """
-    # Schrijf hier je code
+    nieuwe_lijst = []
+    
