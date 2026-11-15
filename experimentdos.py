@@ -3,6 +3,6 @@ def special_sort(l: list[int]) -> list[int]:
     i = 0
     j = 0
     
-    for range
+    for i in range(1,len)
         
         
