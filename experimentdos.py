@@ -1,33 +1,13 @@
-def merge_alternating(lst1: list[int], lst2: list[int]) -> list[int]:
+def get_smaller(lst: list[int]) -> list[int]:
     """
-    >>> merge_alternating([1, 2, 3], [8, 9])
-    [1, 8, 2, 9, 3]
-
-    >>> merge_alternating([1, 2], [7, 8, 9])
-    [1, 7, 2, 8, 9]
-
-    >>> merge_alternating([1, 2], [3, 4])
-    [1, 3, 2, 4]
-
-    >>> merge_alternating([], [5, 6])
-    [5, 6]
-
-    >>> merge_alternating([], [])
+    >>> get_smaller([8, 3, 5, 2, 1])
+    [3, 2, 1]
+    >>> get_smaller([1, 2, 3])
+    []
+    >>> get_smaller([4, 4, 2])
+    [2]
+    >>> get_smaller([])
     []
     """
-    nieuwe_lijst = []
-    i = 0
-    j = 0
-    while i < len(lst1) and  j < len(lst2):
-        nieuwe_lijst.append(lst1[i])
-        nieuwe_lijst.append(lst2[j])
-        i += 1
-        j += 1
     
-    return nieuwe_lijst
-    for pos in range(i, len(lst1)):
-        nieuwe_lijst.append(lst1[pos])
-
-    for pos in range(j, len(lst2)):
-        nieuwe_lijst.append(lst2[pos])
         
