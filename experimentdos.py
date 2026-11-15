@@ -23,5 +23,5 @@ def merge_alternating(lst1: list[int], lst2: list[int]) -> list[int]:
         nieuwe_lijst.append(lst2[j])
         i += 1
         j += 1
-    ret
+    return nieuwe_lijst
         
