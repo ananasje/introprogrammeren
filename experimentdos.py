@@ -11,6 +11,6 @@ def special_sort(l: list[int]) -> list[int]:
         
         i += 1
     
-    return 
+    return nieuwe_lijst
         
         
