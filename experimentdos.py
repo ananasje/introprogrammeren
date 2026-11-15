@@ -4,6 +4,6 @@ def special_sort(l: list[int]) -> list[int]:
     j = i + 1
     
     for i in range(1,len[lst]):
-        if lst[i] 
+        if lst[i] < 
         
         
