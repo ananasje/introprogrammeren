@@ -10,7 +10,7 @@ def get_smaller(lst: list[int]) -> list[int]:
     []
     """
     nieuwe_lijst = []
-    For pos in range(1, len(lst)):
+    for pos in range(1, len(lst)):
         
         
         
