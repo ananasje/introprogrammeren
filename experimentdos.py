@@ -11,6 +11,6 @@ def get_smaller(lst: list[int]) -> list[int]:
     """
     nieuwe_lijst = []
     for pos in range(1, len(lst)):
-        if pos < 
+        if pos < lst[pos - 1]
         
         
