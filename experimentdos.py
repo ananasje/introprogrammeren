@@ -18,4 +18,4 @@ def longest_word_length(s: str) -> int:
         langste_lengte += 1
         
         return langste_lengte
-    elif s[pos] != 
+    elif s[pos] != ""
