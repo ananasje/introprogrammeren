@@ -12,4 +12,5 @@ def encrypt(s: str) -> str:
      
     for teken in s:
         for pos in range(len, alphabet):
-            if alphabet
+            if alphabet[pos] == teken:
+                
