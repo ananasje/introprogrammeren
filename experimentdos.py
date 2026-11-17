@@ -13,6 +13,6 @@ def compute_letter_score(letter: str) -> int:
 
     for pos in range(len(alphabet)):
         if alphabet[pos] == letter.lower():
-            POINTS
+            POINTS[pos]
 
     return 0
