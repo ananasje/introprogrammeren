@@ -14,5 +14,5 @@ def compute_score(word: str) -> int:
     for pos in range(len(alphabet)):
         if alphabet[pos] == letter.lower():
             teller += POINTS[pos]
-
+        return 
     return 0
