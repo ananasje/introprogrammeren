@@ -12,6 +12,8 @@ def count_words(s: str) -> int:
     0
     """
     teller = 0 
+    in_woord = false 
+    
     for woord in s:
         if s[pos] == " " and s[pos + 1]:
             teller += 1
