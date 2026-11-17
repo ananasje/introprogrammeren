@@ -11,6 +11,8 @@ def count_words(s: str) -> int:
     >>> count_words("   ")
     0
     """
-    
+    teller = 0 
+    for woord in s:
+        if 
         
         
