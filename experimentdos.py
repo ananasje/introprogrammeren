@@ -17,7 +17,8 @@ def count_words(s: str) -> int:
     for teken in s:
         if char != " " and not in_woord:
             teller += 1
-        elif teken = ""
+        elif teken = " ":
+            
     
     return teller 
         
