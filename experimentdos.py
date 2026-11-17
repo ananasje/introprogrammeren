@@ -8,4 +8,7 @@ def encrypt(s: str) -> str:
     ''
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
-reverse = "zyxwvutsrqponmlkjihgfedcba"
+    reverse = "zyxwvutsrqponmlkjihgfedcba"
+     
+    for teken in s:
+        
