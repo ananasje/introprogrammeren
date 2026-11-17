@@ -12,6 +12,7 @@ def count_local_minima(lst: list[int]) -> int:
     0
     """
     teller = 0
-    for pos in range(1,len[lst])
+    for pos in range(1,len[lst]):
+        
         
         
