@@ -9,8 +9,8 @@ def longest_word_length(s: str) -> int:
     >>> longest_word_length("")
     0
     """
-    huidige_lengte = 0
+    huidige_lengte = False
     langste_lengte = 0 
     for word in s:
-        if teken == ""
+        if teken == " "
         for
