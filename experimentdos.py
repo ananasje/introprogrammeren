@@ -13,4 +13,4 @@ def longest_word_length(s: str) -> int:
     langste_lengte = 0 
     for word in s:
         for pos in range(s - 1):
-        if pos[s] == " " and 
+        if s[pos]
