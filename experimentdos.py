@@ -12,5 +12,5 @@ def longest_word_length(s: str) -> int:
     huidige_lengte = False
     langste_lengte = 0 
     for word in s:
-        for pos in range(1, s):
+        for pos in range(s - 1):
         if pos[s] == " " and pos[s]
