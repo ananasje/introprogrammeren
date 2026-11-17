@@ -10,9 +10,6 @@ def longest_word_length(s: str) -> int:
     0
     """
     huidige_lengte houdt bij hoeveel tekens het huidige woord heeft.
-
-
-
-langste_lengte
+    langste_lengte
     for word in s:
         for
