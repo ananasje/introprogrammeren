@@ -14,7 +14,7 @@ def compute_letter_score(letter: str) -> int:
     for teken in s:
         for pos in range(len(alphabet)):
             if alphabet[pos] == teken:
-                resultaat += pos[]
+                resultaat += pos()
                 
 
 
