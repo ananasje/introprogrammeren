@@ -11,5 +11,7 @@ def count_local_minima(lst: list[int]) -> int:
     >>> count_local_minima([])
     0
     """
+    teller = 0
+    
         
         
