@@ -16,4 +16,5 @@ def compute_score(word: str) -> int:
             teller += POINTS[pos]
             
         return teller
+        
     return 0
