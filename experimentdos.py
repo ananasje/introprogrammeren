@@ -11,6 +11,6 @@ def compute_letter_score(letter: str) -> int:
              1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for teken in s:
-        for pos in range(alp)
+        for pos in range(alphabet)
 
 
