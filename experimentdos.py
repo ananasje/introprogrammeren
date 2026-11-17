@@ -1,21 +1,16 @@
-def count_local_minima(lst: list[int]) -> int:
+def count_words(s: str) -> int:
     """
-    >>> count_local_minima([5, 2, 7, 1, 6])
+    >>> count_words("Ik leer Python")
+    3
+    >>> count_words("Hallo")
+    1
+    >>> count_words("  kat   hond  ")
     2
-    >>> count_local_minima([1, 2, 3, 4])
+    >>> count_words("")
     0
-    >>> count_local_minima([4, 1, 4, 1, 4])
-    2
-    >>> count_local_minima([2, 2, 2])
-    0
-    >>> count_local_minima([])
+    >>> count_words("   ")
     0
     """
-    teller = 0
-    for pos in range(1,len(lst)) - 1:
-        if lst[pos] < lst[pos + 1] and lst[pos] < lst[pos - 1]:
-            teller += 1
     
-    return teller
         
         
