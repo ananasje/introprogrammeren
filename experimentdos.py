@@ -13,6 +13,6 @@ def count_local_minima(lst: list[int]) -> int:
     """
     teller = 0
     for pos in range(1,len[lst]):
-        if lst[pos] < 
+        if lst[pos] < lst[pos]
         
         
