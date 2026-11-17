@@ -1,13 +1,15 @@
-def selection_sort(l: list[int]) -> list[int]:
-    for i in range(len(l) - 1):
-        kleinste_pos = i
-
-        for j in range(i, len(l)):
-            if l[j] < l[i]:
-                kleinste_pos = j
-
-        l[i], l[kleinste_pos] = l[kleinste_pos], l[i]
-
-    return l
+def count_local_minima(lst: list[int]) -> int:
+    """
+    >>> count_local_minima([5, 2, 7, 1, 6])
+    2
+    >>> count_local_minima([1, 2, 3, 4])
+    0
+    >>> count_local_minima([4, 1, 4, 1, 4])
+    2
+    >>> count_local_minima([2, 2, 2])
+    0
+    >>> count_local_minima([])
+    0
+    """
         
         
