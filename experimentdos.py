@@ -7,6 +7,8 @@ def merge_alternating(a: list[int], b: list[int]) -> list[int]:
     >>> merge_alternating([], [4, 5])
     [4, 5]
     """
+    
+    
         
         
         
