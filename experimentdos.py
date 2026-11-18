@@ -1,19 +1,13 @@
-def longest_even_streak(lst: list[int]) -> int:
+def count_long_words(s: str) -> int:
     """
-    >>> longest_even_streak([2, 4, 6, 3, 8, 10])
-    3
-    >>> longest_even_streak([1, 3, 5])
+    >>> count_long_words("kat olifant hond")
+    2
+    >>> count_long_words("  appel   peer ")
+    2
+    >>> count_long_words("Python")
+    1
+    >>> count_long_words("")
     0
-    >>> longest_even_streak([2, 4, 1, 6, 8, 10, 12])
-    4
-    >>> longest_even_streak([])
+    >>> count_long_words("a bb ccc")
     0
     """
-    
-    teller = 0
-    langste = 0
-    for pos in range (1,len(lst) - 1):
-        if lst[pos] % 2 == 0:
-            teller + 1
-    if lst[pos + 1] % 2 != 0:
-        teller = langste:
