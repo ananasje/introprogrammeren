@@ -18,7 +18,8 @@ def filter_long_even_words(words: list[str]) -> list[str]:
             
             for teken in words:
                 if teken in klinker:
-                    klinkerteller 
+                    klinkerteller += 1
+        if 
             
     
     
