@@ -30,3 +30,4 @@ def count_strong_words(words: list[str]) -> int:
         
         
         
+        
