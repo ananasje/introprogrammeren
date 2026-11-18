@@ -14,9 +14,7 @@ def filter_long_even_words(words: list[str]) -> list[str]:
     klinker = "aeiouAEIOU"$
     klinkerteller = 0
     for word in words:
-        if len(word) >= 4:
-            
-            for teken in words:
+        for teken in words:
                 if teken in klinker:
                     klinkerteller += 1
         if 
