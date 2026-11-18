@@ -9,6 +9,7 @@ def has_digit(word: str) -> bool:
     """
     if word.isdigit():
         return True
+        
     return False
 
 def count_strong_words(words: list[str]) -> int:
