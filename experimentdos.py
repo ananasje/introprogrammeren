@@ -12,7 +12,8 @@ def count_repeated_letters(words: list[str]) -> int:
     teller = 0
     herhaling = ""
     for word in words:
-        if teken.isalpha
+        for teken in word:
+            if teken 
             
         
         
