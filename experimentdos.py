@@ -1,20 +1,13 @@
-def count_increases(lst: list[int]) -> int:
+def longest_word_length(s: str) -> int:
     """
-    >>> count_increases([2, 5, 3, 7, 9])
-    3
-    >>> count_increases([5, 5, 5])
-    0
-    >>> count_increases([9, 6, 3])
-    0
-    >>> count_increases([])
+    >>> longest_word_length("kat olifant hond")
+    7
+    >>> longest_word_length("  appel   peer ")
+    5
+    >>> longest_word_length("Python")
+    6
+    >>> longest_word_length("")
     0
     """
-    teller = 0
-    for pos in range(1,(len(lst))):
-        if lst[pos] > lst[pos -1]:
-            teller += 1
-        
-    return teller
-        
-        
+    
         
