@@ -10,7 +10,7 @@ def count_vowel_words(words: list[str]) -> int:
     0
     """
     
-    klinkers= $
+    
     teller = 0
     for word in words:
         for teken in word:
