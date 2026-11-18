@@ -11,7 +11,7 @@ def count_digit_groups(s: str) -> int:
     >>> count_digit_groups("")
     0
     """
-    newlist = []
+    
     groep = False
     cijfer = 0
     
