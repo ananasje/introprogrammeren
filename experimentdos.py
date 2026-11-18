@@ -53,15 +53,16 @@ def filter_digit_words(words: list[str]) -> list[str]:
     >>> filter_digit_words([])
     []
     """
-    nieuwe_lijst = []
-    
-    for word in words:
-        cijfers = 0
-        for pos in range(len(word)):
-            if lst[pos] 
-    
-    if cijfers >= 2:
-        nieuwe_lijst.append(word)
+for word in words:
+    gevonden = ""
+
+    for teken in word:
+        # Bewaar alleen nieuwe cijfers
+
+    # Controleer hier of er minstens
+    # twee verschillende cijfers zijn
+
+return nieuwe_lijst
                 
     
     
