@@ -1,22 +1,11 @@
-def filter_words(words: list[str]) -> list[str]:
+def longest_valid_word(words: list[str]) -> str:
     """
-    >>> filter_words(["auto", "kat", "idee", "school"])
-    ['auto', 'idee']
-    >>> filter_words(["AEIOU", "Python", "boom"])
-    ['AEIOU', 'boom']
-    >>> filter_words(["abc", "xyz"])
-    []
-    >>> filter_words([])
-    []
+    >>> longest_valid_word(["kat", "auto", "olifant", "boom"])
+    'olifant'
+    >>> longest_valid_word(["boom", "maan", "fiets"])
+    'fiets'
+    >>> longest_valid_word(["kat", "bus", "xyz"])
+    ''
+    >>> longest_valid_word([])
+    ''
     """
-    klinker = 0
-    medeklinker = 0
-    for words in list:
-        if words[pos].lower() == "aeiou":
-            klinker += 1
-        else:
-            medeklinker += 1
-    
-    woorden = klinker > medeklinker
-    return woorden
-        
