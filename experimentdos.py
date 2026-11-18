@@ -57,11 +57,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
         gevonden = ""
 
     for teken in word:
-        # Bewaar alleen nieuwe cijfers
-
-    # Controleer hier of er minstens
-    # twee verschillende cijfers zijn
-
+        if teken.isdigit and not in 
     return nieuwe_lijst
                 
     
