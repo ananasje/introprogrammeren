@@ -21,6 +21,21 @@ def count_repeated_letters(words: list[str]) -> int:
                 tekenteller += 1
         
     return tekenteller
+    
+    def count_repeated_letters(words: list[str]) -> int:
+    tekenteller = 0
+
+    for word in words:
+        herhaling = ""
+
+        for teken in word:
+            if teken in herhaling:
+                tekenteller += 1
+                break
+
+            herhaling += teken
+
+    return tekenteller
         
         
         
