@@ -11,6 +11,7 @@ def encrypt(s: str) -> str:
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     reverse = "zyxwvutsrqponmlkjihgfedcba"
+    nieuwe_lijst = 
     for teken in s:
         if teken in alphabet:
             
