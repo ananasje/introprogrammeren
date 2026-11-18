@@ -7,4 +7,6 @@ for teken in s:
         woorden += 1
         
 letters = klinkers + medeklinkers
-return 
+return \[
+\text{leesniveau}=(\text{medeklinkers}-\text{klinkers})^2\times\frac{\text{letters}}{\text{woorden}}
+\]
