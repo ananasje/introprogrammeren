@@ -7,8 +7,8 @@ def is_even_digit(teken: str) -> bool:
     >>> is_even_digit("a")
     False
     """
-    for teken.isdigit():
-        if teken
+    if teken % 2 == 0:
+        
 
 
 def count_even_digits(s: str) -> int:
