@@ -19,7 +19,7 @@ def count_digit_groups(s: str) -> int:
         if teken.isdigit():
             if not groep:
                 teller += 1
-                groep == True
+                groep = True
             
             
             
