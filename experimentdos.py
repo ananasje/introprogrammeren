@@ -11,6 +11,7 @@ def longest_digit_block(s: str) -> int:
     >>> longest_digit_block("")
     0
     """
+    aantal = 0
     
             
         
