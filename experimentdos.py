@@ -16,4 +16,4 @@ def longest_even_streak(lst: list[int]) -> int:
         if lst[pos] % 2 == 0:
             teller + 1
     if lst[pos + 1] % 2 != 0:
-        teller 
+        teller = langste
