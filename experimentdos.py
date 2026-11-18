@@ -15,7 +15,7 @@ def count_vowel_words(words: list[str]) -> int:
     for word in words:
         for teken in word:
             if teken == "a":
-                
+                klinkerteller += 1
         
         
         
