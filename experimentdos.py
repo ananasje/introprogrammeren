@@ -1,36 +1,12 @@
-def has_digit(word: str) -> bool:
+def merge_alternating(a: list[int], b: list[int]) -> list[int]:
     """
-    >>> has_digit("abc3")
-    True
-    >>> has_digit("hello")
-    False
-    >>> has_digit("")
-    False
+    >>> merge_alternating([1, 3, 5], [2, 4, 6])
+    [1, 2, 3, 4, 5, 6]
+    >>> merge_alternating([1, 2, 3], [9])
+    [1, 9, 2, 3]
+    >>> merge_alternating([], [4, 5])
+    [4, 5]
     """
-    if word.isdigit():
-        return True
-        
-    return False
-
-def count_strong_words(words: list[str]) -> int:
-    """
-    >>> count_strong_words(["abc12", "hi3", "hello", "Python7"])
-    2
-    >>> count_strong_words(["12345", "abcde", "a1"])
-    1
-    >>> count_strong_words([])
-    0
-    """
-    teller = 0
-    cijfer = 0
-    for word in words:
-        if has_digit(word) == True:
-        cijfer +=1
-        
-        if len(woord) >= 5 and cijfer >=2:
-            teller +=1
-    
-    return teller
         
         
         
