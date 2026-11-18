@@ -1,21 +1,11 @@
-def count_peaks(lst: list[int]) -> int:
+def count_words_with_two_digits(words: list[str]) -> int:
     """
-    >>> count_peaks([1, 5, 2, 8, 3])
+    >>> count_words_with_two_digits(["a12", "b3", "456"])
     2
-    >>> count_peaks([1, 2, 3, 4])
+    >>> count_words_with_two_digits(["abc", "a1b", "xyz"])
     0
-    >>> count_peaks([3, 3, 3])
-    0
-    >>> count_peaks([5])
-    0
-    >>> count_peaks([])
+    >>> count_words_with_two_digits(["12", "34", "a567b"])
+    3
+    >>> count_words_with_two_digits([])
     0
     """
-    teller = 0
-    
-    for pos in range(1,len(lst)):
-        if lst[pos] < lst[pos + 1] and lst[pos] < lst[pos - 1]:
-            teller += 1
-            
-    return teller
-                
