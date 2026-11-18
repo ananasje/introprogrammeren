@@ -18,7 +18,7 @@ def count_repeated_letters(words: list[str]) -> int:
                 herhaling.append(teken)
                 
             if teken in herhaling:
-                teler +=1
+                teler += 1
             
         
         
