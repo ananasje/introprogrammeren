@@ -16,7 +16,9 @@ def count_special_words(words: list[str]) -> int:
         hoofd = 0
 
         for teken in word:
-            if 
+            if teken.isupper():
+                hoofd += 1
+            elif teken.is
 
         if cijfer >= 1 and hoofd >= 1:
             teller += 1
