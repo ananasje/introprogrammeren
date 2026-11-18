@@ -9,4 +9,6 @@ def filter_words(words: list[str]) -> list[str]:
     >>> filter_words([])
     []
     """
-    
+    klinker = 0
+    medeklinker = 0
+    if 
