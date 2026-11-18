@@ -1,19 +1,11 @@
-def special_sort(lst: list[int]) -> list[int]:
+def filter_long_even_words(words: list[str]) -> list[str]:
     """
-    >>> special_sort([7, 3, 5, 1])
-    [1, 3, 5, 7]
-    >>> special_sort([4, 2, 4, 1])
-    [1, 2, 4, 4]
-    >>> special_sort([])
+    >>> filter_long_even_words(["appel", "fiets", "auto", "kat"])
+    ["fiets", "auto"]
+    >>> filter_long_even_words(["boek", "peer", "boom"])
+    ["boek", "peer"]
+    >>> filter_long_even_words(["xyz", "aaaa", "huis"])
+    ["aaaa", "huis"]
+    >>> filter_long_even_words([])
     []
     """
-    
-    i = 0
-    j = 0
-    
-    for i in range(len(lst) - 1):
-        for j in range(i + 1, len(lst)):
-            if lst[i] > lst[j]:
-                lst[i], lst[j] = lst[j], lst[i]
-
-    return lst
