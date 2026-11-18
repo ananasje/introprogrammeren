@@ -15,6 +15,6 @@ def encrypt(s: str) -> str:
     for pos in range (len(s)):
         if s[pos] in alphabet:
             alphabet[pos] == reverse[pos]
-            nieuwestring += reverse
+            nieuwestring += reverse[pos]
             
             
