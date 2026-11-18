@@ -9,9 +9,8 @@ def selection_sort(lst: list[int]) -> list[int]:
     """
     
     kleinste_pos = []
-    while i < len(lst):
-        if lst[i] < lst[i + 1]:
-            i += 1
-            kleinste_pos.append(lst[i])
-        
-        return kleinste_pos
+def selection_sort(lst: list[int]) -> list[int]:
+    for i in range(len(lst)):
+        kleinste_pos = i
+
+        for j in range(i + 1, len(lst)):
