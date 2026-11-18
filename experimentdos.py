@@ -25,7 +25,7 @@ def count_strong_words(words: list[str]) -> int:
     cijfer = 0
     for word in words:
         if has_digit(word) == True:
-        
+        cijfer +=1
         
         
         
