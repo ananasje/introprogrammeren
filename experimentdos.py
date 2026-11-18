@@ -18,8 +18,7 @@ def longest_digit_block(s: str) -> int:
             aantal += 1
             
         if teken.isalpha():
-            
-        if aantal < langste:
+            if aantal < langste:
             langste = aantal
             aantal = 0
     return langste
