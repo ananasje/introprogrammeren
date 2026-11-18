@@ -56,7 +56,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
     nieuwe_lijst = []
     
     for word in words:
-        cijfers = 0
+        cijfers = "0123456789"
         for teken in word:
             if teken.isdigit():
                 
