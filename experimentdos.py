@@ -30,7 +30,7 @@ def count_strong_words(words: list[str]) -> int:
         if len(woord) >= 5 and cijfer >=2:
             teller +=1
     
-    
+    RE
         
         
         
