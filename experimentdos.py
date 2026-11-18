@@ -12,4 +12,4 @@ def count_long_words(s: str) -> int:
     0
     """
     for teken in s:
-        if teken != 
+        if teken != " "
