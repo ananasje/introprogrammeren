@@ -11,10 +11,11 @@ def longest_even_streak(lst: list[int]) -> int:
     >>> longest_even_streak([])
     0
     """
+    langste = 0
     aantal = 0
     for teken in lst:
         if teken % 2 == 0:
-            aantal +
+            aantal +1
             
         
         
