@@ -10,6 +10,8 @@ def count_digit_groups(s: str) -> int:
     3
     >>> count_digit_groups("")
     0
-    """ 
+    """
+    teller = 0
+    
             
             
