@@ -8,8 +8,10 @@ def merge_alternating(a: list[int], b: list[int]) -> list[int]:
     [4, 5]
     """
     new_list = []
+    i = 0
+    J = 0
     
-    while i < 
+    while i < len(a) and j < len(b):
         
         
         
