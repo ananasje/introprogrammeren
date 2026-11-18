@@ -8,6 +8,8 @@ def merge_alternating(a: list[int], b: list[int]) -> list[int]:
     [4, 5]
     """
     new_list = []
+    
+    f
         
         
         
