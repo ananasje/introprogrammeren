@@ -62,7 +62,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
     # Controleer hier of er minstens
     # twee verschillende cijfers zijn
 
-return nieuwe_lijst
+    return nieuwe_lijst
                 
     
     
