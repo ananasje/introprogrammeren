@@ -13,4 +13,4 @@ def remove_duplicates(lst: list[int]) -> list[int]:
     nieuwe_lijst = []
     
     for teken in lst:
-        if teken 
+        if teken != 
