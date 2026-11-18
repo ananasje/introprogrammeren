@@ -61,7 +61,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
             if teken in cijfers:
     
     if cijfers >= 2:
-        nieuwe_lijst.append(word)
+        nieuwe_lijst.append(lange_woord)
                 
     
     
