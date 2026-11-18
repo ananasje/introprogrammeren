@@ -1,71 +1,11 @@
-def count_long_words(s: str) -> int:
+def selection_sort(lst: list[int]) -> list[int]:
     """
-    >>> count_long_words("kat olifant fiets")
-    2
-    >>> count_long_words("  appel   peer  ")
-    1
-    >>> count_long_words("Python")
-    1
-    >>> count_long_words("")
-    0
-    >>> count_long_words("a bb ccc")
-    0
-    """
-    lange_woord = 0
-    teller = 0
-    for teken in s:
-        if teken != " ":
-            teller += 1
-            
-        if teken == " ":
-            if teller >= 5
-                lange_woord +=1
-            teller = 0
-    return lange_woord
-
-def get_local_maxima(lst: list[int]) -> list[int]:
-    """
-    >>> get_local_maxima([1, 5, 2, 8, 3])
-    [5, 8]
-    >>> get_local_maxima([1, 2, 3, 4])
-    []
-    >>> get_local_maxima([4, 4, 2])
-    []
-    >>> get_local_maxima([])
+    >>> selection_sort([7, 4, 2, 6])
+    [2, 4, 6, 7]
+    >>> selection_sort([5, 1, 5, 2])
+    [1, 2, 5, 5]
+    >>> selection_sort([])
     []
     """
-    nieuwe_lijst= []
-    
-    for pos in range (1,(len(lst)-1)):
-        if lst[pos] > lst[pos -1] and lst[pos] > lst[pos +1]:
-            nieuwe_lijst.append(lst[pos])
-        
-    return nieuwe_lijst
-
-def filter_digit_words(words: list[str]) -> list[str]:
-    """
-    >>> filter_digit_words(["a12", "b111", "x909"])
-    ['a12', 'x909']
-    >>> filter_digit_words(["123", "456", "aaa"])
-    ['123', '456']
-    >>> filter_digit_words(["a1b1", "007", "xyz"])
-    ['007']
-    >>> filter_digit_words([])
-    []
-    """
-    for word in words:
-        gevonden = ""
-
-    for teken in word:
-        if teken.isdigit() and teken not in gevonden:
-            gevonden += teken
-        
-    if gevonden > 2:
-        nieuwe_lijst.append(word)
-        
-    return nieuwe_lijst
-                
-    
-    
     
             
