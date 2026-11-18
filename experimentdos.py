@@ -13,7 +13,7 @@ def decode_letters(s: str) -> str:
     reverse = "zyxwvutsrqponmlkjihgfedcba"
     nieuwestring = ""
     for teken in s:
-        if teken = " ":
+        if teken == " ":
             nieuwestring += " "
         for teken in range(len(alphabet)):
             if teken == alphabet(i)
