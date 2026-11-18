@@ -12,7 +12,7 @@ def encrypt(s: str) -> str:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     reverse = "zyxwvutsrqponmlkjihgfedcba"
     nieuwe_string = ""
-    for pos in s:
+    for pos range in s:
         if teken in alphabet:
             
             
