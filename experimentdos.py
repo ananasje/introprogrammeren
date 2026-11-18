@@ -9,4 +9,5 @@ def decode_letters(s: str) -> str:
     >>> decode_letters("")
     ''
     """
-    
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    reverse = "zyx"
