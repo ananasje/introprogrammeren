@@ -20,3 +20,5 @@ def count_long_words(s: str) -> int:
         
         else:
             huidige_lengte += 1
+        
+        if aantal 
