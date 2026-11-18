@@ -18,7 +18,7 @@ def filter_long_even_words(words: list[str]) -> list[str]:
                 if teken in klinker:
                     klinkerteller += 1
         
-        if len(word) >= 4 and klinkerteller < 1 and klinkerteller % 2 == 0:
+        if len(word) >= 4 and klinkerteller > 1 and klinkerteller % 2 == 0:
             nieuwelijst.append(word)
             
     return nieuwelijst
