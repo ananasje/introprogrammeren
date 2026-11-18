@@ -9,3 +9,5 @@ def encrypt(s: str) -> str:
     >>> encrypt("")
     ''
     """
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+reverse = "zyxwvutsrqponmlkjihgfedcba"
