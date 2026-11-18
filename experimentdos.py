@@ -4,7 +4,7 @@ for teken in s:
     elif teken.isalpha():
         medeklinkers += 1
     elif teken == " ":
-    woorden += 1
+        woorden += 1
         
         
         
