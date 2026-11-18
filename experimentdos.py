@@ -7,5 +7,5 @@ for teken in s:
         woorden += 1
         
 letters = klinkers + medeklinkers
-return medeklinkers}-text{klinkers})^2\times\frac{\text{letters}}{\text{woorden}}
+return medeklinkers-text{klinkers})^2\times\frac{\text{letters}}{\text{woorden}}
 \]
