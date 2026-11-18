@@ -20,7 +20,7 @@ def count_repeated_letters(words: list[str]) -> int:
             if teken in herhaling:
                 tekenteller += 1
         
-            
+    return tekenteller
         
         
         
