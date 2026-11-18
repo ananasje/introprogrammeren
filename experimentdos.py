@@ -16,6 +16,6 @@ def count_long_words(s: str) -> int:
 
     for teken in s:
     if teken == " ":
-        # Het woord is afgelopen
+        
     else:
         huidige_lengte += 1
