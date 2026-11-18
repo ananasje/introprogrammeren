@@ -7,7 +7,7 @@ def is_even_digit(teken: str) -> bool:
     >>> is_even_digit("a")
     False
     """
-    if teken 
+    if teken % 2
         return True
     else:
         return False
