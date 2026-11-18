@@ -11,7 +11,7 @@ def count_long_words(s: str) -> int:
     >>> count_long_words("a bb ccc")
     0
     """
-    
+    t
     for teken in s:
         if teken != " ":
             
