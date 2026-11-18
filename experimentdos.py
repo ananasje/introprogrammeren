@@ -9,7 +9,7 @@ def count_increases(lst: list[int]) -> int:
     >>> count_increases([])
     0
     """
-    
+    teller = 0
         
         
         
