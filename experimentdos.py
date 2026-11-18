@@ -15,3 +15,4 @@ def count_special_words(words: list[str]) -> int:
     for word in words:
         if word.isdigit():
             cijfer +=1
+            
