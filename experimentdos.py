@@ -3,7 +3,8 @@ for teken in s:
         klinkers += 1
     elif teken.isalpha():
         medeklinkers += 1
-        
+    if teken == " ":
+    woorden += 1
         
         
         
