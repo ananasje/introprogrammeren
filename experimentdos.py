@@ -22,4 +22,16 @@ def count_long_words(s: str) -> int:
             lange_woord +=1
     
     return lange_woord
+
+def get_local_maxima(lst: list[int]) -> list[int]:
+    """
+    >>> get_local_maxima([1, 5, 2, 8, 3])
+    [5, 8]
+    >>> get_local_maxima([1, 2, 3, 4])
+    []
+    >>> get_local_maxima([4, 4, 2])
+    []
+    >>> get_local_maxima([])
+    []
+    """
             
