@@ -13,7 +13,7 @@ def remove_duplicates(lst: list[int]) -> list[int]:
     nieuwe_lijst = []
     
     for teken in lst:
-        if teken not in lst:
+        if teken not in nieuwe_lijst:
             nieuwe_lijst
             
             
