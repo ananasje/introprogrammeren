@@ -15,5 +15,5 @@ def decode_letters(s: str) -> str:
     for pos in range(len(s)):
         if s[pos] = " ":
             nieuwestring += " "
-        if s[pos]
+        if s[pos] in alphabet
             
