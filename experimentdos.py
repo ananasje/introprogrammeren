@@ -13,5 +13,6 @@ def count_peaks(lst: list[int]) -> int:
     """
     teller = 0
     
-    for pos in range(1,len(lst))
+    for pos in range(1,len(lst)):
+        if pos 
                 
