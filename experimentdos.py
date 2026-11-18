@@ -7,6 +7,6 @@ def selection_sort(lst: list[int]) -> list[int]:
     >>> selection_sort([])
     []
     """
-    kleinstepos = 0
+    kleinste_pos = 0
     
             
