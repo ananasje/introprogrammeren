@@ -10,6 +10,7 @@ def count_repeated_letters(words: list[str]) -> int:
     0
     """
     teller = 0
+    
             
         
         
