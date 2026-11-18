@@ -14,4 +14,4 @@ def selection_sort(lst: list[int]) -> list[int]:
             i += 1
             kleinste_pos.append(lst[i])
         
-        return kl
+        return kleinste_pos
