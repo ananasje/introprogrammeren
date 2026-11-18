@@ -34,4 +34,5 @@ def get_local_maxima(lst: list[int]) -> list[int]:
     >>> get_local_maxima([])
     []
     """
+
             
