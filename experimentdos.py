@@ -13,4 +13,4 @@ def count_words_with_two_digits(words: list[str]) -> int:
     teller = 0
     
     for word in words:
-        if woord
+        if 
