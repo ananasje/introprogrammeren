@@ -9,7 +9,6 @@ def count_special_words(words: list[str]) -> int:
     >>> count_special_words([])
     0
     """
-def count_special_words(words: list[str]) -> int:
     teller = 0
 
     for word in words:
