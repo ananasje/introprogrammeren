@@ -20,7 +20,7 @@ def count_long_words(s: str) -> int:
             aantal =+ 1
             
         else:
-            huidige_lengte += 1
+            aantal 
         
         if huidige_lengte >= 4:
             aantal + 1
