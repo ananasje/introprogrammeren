@@ -14,3 +14,6 @@ def remove_duplicates(lst: list[int]) -> list[int]:
     
     for teken in lst:
         if teken not in lst:
+            
+            
+            
