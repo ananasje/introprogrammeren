@@ -12,4 +12,5 @@ def remove_duplicates(lst: list[int]) -> list[int]:
     
     nieuwe_lijst = []
     
-    for 
+    for teken in lst:
+        
