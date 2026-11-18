@@ -57,7 +57,8 @@ def filter_digit_words(words: list[str]) -> list[str]:
         gevonden = ""
 
     for teken in word:
-        if teken.isdigit and not in 
+        if teken.isdigit and not in gevonden:
+            
     return nieuwe_lijst
                 
     
