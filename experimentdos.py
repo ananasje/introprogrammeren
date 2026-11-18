@@ -11,7 +11,8 @@ def count_repeated_letters(words: list[str]) -> int:
     """
     teller = 0
     herhaling = ""
-    
+    for word in words:
+        
             
         
         
