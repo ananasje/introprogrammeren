@@ -57,7 +57,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
     
     for word in words:
         cijfers = "0123456789"
-        for teken in word:
+        for pos in word:
             if teken in cijfers:
     
     if cijfers >= 2:
