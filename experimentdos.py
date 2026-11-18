@@ -18,6 +18,8 @@ def count_vowel_words(words: list[str]) -> int:
                 klinkerteller += 1
             elif teken == "e":
                 klinkerteller += 1
+            elif teken == "e":
+                klinkerteller += 1
         
         
         
