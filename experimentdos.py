@@ -20,6 +20,8 @@ def count_digit_groups(s: str) -> int:
             if not groep:
                 teller += 1
                 groep = True
+        else:
+            groep = False
             
             
             
