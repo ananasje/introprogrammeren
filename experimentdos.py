@@ -6,6 +6,4 @@ for teken in s:
     elif teken == " ":
         woorden += 1
         
-        
-        
 letters = klinkers + medeklinkers
