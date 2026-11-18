@@ -18,7 +18,8 @@ def longest_even_streak(lst: list[int]) -> int:
             aantal += 1
         
         if teken % 2 != 0:
-            aantal = langste
+            aantal == langste
+            aantal = 0
             
         
         
