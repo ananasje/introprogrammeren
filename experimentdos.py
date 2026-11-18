@@ -1,25 +1,14 @@
-def count_even_groups(lst: list[int]) -> int:
+def count_negative_groups(lst: list[int]) -> int:
     """
-    >>> count_even_groups([2, 4, 1, 6, 8, 3, 10])
+    >>> count_negative_groups([-2, -5, 3, -1, -4, 0, -7])
     3
-    >>> count_even_groups([2, 4, 6])
+    >>> count_negative_groups([-1, -2, -3])
     1
-    >>> count_even_groups([1, 3, 5])
+    >>> count_negative_groups([1, 2, 3])
     0
-    >>> count_even_groups([])
+    >>> count_negative_groups([])
     0
     """
     teller = 0
-    in_groep = False
-    
-    for teken in lst:
-        if not in_groep:
-                if teken % 2 == 0:
-                    teller += 1 
-                    in_groep = True
-                else:
-                    in_groep = False
-    return teller
-            
-            
+    in_groep = 
             
