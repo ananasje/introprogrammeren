@@ -24,7 +24,10 @@ def count_vowel_words(words: list[str]) -> int:
                 klinkerteller += 1
             elif teken == "u":
                 klinkerteller += 1
-        if klinkerteller 
+        if klinkerteller >= 2:
+            teller +=1
+            
+    return teller
         
         
         
