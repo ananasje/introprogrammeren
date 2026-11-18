@@ -16,5 +16,6 @@ def count_peaks(lst: list[int]) -> int:
     for pos in range(1,len(lst)):
         if lst[pos] < lst[pos + 1] and lst[pos] < lst[pos - 1]:
             teller += 1
+            
     return teller
                 
