@@ -9,6 +9,7 @@ def count_even_groups(lst: list[int]) -> int:
     >>> count_even_groups([])
     0
     """
+    
             
             
             
