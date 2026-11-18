@@ -21,6 +21,6 @@ def count_strong_words(words: list[str]) -> int:
     >>> count_strong_words([])
     0
     """
-    # Jouw code
-        
+    teller = 0
+    for 
         
