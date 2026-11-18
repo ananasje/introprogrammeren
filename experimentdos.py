@@ -9,5 +9,7 @@ def selection_sort(lst: list[int]) -> list[int]:
     """
     
     kleinste_pos = []
-    while i < len(lst)
+    while i < len(lst):
+        i += 1
+        
             
