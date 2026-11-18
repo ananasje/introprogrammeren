@@ -11,8 +11,9 @@ def count_long_words(s: str) -> int:
     >>> count_long_words("a bb ccc")
     0
     """
-    teller = 0
-    
+    huidige_lengte = 0
+aantal = 0
+
     for teken in s:
     if teken == " ":
         # Het woord is afgelopen
