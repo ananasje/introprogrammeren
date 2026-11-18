@@ -13,3 +13,4 @@ def filter_words(words: list[str]) -> list[str]:
     medeklinker = 0
     for words in list:
         if words[pos].lower() == "aeiou"
+        
