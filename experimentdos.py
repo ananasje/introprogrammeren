@@ -11,5 +11,7 @@ def count_peaks(lst: list[int]) -> int:
     >>> count_peaks([])
     0
     """
+    teller = 0
+    
     for 
                 
