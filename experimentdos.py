@@ -20,4 +20,5 @@ def longest_word_length(s: str) -> int:
                 langste = teller
             
             teller = 0
+            
         
