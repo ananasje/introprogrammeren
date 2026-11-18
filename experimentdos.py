@@ -14,5 +14,6 @@ def decode_letters(s: str) -> str:
     nieuwestring = ""
     for teken in s:
         if teken = " ":
-            nieuwestring += 
+            nieuwestring += " "
+        for teken in range(len(l))
             
