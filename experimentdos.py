@@ -61,6 +61,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
             gevonden += teken
         
     if gevonden > 2:
+        
     return nieuwe_lijst
                 
     
