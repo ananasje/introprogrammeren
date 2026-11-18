@@ -7,3 +7,4 @@ for teken in s:
         woorden += 1
         
 letters = klinkers + medeklinkers
+return
