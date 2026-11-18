@@ -27,3 +27,6 @@ def count_strong_words(words: list[str]) -> int:
         if has_digit(word) == True:
         
         
+        
+        
+        
