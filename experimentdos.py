@@ -10,4 +10,5 @@ def longest_valid_word(words: list[str]) -> str:
     ''
     """
     
-    for woord 
+    for woord in words:
+        klinker= 0
