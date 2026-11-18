@@ -23,6 +23,7 @@ def count_even_digits(s: str) -> int:
     4
     """
     Teller = 0
+    for teken in s:
     if (is_even_digit(s)) == True:
         
         
