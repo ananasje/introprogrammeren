@@ -8,6 +8,7 @@ def special_sort(lst: list[int]) -> list[int]:
     []
     """
     nieuwe_lijst = ""
-
+    i = 0
+    j = 0
     for teken in lst:
         fo
