@@ -17,6 +17,6 @@ def filter_words(words: list[str]) -> list[str]:
         else:
             medeklinker += 1
     
-    woorden = klinker 
+    woorden = klinker > medeklinker
     return woorden
         
