@@ -14,3 +14,4 @@ def selection_sort(lst: list[int]) -> list[int]:
         kleinste_pos = i
 
         for j in range(i + 1, len(lst)):
+            if lst[j] < 
