@@ -53,7 +53,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
     >>> filter_digit_words([])
     []
     """
-    nieuwe_lijst = 
+    nieuwe_lijst = []
     
     
     
