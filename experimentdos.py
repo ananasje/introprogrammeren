@@ -53,8 +53,8 @@ def filter_digit_words(words: list[str]) -> list[str]:
     >>> filter_digit_words([])
     []
     """
-for word in words:
-    gevonden = ""
+    for word in words:
+        gevonden = ""
 
     for teken in word:
         # Bewaar alleen nieuwe cijfers
