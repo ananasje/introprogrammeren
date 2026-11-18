@@ -10,6 +10,7 @@ def count_increases(lst: list[int]) -> int:
     0
     """
     teller = 0
+    f
         
         
         
