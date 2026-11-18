@@ -10,6 +10,7 @@ def count_repeated_letters(words: list[str]) -> int:
     0
     """
     teller = 0
+    alphabet = "azertyuiopqsdfghjklmwxcvbn"
     herhaling = ""
     for word in words:
         for teken in word:
