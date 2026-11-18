@@ -1,23 +1,12 @@
-def count_negative_groups(lst: list[int]) -> int:
+def decode_letters(s: str) -> str:
     """
-    >>> count_negative_groups([-2, -5, 3, -1, -4, 0, -7])
-    3
-    >>> count_negative_groups([-1, -2, -3])
-    1
-    >>> count_negative_groups([1, 2, 3])
-    0
-    >>> count_negative_groups([])
-    0
+    >>> decode_letters("abc")
+    'bcd'
+    >>> decode_letters("xyz")
+    'yza'
+    >>> decode_letters("hello world")
+    'ifmmp xpsme'
+    >>> decode_letters("")
+    ''
     """
-    teller = 0
-    in_groep = False
     
-    for teken in lst:
-        if teken < 0:
-            if not in_groep:
-                teller += 1
-                in_groep = True
-        else:
-            in_groep = False
-    return teller
-            
