@@ -18,6 +18,6 @@ def count_digit_groups(s: str) -> int:
         if teken.isdigit():
             cijfer += 1
         if teken.isdigit() == False:
-            
+            cijfer = 0
             
             
