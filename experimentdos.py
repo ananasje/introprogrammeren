@@ -10,8 +10,6 @@ def longest_word_length(s: str) -> int:
     0
     """
     teller = 0
-    for woord in s:
-        langste = 0
         for teken in woord:
             if teken != " ":
                 teller += 1
