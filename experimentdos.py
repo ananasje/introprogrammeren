@@ -15,4 +15,3 @@ def longest_even_streak(lst: list[int]) -> int:
     for pos in range (1,len(lst) - 1):
         if lst[pos] % 2 == 0:
             teller + 1
-            
