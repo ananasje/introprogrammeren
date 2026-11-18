@@ -17,5 +17,5 @@ def longest_word_length(s: str) -> int:
         huidige_lengte == True
         langste_lengte += 1
         
-    elif s[pos] == " ":
+        elif s[pos] == " ":
         huidige_lengte == False
