@@ -16,6 +16,7 @@ def count_digit_groups(s: str) -> int:
     cijfer = 0
     for teken in s:
         if teken.isdigit():
+            cijfer += 1
             
             
             
