@@ -11,7 +11,7 @@ def count_increases(lst: list[int]) -> int:
     """
     teller = 0
     for pos in range(1,(len(lst)-1)):
-        if pos < 
+        if lst[pos < 
         
         
         
