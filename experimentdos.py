@@ -18,6 +18,7 @@ def merge_alternating(a: list[int], b: list[int]) -> list[int]:
         i =+ 1
     
     for
+        if 
     return new_list
         
         
