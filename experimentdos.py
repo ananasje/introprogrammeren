@@ -17,3 +17,4 @@ def count_long_words(s: str) -> int:
         if teken != " ":
             teller += 1
             
+            
