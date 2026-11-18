@@ -7,5 +7,5 @@ for teken in s:
         woorden += 1
         
 letters = klinkers + medeklinkers
-leesniveau =
+leesniveau =(medeklinkers-tklinkers)**2 * letters/woorden
 return (medeklinkers-tklinkers)**2 * letters/woorden
