@@ -15,9 +15,8 @@ def count_even_groups(lst: list[int]) -> int:
     For teken in lst:
         if teken not in_groep:
             if teken % 2 == 0
-            in_groep = True
             teller += 1 
-            
+            in_groep = True
             
             
             
