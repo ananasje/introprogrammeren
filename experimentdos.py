@@ -13,5 +13,6 @@ def count_negative_groups(lst: list[int]) -> int:
     in_groep = False
     
     For teken in lst:
-        if teken 
+        if teken < 0:
+            
             
