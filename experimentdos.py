@@ -26,6 +26,8 @@ def count_even_digits(s: str) -> int:
     for teken in s:
         if (is_even_digit(s)) == True:
             Teller += 1
+    
+    return Teller
         
         
         
