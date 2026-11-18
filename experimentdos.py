@@ -11,6 +11,7 @@ def filter_long_even_words(words: list[str]) -> list[str]:
     []
     """
     nieuwelijst = []
-    for wor
+    for word in words:
+        
     
     
