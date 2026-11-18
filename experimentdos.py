@@ -10,6 +10,7 @@ def count_even_groups(lst: list[int]) -> int:
     0
     """
     teller = 0
+    in_groep = False
     
             
             
