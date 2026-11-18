@@ -20,7 +20,7 @@ def count_long_words(s: str) -> int:
         if teken == " ":
             teller >= 5
             lange_woord +=1
-    
+            teller = 0
     return lange_woord
 
 def get_local_maxima(lst: list[int]) -> list[int]:
