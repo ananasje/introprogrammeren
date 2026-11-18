@@ -17,6 +17,7 @@ def longest_digit_block(s: str) -> int:
         if teken.isdigit():
             aantal += 1
             
+            
         
         
         
