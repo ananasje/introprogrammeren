@@ -1,24 +1,9 @@
-def decode_letters(s: str) -> str:
+def special_sort(lst: list[int]) -> list[int]:
     """
-    >>> decode_letters("abc")
-    'bcd'
-    >>> decode_letters("xyz")
-    'yza'
-    >>> decode_letters("hello world")
-    'ifmmp xpsme'
-    >>> decode_letters("")
-    ''
+    >>> special_sort([7, 3, 5, 1])
+    [1, 3, 5, 7]
+    >>> special_sort([4, 2, 4, 1])
+    [1, 2, 4, 4]
+    >>> special_sort([])
+    []
     """
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    
-    nieuwestring = ""
-    for teken in s:
-        if teken == " ":
-            nieuwestring += " "
-        for teken in range(len(alphabet)):
-            if teken == alphabet(i):
-                nieuwestring += alphabet[25 - i]
-        
-    return nieuwestring
-        
-            
