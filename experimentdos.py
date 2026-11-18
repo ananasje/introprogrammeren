@@ -9,3 +9,7 @@ def count_words_with_two_digits(words: list[str]) -> int:
     >>> count_words_with_two_digits([])
     0
     """
+    
+    teller = 0
+    
+    for woord in words
