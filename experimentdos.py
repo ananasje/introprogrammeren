@@ -13,7 +13,8 @@ def merge_alternating(a: list[int], b: list[int]) -> list[int]:
     
     while i < len(a) and j < len(b):
         new_list.append(i)
-        
+        new_list.append(j)
+        i =+ 1
         
         
         
