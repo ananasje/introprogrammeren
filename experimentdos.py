@@ -1,18 +1,15 @@
-def longest_valid_word(words: list[str]) -> str:
+def count_peaks(lst: list[int]) -> int:
     """
-    >>> longest_valid_word(["kat", "auto", "olifant", "boom"])
-    'olifant'
-    >>> longest_valid_word(["boom", "maan", "fiets"])
-    'fiets'
-    >>> longest_valid_word(["kat", "bus", "xyz"])
-    ''
-    >>> longest_valid_word([])
-    ''
+    >>> count_peaks([1, 5, 2, 8, 3])
+    2
+    >>> count_peaks([1, 2, 3, 4])
+    0
+    >>> count_peaks([3, 3, 3])
+    0
+    >>> count_peaks([5])
+    0
+    >>> count_peaks([])
+    0
     """
-    teller == 0
-    tellerklinkers == 0
-    for woord in words:
-        klinker == 0
-        for letter in woord:
-            if letter:
+    for 
                 
