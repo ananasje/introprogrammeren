@@ -17,4 +17,4 @@ def encrypt(s: str) -> str:
             alphabet[pos] == reverse[pos]
             nieuwestring += reverse[pos]
             
-    return r
+    return nieuwestring
