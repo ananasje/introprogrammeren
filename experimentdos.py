@@ -12,4 +12,4 @@ def selection_sort(lst: list[int]) -> list[int]:
     while i < len(lst):
         if lst[i] < lst[i + 1]
             i += 1
-            kleinste_pos
+            kleinste_pos.append()
