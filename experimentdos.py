@@ -12,7 +12,7 @@ def count_even_groups(lst: list[int]) -> int:
     teller = 0
     in_groep = False
     
-    For teken in lst:
+    for teken in lst:
         if teken not in_groep:
             if teken % 2 == 0:
             teller += 1 
