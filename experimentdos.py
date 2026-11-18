@@ -13,7 +13,7 @@ def count_digit_groups(s: str) -> int:
     """
     
     groep = False
-    cijfer = 0
+    teller = 0
     
     for teken in s:
         if teken.isdigit():
