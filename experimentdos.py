@@ -13,4 +13,4 @@ def decode_letters(s: str) -> str:
     reverse = "zyxwvutsrqponmlkjihgfedcba"
     
     for word in s:
-        i
+        if
