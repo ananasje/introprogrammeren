@@ -19,4 +19,4 @@ def count_special_words(words: list[str]) -> int:
         elif word.isupper():
             hoofd += 1
         
-        if 
+        if cijfer 
