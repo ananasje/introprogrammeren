@@ -12,7 +12,7 @@ def count_even_groups(lst: list[int]) -> int:
     teller = 0
     in_groep = False
     
-    f
+    F
             
             
             
