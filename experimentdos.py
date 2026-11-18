@@ -1,27 +1,13 @@
-def count_special_words(words: list[str]) -> int:
+def count_long_words(s: str) -> int:
     """
-    >>> count_special_words(["Abc1", "hello", "X9"])
+    >>> count_long_words("kat olifant fiets")
     2
-    >>> count_special_words(["ABC", "123", "a1"])
+    >>> count_long_words("  appel   peer  ")
+    1
+    >>> count_long_words("Python")
+    1
+    >>> count_long_words("")
     0
-    >>> count_special_words(["A12B", "Z7", "test5"])
-    2
-    >>> count_special_words([])
+    >>> count_long_words("a bb ccc")
     0
     """
-    teller = 0
-
-    for word in words:
-        cijfer = 0
-        hoofd = 0
-
-        for teken in word:
-            if teken.isupper():
-                hoofd += 1
-            elif teken.isdigit():
-                cijfer += 1
-
-        if cijfer >= 1 and hoofd >= 1:
-            teller += 1
-
-    return teller
