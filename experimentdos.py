@@ -13,9 +13,9 @@ def longest_word_length(s: str) -> int:
     langste_lengte = 0 
     for word in s:
         for pos in range(s):
-        if s[pos] != teken.isalpha():
-        huidige_lengte == True
-        langste_lengte += 1
+            if s[pos] != teken.isalpha():
+            huidige_lengte == True
+            langste_lengte += 1
         
         elif s[pos] == " ":
         huidige_lengte == False
