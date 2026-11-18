@@ -1,27 +1,17 @@
-def longest_even_streak(lst: list[int]) -> int:
+def longest_digit_block(s: str) -> int:
     """
-    >>> longest_even_streak([1, 2, 4, 6, 3, 8, 10])
+    >>> longest_digit_block("abc123de45")
     3
-    >>> longest_even_streak([2, 4, 1, 6, 8, 10, 12])
+    >>> longest_digit_block("a12b3456c")
     4
-    >>> longest_even_streak([1, 3, 5])
+    >>> longest_digit_block("abc")
     0
-    >>> longest_even_streak([2, 4, 6])
-    3
-    >>> longest_even_streak([])
+    >>> longest_digit_block("12345")
+    5
+    >>> longest_digit_block("")
     0
     """
-    langste = 0
-    aantal = 0
-    for teken in lst:
-        if teken % 2 == 0:
-            aantal += 1
-            aantal == langste
-        elif teken % 2 != 0:
-            if langste < aantal:
-                aantal == langste
-            aantal = 0
-    return langste
+    
             
         
         
