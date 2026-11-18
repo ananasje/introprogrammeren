@@ -12,4 +12,5 @@ def decode_letters(s: str) -> str:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     reverse = "zyxwvutsrqponmlkjihgfedcba"
     
-    for pos in range(len(s))
+    for pos in range(len(s)):
+        if s[pos]
