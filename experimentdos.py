@@ -14,5 +14,5 @@ def encrypt(s: str) -> str:
     nieuwe_string = ""
     for teken in s:
         if teken in alphabet:
-            teken[pos] in alphabet =  
+            teken[pos] in alphabet =  teken[pos] in alphabet
             
