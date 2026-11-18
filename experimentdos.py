@@ -1,35 +1,11 @@
-def encrypt(s: str) -> str:
+def remove_duplicates(lst: list[int]) -> list[int]:
     """
-    >>> encrypt("abc")
-    'zyx'
-    >>> encrypt("hello")
-    'svool'
-    >>> encrypt("a b")
-    'z y'
-    >>> encrypt("")
-    ''
+    >>> remove_duplicates([3, 1, 3, 2, 1])
+    [3, 1, 2]
+    >>> remove_duplicates([5, 5, 5])
+    [5]
+    >>> remove_duplicates([4, 2, 7])
+    [4, 2, 7]
+    >>> remove_duplicates([])
+    []
     """
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    reverse = "zyxwvutsrqponmlkjihgfedcba"
-    nieuwestring = ""
-    for pos in range (len(s)):
-        if s[pos] in alphabet:
-            alphabet[pos] == reverse[pos]
-            nieuwestring += reverse[pos]
-            
-    return nieuwestring
-    
-    def encrypt(s: str) -> str:
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    reverse = "zyxwvutsrqponmlkjihgfedcba"
-    nieuwestring = ""
-
-    for teken in s:
-        if teken == " ":
-            nieuwestring += " "
-        else:
-            for pos in range(len(alphabet)):
-                if teken == alphabet[pos]:
-                    nieuwestring += reverse[pos]
-
-    return nieuwestring
