@@ -7,7 +7,7 @@ def special_sort(lst: list[int]) -> list[int]:
     >>> special_sort([])
     []
     """
-    nieuwe_lijst = ""
+    
     i = 0
     j = 0
     
