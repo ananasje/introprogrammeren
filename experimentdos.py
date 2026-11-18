@@ -1,11 +1,12 @@
-for teken in s:
-    if teken.lower() in "aeiou":
-        klinkers += 1
-    elif teken.isalpha():
-        medeklinkers += 1
-    elif teken == " ":
-        woorden += 1
-        
-letters = klinkers + medeklinkers
-leesniveau =(medeklinkers-tklinkers)**2 * letters/woorden
-return round (leesniveau, 2)
+def filter_words(words: list[str]) -> list[str]:
+    """
+    >>> filter_words(["auto", "kat", "idee", "school"])
+    ['auto', 'idee']
+    >>> filter_words(["AEIOU", "Python", "boom"])
+    ['AEIOU', 'boom']
+    >>> filter_words(["abc", "xyz"])
+    []
+    >>> filter_words([])
+    []
+    """
+    
