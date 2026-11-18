@@ -10,5 +10,5 @@ def longest_word_length(s: str) -> int:
     0
     """
     for word in s:
-        if 
+        for teken 
         
