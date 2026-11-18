@@ -1,24 +1,13 @@
-def count_words_with_two_digits(words: list[str]) -> int:
+def longest_even_streak(lst: list[int]) -> int:
     """
-    >>> count_words_with_two_digits(["a12", "b3", "456"])
-    2
-    >>> count_words_with_two_digits(["abc", "a1b", "xyz"])
-    0
-    >>> count_words_with_two_digits(["12", "34", "a567b"])
+    >>> longest_even_streak([2, 4, 6, 3, 8, 10])
     3
-    >>> count_words_with_two_digits([])
+    >>> longest_even_streak([1, 3, 5])
+    0
+    >>> longest_even_streak([2, 4, 1, 6, 8, 10, 12])
+    4
+    >>> longest_even_streak([])
     0
     """
     
     teller = 0
-    
-    for word in words:
-        cijfer = 0
-        for teken in word:
-            if teken.isdigit():
-                cijfer += 1
-                
-        if cijfer >= 2:
-            teller += 1
-    
-    return teller
