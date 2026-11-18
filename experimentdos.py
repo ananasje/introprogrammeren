@@ -1,20 +1,22 @@
-def selection_sort(lst: list[int]) -> list[int]:
+def is_even_digit(teken: str) -> bool:
     """
-    >>> selection_sort([7, 4, 2, 6])
-    [2, 4, 6, 7]
-    >>> selection_sort([5, 1, 5, 2])
-    [1, 2, 5, 5]
-    >>> selection_sort([])
-    []
+    >>> is_even_digit("4")
+    True
+    >>> is_even_digit("7")
+    False
+    >>> is_even_digit("a")
+    False
     """
-    
-    kleinste_pos = []
-    i = 0
-    for i in range(len(lst)):
-        kleinste_pos = i
+    # Jouw code
 
-        for j in range(i + 1, len(lst)):
-            if lst[j] < i:
-                kleinste_pos = j
-    
-    return kleinste_pos
+
+def count_even_digits(s: str) -> int:
+    """
+    >>> count_even_digits("a2b48")
+    3
+    >>> count_even_digits("13579")
+    0
+    >>> count_even_digits("2026")
+    4
+    """
+    # Jouw code
