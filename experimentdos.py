@@ -39,6 +39,8 @@ def get_local_maxima(lst: list[int]) -> list[int]:
     for pos in range (1,(len(lst)-1)):
         if lst[pos] > lst[pos -1] and lst[pos] > lst[pos +1]:
         nieuwe_lijst.append(lst[pos])
+        
+    return
     
     
     
