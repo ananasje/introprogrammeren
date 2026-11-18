@@ -12,8 +12,6 @@ def decode_letters(s: str) -> str:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     reverse = "zyxwvutsrqponmlkjihgfedcba"
     nieuwestring = ""
-    for pos in range(len(s)):
-        if s[pos] == " ":
-            nieuwestring += " "
-        for 
+    for teken in s:
+        if teken = " "
             
