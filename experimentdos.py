@@ -11,3 +11,6 @@ def count_long_words(s: str) -> int:
     >>> count_long_words("a bb ccc")
     0
     """
+    teller = 0
+    
+    for woord in s
