@@ -12,7 +12,7 @@ def count_digit_groups(s: str) -> int:
     0
     """
     newlist = []
-    groep = false
+    groep = False
     cijfer = 0
     
     for teken in s:
