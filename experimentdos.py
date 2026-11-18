@@ -58,7 +58,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
     for word in words:
         cijfers = 0
         for pos in range(len(word)):
-            if teken in cijfers:
+            if pos 
     
     if cijfers >= 2:
         nieuwe_lijst.append(word)
