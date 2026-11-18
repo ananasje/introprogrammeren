@@ -5,4 +5,6 @@ for teken in s:
         medeklinkers += 1
         
         
+        
+        
 letters = klinkers + medeklinkers
