@@ -18,5 +18,5 @@ def count_long_words(s: str) -> int:
             teller += 1
         if teken == " ":
             teller >= 4:
-                lange
+                lange_woord +=1
             
