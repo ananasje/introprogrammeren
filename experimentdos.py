@@ -11,4 +11,4 @@ def filter_words(words: list[str]) -> list[str]:
     """
     klinker = 0
     medeklinker = 0
-    if 
+    for
