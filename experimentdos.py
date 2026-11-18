@@ -20,6 +20,7 @@ def longest_digit_block(s: str) -> int:
         if aantal < langste:
             langste = aantal
             
+    return langste
             
         
         
