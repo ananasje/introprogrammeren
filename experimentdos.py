@@ -11,10 +11,10 @@ def encrypt(s: str) -> str:
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     reverse = "zyxwvutsrqponmlkjihgfedcba"
-    teken[pos] in alphabet""
+    nieuwestring = ""
     for pos in range (len(s)):
         if s[pos] in alphabet:
             alphabet[pos] == reverse[pos]
-            
+            nieuwestring += reverse
             
             
