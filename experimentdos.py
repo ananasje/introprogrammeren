@@ -1,44 +1,14 @@
-def count_repeated_letters(words: list[str]) -> int:
+def count_vowel_words(words: list[str]) -> int:
     """
-    >>> count_repeated_letters(["appel", "kat", "banana"])
+    >>> count_vowel_words(["appel", "fiets", "kat"])
     2
-    >>> count_repeated_letters(["abc", "aabb", "xyz"])
+    >>> count_vowel_words(["banana", "auto", "peer"])
     1
-    >>> count_repeated_letters(["hello", "world", "test"])
+    >>> count_vowel_words(["boek", "huis", "xyz"])
     2
-    >>> count_repeated_letters([])
+    >>> count_vowel_words([])
     0
     """
-    tekenteller = 0
-    alphabet = "azertyuiopqsdfghjklmwxcvbn"
-    herhaling = ""
-    for word in words:
-        for teken in word:
-            if teken in alphabet:
-                herhaling.append(teken)
-                
-            if teken in herhaling:
-                tekenteller += 1
-        
-    return tekenteller
-    
-def count_repeated_letters(words: list[str]) -> int:
-    tekenteller = 0
-
-    for word in words:
-        gezien = ""
-        heeft_herhaling = False
-
-        for teken in word:
-            if teken in gezien:
-                heeft_herhaling = True
-            else:
-                gezien += teken
-
-        if heeft_herhaling:
-            tekenteller += 1
-
-    return tekenteller
         
         
         
