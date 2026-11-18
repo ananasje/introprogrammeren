@@ -1,25 +1,17 @@
-def merge_alternating(a: list[int], b: list[int]) -> list[int]:
+def longest_even_streak(lst: list[int]) -> int:
     """
-    >>> merge_alternating([1, 3, 5], [2, 4, 6])
-    [1, 2, 3, 4, 5, 6]
-    >>> merge_alternating([1, 2, 3], [9])
-    [1, 9, 2, 3]
-    >>> merge_alternating([], [4, 5])
-    [4, 5]
+    >>> longest_even_streak([1, 2, 4, 6, 3, 8, 10])
+    3
+    >>> longest_even_streak([2, 4, 1, 6, 8, 10, 12])
+    4
+    >>> longest_even_streak([1, 3, 5])
+    0
+    >>> longest_even_streak([2, 4, 6])
+    3
+    >>> longest_even_streak([])
+    0
     """
-    new_list = []
-    i = 0
-    J = 0
     
-    while i < len(a) and j < len(b):
-        new_list.append(i)
-        new_list.append(j)
-        i =+ 1
-        i =+ 1
-    
-    for
-        if 
-    return new_list
         
         
         
