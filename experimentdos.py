@@ -9,6 +9,7 @@ def count_repeated_letters(words: list[str]) -> int:
     >>> count_repeated_letters([])
     0
     """
+    
             
         
         
