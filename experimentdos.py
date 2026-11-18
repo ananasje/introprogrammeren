@@ -9,6 +9,8 @@ def is_even_digit(teken: str) -> bool:
     """
     if teken.isdigit():
         return True
+    else:
+        return False
 
 
 def count_even_digits(s: str) -> int:
