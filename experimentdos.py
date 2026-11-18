@@ -13,6 +13,7 @@ def longest_digit_block(s: str) -> int:
     """
     aantal = 0
     
+    for 
             
         
         
