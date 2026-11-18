@@ -1,33 +1,24 @@
-def is_even_digit(teken: str) -> bool:
+def has_digit(word: str) -> bool:
     """
-    >>> is_even_digit("4")
+    >>> has_digit("abc3")
     True
-    >>> is_even_digit("7")
+    >>> has_digit("hello")
     False
-    >>> is_even_digit("a")
+    >>> has_digit("")
     False
     """
-    if teken % 2 == 0:
-        return True
-    else:
-        return False
+    # Jouw code
 
 
-def count_even_digits(s: str) -> int:
+def count_strong_words(words: list[str]) -> int:
     """
-    >>> count_even_digits("a2b48")
-    3
-    >>> count_even_digits("13579")
+    >>> count_strong_words(["abc12", "hi3", "hello", "Python7"])
+    2
+    >>> count_strong_words(["12345", "abcde", "a1"])
+    1
+    >>> count_strong_words([])
     0
-    >>> count_even_digits("2026")
-    4
     """
-    Teller = 0
-    for teken in s:
-        if (is_even_digit(s)) == True:
-            Teller += 1
-    
-    return Teller
-        
+    # Jouw code
         
         
