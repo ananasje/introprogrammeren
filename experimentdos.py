@@ -16,6 +16,7 @@ def filter_long_even_words(words: list[str]) -> list[str]:
         if len(word) >= 4:
             for teken in words:
                 if teken in klinker:
+                    
             
     
     
