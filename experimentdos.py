@@ -14,7 +14,8 @@ def count_special_words(words: list[str]) -> int:
     hoofd = 0
     for word in words:
         if word.isdigit():
-            cijfer +=1
+            cijfer += 1
         
         elif word.isupper():
             hoofd += 1
+        
