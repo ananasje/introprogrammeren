@@ -14,5 +14,8 @@ def filter_words(words: list[str]) -> list[str]:
     for words in list:
         if words[pos].lower() == "aeiou":
             klinker += 1
-        else 
+        else:
+            medeklinker += 1
+    
+    return w
         
