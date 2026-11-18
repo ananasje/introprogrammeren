@@ -59,7 +59,7 @@ def filter_digit_words(words: list[str]) -> list[str]:
         cijfer = 0
         for teken in word:
             if teken.isdigit():
-                
+                retur
     
     
     
