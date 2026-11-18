@@ -18,5 +18,6 @@ def count_negative_groups(lst: list[int]) -> int:
                 teller += 1
                 in_groep = True
         else:
-            teken
+            in_groep = False
+    return teller
             
