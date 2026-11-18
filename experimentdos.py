@@ -15,3 +15,4 @@ def encrypt(s: str) -> str:
     for teken in s:
         if teken in alphabet:
             
+            
