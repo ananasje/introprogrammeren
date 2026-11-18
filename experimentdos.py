@@ -15,6 +15,7 @@ def count_repeated_letters(words: list[str]) -> int:
     for word in words:
         for teken in word:
             if teken in alpabet:
+                
             
         
         
