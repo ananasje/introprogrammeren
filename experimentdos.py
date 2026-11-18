@@ -15,6 +15,7 @@ def remove_duplicates(lst: list[int]) -> list[int]:
     for teken in lst:
         if teken not in nieuwe_lijst:
             nieuwe_lijst.append(teken)
+            
     return nieuwe_lijst 
             
             
