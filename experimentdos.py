@@ -12,7 +12,7 @@ def merge_alternating(a: list[int], b: list[int]) -> list[int]:
     J = 0
     
     while i < len(a) and j < len(b):
-        new_list
+        new_list.append(i)
         
         
         
