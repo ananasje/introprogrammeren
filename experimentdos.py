@@ -1,29 +1,14 @@
-def longest_digit_block(s: str) -> int:
+def count_repeated_letters(words: list[str]) -> int:
     """
-    >>> longest_digit_block("abc123de45")
-    3
-    >>> longest_digit_block("a12b3456c")
-    4
-    >>> longest_digit_block("abc")
-    0
-    >>> longest_digit_block("12345")
-    5
-    >>> longest_digit_block("")
+    >>> count_repeated_letters(["appel", "kat", "banana"])
+    2
+    >>> count_repeated_letters(["abc", "aabb", "xyz"])
+    1
+    >>> count_repeated_letters(["hello", "world", "test"])
+    2
+    >>> count_repeated_letters([])
     0
     """
-    aantal = 0
-    langste = 0
-    for teken in s:
-        if teken.isdigit():
-            aantal += 1
-            
-        if teken.isalpha():
-            if aantal < langste:
-                langste = aantal
-                aantal = 0
-                
-        aantal = 0
-    return langste
             
         
         
