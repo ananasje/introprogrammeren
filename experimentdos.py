@@ -13,6 +13,6 @@ def encrypt(s: str) -> str:
     reverse = "zyxwvutsrqponmlkjihgfedcba"
     nieuwe_string = ""
     for pos in range (len(s)):
-        if teken in alphabet:
+        if pos
             
             
