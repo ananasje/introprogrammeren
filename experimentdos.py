@@ -10,7 +10,8 @@ def count_special_words(words: list[str]) -> int:
     0
     """
     teller = 0
-    
+    cijfer = 0
+    hoofd = 0
     for word in words:
         if word.isdigit():
             cijfer +=1
