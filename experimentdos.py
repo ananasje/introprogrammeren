@@ -17,5 +17,8 @@ def count_words_with_two_digits(words: list[str]) -> int:
         for teken in word:
             if teken.isdigit():
                 cijfer += 1
+                
         if cijfer >= 2:
             teller += 1
+    
+    return teller
