@@ -22,5 +22,6 @@ def count_strong_words(words: list[str]) -> int:
     0
     """
     teller = 0
-    for 
+    for word in words:
+        if 
         
