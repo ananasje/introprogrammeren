@@ -19,4 +19,6 @@ def decode_letters(s: str) -> str:
             if teken == alphabet(i):
                 nieuwestring += alphabet[25 - i]
         
+    return nieuwestring
+        
             
