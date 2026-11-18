@@ -7,3 +7,4 @@ def special_sort(lst: list[int]) -> list[int]:
     >>> special_sort([])
     []
     """
+    if 
