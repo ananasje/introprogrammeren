@@ -9,3 +9,7 @@ def remove_duplicates(lst: list[int]) -> list[int]:
     >>> remove_duplicates([])
     []
     """
+    
+    nieuwe_lijst = []
+    
+    for 
