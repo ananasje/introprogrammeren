@@ -22,6 +22,7 @@ def count_digit_groups(s: str) -> int:
                 groep = True
         else:
             groep = False
+    return teller
             
             
             
