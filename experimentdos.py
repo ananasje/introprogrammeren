@@ -36,6 +36,7 @@ def get_local_maxima(lst: list[int]) -> list[int]:
     """
     nieuwe_lijst= []
     
+    for 
     
     
     
