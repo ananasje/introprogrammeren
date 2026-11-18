@@ -41,6 +41,19 @@ def get_local_maxima(lst: list[int]) -> list[int]:
             nieuwe_lijst.append(lst[pos])
         
     return nieuwe_lijst
+
+def filter_digit_words(words: list[str]) -> list[str]:
+    """
+    >>> filter_digit_words(["a12", "b111", "x909"])
+    ['a12', 'x909']
+    >>> filter_digit_words(["123", "456", "aaa"])
+    ['123', '456']
+    >>> filter_digit_words(["a1b1", "007", "xyz"])
+    ['007']
+    >>> filter_digit_words([])
+    []
+    """
+    
     
     
     
