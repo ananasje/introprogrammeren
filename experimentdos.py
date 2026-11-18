@@ -7,8 +7,7 @@ def has_digit(word: str) -> bool:
     >>> has_digit("")
     False
     """
-    # Jouw e
-
+    if word 
 
 def count_strong_words(words: list[str]) -> int:
     """
