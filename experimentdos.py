@@ -12,7 +12,7 @@ def longest_digit_block(s: str) -> int:
     0
     """
     aantal = 0
-    
+    langste = 0
     for teken in s:
         if teken.isdigit():
             aantal += 1
