@@ -16,5 +16,6 @@ def decode_letters(s: str) -> str:
         if teken == " ":
             nieuwestring += " "
         for teken in range(len(alphabet)):
-            if teken == alphabet(i)
+            if teken == alphabet(i):
+                
             
