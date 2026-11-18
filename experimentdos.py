@@ -12,7 +12,7 @@ def longest_even_streak(lst: list[int]) -> int:
     0
     """
     aantal = 0
-    
+    for 
         
         
         
