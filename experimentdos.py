@@ -19,7 +19,7 @@ def count_repeated_letters(words: list[str]) -> int:
                 
             if teken in herhaling:
                 teller += 1
-            
+        
             
         
         
