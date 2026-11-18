@@ -37,7 +37,7 @@ def get_local_maxima(lst: list[int]) -> list[int]:
     nieuwe_lijst= []
     
     for pos in range (1,(len(lst)-1)):
-        if lst[pos] < 
+        if lst[pos] < lst
     
     
     
