@@ -8,4 +8,4 @@ for teken in s:
         
 letters = klinkers + medeklinkers
 leesniveau =(medeklinkers-tklinkers)**2 * letters/woorden
-return round (leesniveau,2)
+return round (leesniveau, 2)
