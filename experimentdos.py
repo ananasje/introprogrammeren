@@ -10,7 +10,7 @@ def special_sort(lst: list[int]) -> list[int]:
     nieuwe_lijst = ""
     i = 0
     j = 0
-    def special_sort(lst: list[int]) -> list[int]:
+    
     for i in range(len(lst) - 1):
         for j in range(i + 1, len(lst)):
             if ...:
