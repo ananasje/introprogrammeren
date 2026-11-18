@@ -1,28 +1,14 @@
-def count_digit_groups(s: str) -> int:
+def count_even_groups(lst: list[int]) -> int:
     """
-    >>> count_digit_groups("ab12cd345x6")
+    >>> count_even_groups([2, 4, 1, 6, 8, 3, 10])
     3
-    >>> count_digit_groups("12345")
+    >>> count_even_groups([2, 4, 6])
     1
-    >>> count_digit_groups("abc")
+    >>> count_even_groups([1, 3, 5])
     0
-    >>> count_digit_groups("1a2b3")
-    3
-    >>> count_digit_groups("")
+    >>> count_even_groups([])
     0
     """
-    
-    groep = False
-    teller = 0
-    
-    for teken in s:
-        if teken.isdigit():
-            if not groep:
-                teller += 1
-                groep = True
-        else:
-            groep = False
-    return teller
             
             
             
