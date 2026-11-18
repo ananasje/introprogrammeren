@@ -12,4 +12,4 @@ def count_special_words(words: list[str]) -> int:
     teller = 0
     
     for word in words:
-        if word
+        if word.isdigit()
