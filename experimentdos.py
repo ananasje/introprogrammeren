@@ -18,7 +18,7 @@ def count_vowely_words(s: str) -> int:
                 if teken in klinker:
                     klinkerteller += 1
                     
-            if teken = 
+            if teken == " "
                     
              
             
