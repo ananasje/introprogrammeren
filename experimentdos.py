@@ -11,11 +11,12 @@ def count_vowely_words(s: str) -> int:
     """
     klinker = "aeiou"
     teller = 0
+    kl
     for word in s:
         for teken in word:
             if teken != " ":
                 if teken in klinker:
-                    klinkteller += 1
+                    klinkerteller += 1
                     
                     
              
