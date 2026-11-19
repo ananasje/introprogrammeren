@@ -19,7 +19,8 @@ def count_vowely_words(s: str) -> int:
                     klinkerteller += 1
                     
             if teken == " "
-                    
+                    if klinkerteller >= 2
+                    teller + 1
              
             
     
