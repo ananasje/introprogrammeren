@@ -12,7 +12,8 @@ def count_vowely_words(s: str) -> int:
     
     for word in s:
         for teken in word:
-            if teken != " "
+            if teken != " ":
+                
              
             
     
