@@ -4,6 +4,7 @@ def select_words_with_digits(words: list[str]) -> list[str]:
     ['h0nd', '123']
     """
     nieuwelst = ""
+    teller = 0
     for woord in words:
         for teken in woord:
             if teken.isdigit():
@@ -11,7 +12,7 @@ def select_words_with_digits(words: list[str]) -> list[str]:
         
         if teller >= 1:
             nieuwelst.append(woord)
-            teller : 0
+            teller = 0
     
     return nieuwelst
                 
