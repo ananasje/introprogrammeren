@@ -1,21 +1,5 @@
-def replace_positions(s: str, positions: list[int]) -> str:
+def count_big_drops(values: list[int]) -> int:
     """
-    >>> replace_positions("clown", [1, 3])
-    'c#o#n'
-    >>> replace_positions("taart", [])
-    'taart'
-    >>> replace_positions("", [])
-    ''
-    >>> replace_positions("draai", [2, 2])
-    'dr#ai'
-    
+    Schrijf hier precies vier doctests.
     """
-    nieuwestr = ''
-
-    for i in range(len(s)):
-        if i in positions:
-            nieuwestr += "#"
-        else:
-            nieuwestr += s[i]
-
-    return nieuwestr
+    # Jouw code
