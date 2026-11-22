@@ -7,4 +7,4 @@ def replace_positions(s: str, positions: list[int]) -> str:
         else:
             nieuwestr += s[i]
 
-    # Wat moet je teruggeven?
+    return nieuwestr
