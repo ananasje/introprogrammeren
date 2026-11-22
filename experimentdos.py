@@ -7,7 +7,7 @@ def partition_by_length(
     """
     eerstelst = []
     tweedelst = []
-    getal
+    
     for woord in words:
         if len(woord) >= getal:
             lst.append
