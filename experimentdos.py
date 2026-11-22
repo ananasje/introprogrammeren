@@ -5,4 +5,4 @@ def select_shorter_words(
     Schrijf precies vier doctests.
     """
     nieuwelst = []
-    for i in range(len)
+    for i in range(len(words))
