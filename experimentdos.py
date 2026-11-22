@@ -7,7 +7,7 @@ def select_words_with_digits(words: list[str]) -> list[str]:
     >>> select_words_with_digits([""])
     []
     >>> select_words_with_digits(["67", "s6s7", "hunterxhunter"])
-    []
+    ['67', '123']
     """
     nieuwelst = ""
     teller = 0
