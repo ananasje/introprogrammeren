@@ -6,7 +6,8 @@ def count_vowels(s: str) -> int:
     0
     >>> count_vowels("")
     0
-    
+    >>> count_vowels("")
+    0
     """
     teller = 0
     klinkers = "aAiIOoUuEe"
