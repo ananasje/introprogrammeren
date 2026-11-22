@@ -7,7 +7,7 @@ def count_big_drops(values: list[int]) -> int:
     """
     teller = 0
     for i in range (1,len(values)):
-            if values[i - 1] - values[i] >= 3:
+        if values[i - 1] - values[i] >= 3:
             teller += 1
     
     return teller
