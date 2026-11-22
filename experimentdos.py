@@ -1,1 +1,4 @@
->>> count_length_jumps(["ik", "appel", "ja", "computer"], 3)
+def count_length_jumps(words: list[str], minimum: int) -> int:
+    """
+    Schrijf precies vier doctests.
+    """
