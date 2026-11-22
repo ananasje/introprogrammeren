@@ -3,7 +3,7 @@ def partition_by_length(
 ) -> list[list[str]]:
     """
     >>> partition_by_length(["boom", "a", "fiets", ""], 4)
-    
+    [['boom', 'fiets'], ['a', '']]
     """
     eerstelst = []
     tweedelst = []
