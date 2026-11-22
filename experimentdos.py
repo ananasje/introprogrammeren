@@ -1,13 +1,13 @@
 def replace_positions(s: str, positions: list[int]) -> str:
-    """
+"""
     >>> replace_positions("clown", [1, 3])
     'c#o#n'
     >>> replace_positions("taart", [])
     'taart'
-    >>> replace_positions("", [])
+    >>> replace_positions("", [7])
     ''
     >>> replace_positions("draai", [2, 2])
-    'dr#ai'
+    'd#aai'
     
     """
     nieuwestr = ''
