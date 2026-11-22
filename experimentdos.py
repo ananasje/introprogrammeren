@@ -6,6 +6,7 @@ def find_length_jumps(
     [1, 3]
     >>> find_length_jumps(["ik], 0)
     []
+    
     """
     nieuwelst = []
     for i in range (1,len(words)):
