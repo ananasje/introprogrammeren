@@ -6,6 +6,6 @@ def select_shorter_words(
     """
     nieuwelst = []
     for i in range(1, len(words)):
-        if len(words[i] <= minimum:
+        if len(words[i]) <= minimum:
             nieuwelst.append(words[i])
         return nieuwelst
