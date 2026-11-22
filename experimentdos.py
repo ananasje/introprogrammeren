@@ -14,7 +14,7 @@ def find_length_jumps(
     """
     nieuwelst = []
     for i in range (1,len(words)):
-        if len(words[i] - words[i - 1] >= minimum:
+        if len(words[i]) - len(words[i - 1] >= minimum:
             nieuwelst.append(i)
     
     return nieuwelst
