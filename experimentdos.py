@@ -2,4 +2,4 @@ def replace_positions(s: str, positions: list[int]) -> str:
     """
     Schrijf hier precies vier doctests.
     """
-    # Jouw code
+    for word in s
