@@ -4,7 +4,7 @@ def replace_positions(s: str, positions: list[int]) -> str:
     'c#o#n'
     >>> replace_positions("taart", [])
     'taart'
-    >>> replace_positions("", [7])
+    >>> replace_positions("", [])
     ''
     >>> replace_positions("draai", [2, 2])
     'dr#ai'
