@@ -1,6 +1,7 @@
 def count_repeats(words: list[str]) -> int:
     """
-    Schrijf precies vier doctests.
+    >>> count_repeats(["kat", "kat", "vis", "vis", "vis"])
+3
     """
     teller = 0
     
