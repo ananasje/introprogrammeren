@@ -3,7 +3,7 @@ def select_shorter_words(
 ) -> list[str]:
     """
     >>> select_shorter_words(["computer", "kat", "olifant", "ik"], 3)
-['kat', 'ik']
+    ['kat', 'ik']
     """
     nieuwelst = []
     for i in range(1, len(words)):
