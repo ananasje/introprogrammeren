@@ -9,7 +9,7 @@ def partition_by_length(
     [['appel', 'moes'], []]
     >>> partition_by_length(["een", "twee"], 5)
     [[], ['een', 'twee']]
-    >>> partition_by_length(["een", "twee"], 5)
+    >>> partition_by_length(["een", "twee"], 1)
     [[], ['een', 'twee']]
     
     """
