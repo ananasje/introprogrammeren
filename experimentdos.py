@@ -11,7 +11,7 @@ def count_vowels(s: str) -> int:
     """
     teller = 0
     klinkers = "aAiIOoUuEe"
-    for i in len(s) :
+    for letter in len(s) :
         if s[i] in klinkers:
             teller += 1
     return teller
