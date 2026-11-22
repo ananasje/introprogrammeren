@@ -10,6 +10,7 @@ def count_digit_groups(s: str) -> int:
         if teken.isdigit():
             
             
+            
     
     return eindteller
                 
