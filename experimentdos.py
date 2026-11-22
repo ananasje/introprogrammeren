@@ -4,7 +4,7 @@ def select_words_with_digits(words: list[str]) -> list[str]:
     ['h0nd', '123']
     >>> select_words_with_digits(["chat", "blap", "blip"])
     []
-    >>> select_words_with_digits(["chat", "blap", "blip"])
+    >>> select_words_with_digits(["", "blap", "blip"])
     []
     """
     nieuwelst = ""
