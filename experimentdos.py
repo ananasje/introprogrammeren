@@ -12,4 +12,4 @@ def partition_by_length(
         if len(woord) >= getal:
             eerstelst.append(woord)
         else:
-            
+            tweedelst.append(woord)
