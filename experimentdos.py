@@ -2,7 +2,8 @@ def find_length_jumps(
     words: list[str], minimum: int
 ) -> list[int]:
     """
-    Schrijf precies vier doctests.
+    >>> find_length_jumps(["ik", "appel", "ja", "computer"], 3)
+[1, 3]
     """
     nieuwelst = []
     for i in range (1,len(words)):
