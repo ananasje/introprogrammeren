@@ -7,4 +7,4 @@ def count_repeats(words: list[str]) -> int:
     for i in words:
         if words[i] == words[i]:
             teller += 1
-    return words
+    return teller
