@@ -2,7 +2,8 @@ def select_shorter_words(
     words: list[str], minimum: int
 ) -> list[str]:
     """
-    Schrijf precies vier doctests.
+    >>> select_shorter_words(["computer", "kat", "olifant", "ik"], 3)
+['kat', 'ik']
     """
     nieuwelst = []
     for i in range(1, len(words)):
