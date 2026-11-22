@@ -2,9 +2,10 @@ def count_vowels(s: str) -> int:
     """
     >>> count_vowels("Amsterdam")
     3
+    >>> count_vowels("Amsterdam")
     
     """
-    teller = 1
+    teller = 0
     klinkers = "aAiIOoUuEe"
     for i in range(len(s)) :
         if s[i] in klinkers:
