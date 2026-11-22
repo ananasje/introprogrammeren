@@ -4,5 +4,5 @@ def count_length_jumps(words: list[str], minimum: int) -> int:
     """
     teller = 0
     for pos in range len(words):
-        if len(word) - len(word) >= minimum
+        if len(pos) - len(word) >= minimum
             
