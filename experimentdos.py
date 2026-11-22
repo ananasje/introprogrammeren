@@ -5,4 +5,6 @@ def count_repeats(words: list[str]) -> int:
     teller = 0
     
     for i in words:
-        if words[i] == words[i]
+        if words[i] == words[i]:
+            teller += 1
+    return words
