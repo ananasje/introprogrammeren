@@ -11,7 +11,7 @@ def partition_by_length(
     >>> partition_by_length(["een", "twee"], 5)
     [[], ['een', 'twee']]
     
-    >>> partition_by_length([""], 7)
+    >>> partition_by_length([], 7)
     [[], [""]]
     
     """
