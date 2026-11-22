@@ -11,7 +11,7 @@ def count_digit_groups(s: str) -> int:
             eindteller += 1
             
     
-    return ei
+    return eindteller
                 
                 
             
