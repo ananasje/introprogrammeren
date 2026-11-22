@@ -1,4 +1,6 @@
 def replace_positions(s: str, positions: list[int]) -> str:
+    """
+    """
     nieuwestr = ''
 
     for i in range(len(s)):
