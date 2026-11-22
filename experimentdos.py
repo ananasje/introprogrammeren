@@ -1,5 +1,7 @@
 def count_length_jumps(words: list[str], minimum: int) -> int:
     teller = 0
     for word in words:
-        if words[i] - words[i - 1] >= mi
+        if words[i] - words[i - 1] >= minimum:
+            teller += 1
+            
     return teller
