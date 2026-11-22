@@ -5,7 +5,8 @@ def select_words_with_digits(words: list[str]) -> list[str]:
     nieuwelst = ""
     for woord in words:
         for teken in words:
-            if teken.isdigit():
+            if teken.isdigit() == True:
+                nieuwelst.append(woord)
                 
                 
             
