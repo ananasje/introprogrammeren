@@ -5,4 +5,4 @@ def find_length_jumps(
     Schrijf precies vier doctests.
     """
     nieuwelst = []
-    for i 
+    for i in range (1,len)
