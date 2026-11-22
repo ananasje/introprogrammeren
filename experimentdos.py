@@ -4,7 +4,7 @@ def count_big_drops(values: list[int]) -> int:
     2
     >>> count_big_drops([1, 3, 5])
     0
-    >>> count_big_drops([1, 3, 5])
+    >>> count_big_drops([])
     0
     
     """
