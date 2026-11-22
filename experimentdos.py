@@ -5,6 +5,7 @@ def partition_by_length(
     Schrijf hier precies vier doctests,
     waaronder een test met een lege lijst.
     """
+    
     for woord in words:
         if len(woord) >= 4:
             lst.append
