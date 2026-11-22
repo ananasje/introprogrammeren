@@ -9,7 +9,7 @@ def partition_by_length(
     tweedelst = []
     
     for woord in words:
-        if len(woord) >= getal:
+        if len(woord) >= minimum:
             eerstelst.append(woord)
         else:
             tweedelst.append(woord)
