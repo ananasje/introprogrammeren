@@ -5,7 +5,7 @@ def partition_by_length(
     Schrijf hier precies vier doctests,
     waaronder een test met een lege lijst.
     """
-    
+    nieuwelst = 
     getal
     for woord in words:
         if len(woord) >= getal:
