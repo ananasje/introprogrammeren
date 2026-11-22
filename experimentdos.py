@@ -1,6 +1,7 @@
 def select_words_with_digits(words: list[str]) -> list[str]:
     """
-    Schrijf precies vier doctests.
+    >>> select_words_with_digits(["kat", "h0nd", "123", "fiets"])
+    ['h0nd', '123']
     """
     nieuwelst = ""
     for woord in words:
