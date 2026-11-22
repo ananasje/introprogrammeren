@@ -6,7 +6,7 @@ def count_big_drops(values: list[int]) -> int:
     0
     >>> count_big_drops([])
     0
-    >>> count_big_drops([1, -6, -, 0])
+    >>> count_big_drops([1, -6, -8, 0])
     1
     """
     teller = 0
