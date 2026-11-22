@@ -6,4 +6,4 @@ def partition_by_length(
     waaronder een test met een lege lijst.
     """
     for woord in words:
-        if len(woordç)
+        if len(woord) < 
