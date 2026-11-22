@@ -13,3 +13,5 @@ def partition_by_length(
             eerstelst.append(woord)
         else:
             tweedelst.append(woord)
+        
+        return 
