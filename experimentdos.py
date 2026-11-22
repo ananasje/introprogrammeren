@@ -5,7 +5,7 @@ def partition_by_length(
     >>> partition_by_length(["boom", "a", "fiets", ""], 4)
     [['boom', 'fiets'], ['a', '']]
     >>> partition_by_length(["appel", "moes"], 2)
-    [['boom', 'fiets'], []]
+    [['appel', 'moes'], []]
     """
     eerstelst = []
     tweedelst = []
