@@ -8,7 +8,7 @@ def select_shorter_words(
     []
     >>> select_shorter_words(["zeveraar", "sjarel", "dommerik"], 4)
     []
-    >>> select_shorter_words(["zeveraar", "sjarel", "dommerik"], 4)
+    >>> select_shorter_words(["je", "sjarel", "dommerik"], 4)
     []
     """
     nieuwelst = []
