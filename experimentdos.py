@@ -6,7 +6,7 @@ def find_length_jumps(
     [1, 3]
     >>> find_length_jumps(["ik"], 1)
     []
-    >>> find_length_jumps([""], 2)
+    >>> find_length_jumps([], 2)
     []
     >>> find_length_jumps(["Klein","van", "gestalte"], 8)
     []
