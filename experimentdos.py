@@ -2,7 +2,7 @@ def partition_by_length(
     words: list[str], minimum: int
 ) -> list[list[str]]:
     """
-    >>> partition_by_length(appel, moes)
+    >>> partition_by_length(["boom", "a", "fiets", ""], 4)
     """
     eerstelst = []
     tweedelst = []
