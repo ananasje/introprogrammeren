@@ -7,4 +7,4 @@ def partition_by_length(
     """
     for woord in words:
         if len(woord) >= 4:
-            woord.append
+            lst.append
