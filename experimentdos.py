@@ -12,7 +12,7 @@ def partition_by_length(
     [[], ['een', 'twee']]
     
     >>> partition_by_length([], 7)
-    [[], [""]]
+    [[], []]
     
     """
     eerstelst = []
