@@ -5,6 +5,6 @@ def replace_positions(s: str, positions: list[int]) -> str:
         if i in positions:
             nieuwestr += "#"
         else:
-            # En wat moet hier gebeuren?
+            nieuwestr += s[i]
 
     # Wat moet je teruggeven?
