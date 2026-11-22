@@ -1,20 +1,6 @@
-def find_length_jumps(
+def select_shorter_words(
     words: list[str], minimum: int
-) -> list[int]:
+) -> list[str]:
     """
-    >>> find_length_jumps(["ik", "appel", "ja", "computer"], 3)
-    [1, 3]
-    >>> find_length_jumps(["ik"], 1)
-    []
-    >>> find_length_jumps([], 2)
-    []
-    >>> find_length_jumps(["Klein","van", "gestalte"], 8)
-    []
-    
+    Schrijf precies vier doctests.
     """
-    nieuwelst = []
-    for i in range (1,len(words)):
-        if len(words[i]) - len(words[i - 1]) >= minimum:
-            nieuwelst.append(i)
-    
-    return nieuwelst
