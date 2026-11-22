@@ -4,6 +4,8 @@ def count_repeats(words: list[str]) -> int:
     3
     >>> count_repeats(["kat", "Kat"])
     0
+    >>> count_repeats([])
+    0
     >>> count_repeats(["kat", "Kat"])
     0
     """
