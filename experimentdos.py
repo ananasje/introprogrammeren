@@ -1,17 +1,2 @@
-def count_repeats(words: list[str]) -> int:
-    """
-    >>> count_repeats(["kat", "kat", "vis", "vis", "vis"])
-    3
-    >>> count_repeats(["kat", "Kat"])
-    0
-    >>> count_repeats([])
-    0
-    >>> count_repeats([" ", " "])
-    1
-    """
-    teller = 0
-    
-    for i in range  (1,len(words)):
-        if words[i] == words[i - 1]:
-            teller += 1
-    return teller
+>>> find_length_jumps(["ik", "appel", "ja", "computer"], 3)
+[1, 3]
