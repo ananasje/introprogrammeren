@@ -4,6 +4,8 @@ def find_length_jumps(
     """
     >>> find_length_jumps(["ik", "appel", "ja", "computer"], 3)
     [1, 3]
+    >>> find_length_jumps(["ik"], 1)
+    []
     >>> find_length_jumps(["ik"], 0)
     []
     
