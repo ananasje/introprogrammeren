@@ -10,4 +10,4 @@ def partition_by_length(
     
     for woord in words:
         if len(woord) >= getal:
-            lst.append
+            e.append
