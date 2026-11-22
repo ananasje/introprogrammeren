@@ -3,7 +3,8 @@ def count_repeats(words: list[str]) -> int:
     >>> count_repeats(["kat", "kat", "vis", "vis", "vis"])
     3
     >>> count_repeats(["kat", "Kat"])
-    3
+    0
+    
     """
     teller = 0
     
