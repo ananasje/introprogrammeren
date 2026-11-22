@@ -2,6 +2,7 @@ def select_words_with_digits(words: list[str]) -> list[str]:
     """
     >>> select_words_with_digits(["kat", "h0nd", "123", "fiets"])
     ['h0nd', '123']
+    
     """
     nieuwelst = ""
     teller = 0
