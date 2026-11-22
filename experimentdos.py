@@ -3,7 +3,7 @@ def replace_positions(s: str, positions: list[int]) -> str:
 
     for i in range(len(s)):
         if i in positions:
-            n
+            nieuwestr += 
         else:
             # En wat moet hier gebeuren?
 
