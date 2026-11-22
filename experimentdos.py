@@ -9,4 +9,4 @@ def find_length_jumps(
         if words[i] - words[i - 1] =< minimum:
             nieuwelst.append(i)
     
-    return 
+    return nieuwelst
