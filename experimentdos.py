@@ -2,7 +2,7 @@ def count_vowels(s: str) -> int:
     """
     >>> count_vowels("Amsterdam")
     3
-    >>> count_vowels("P")
+    >>> count_vowels("GN KLNKRS")
     
     """
     teller = 0
