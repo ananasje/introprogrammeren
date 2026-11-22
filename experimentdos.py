@@ -1,6 +1,6 @@
 def replace_positions(s: str, positions: list[int]) -> str:
     """
-    replace_positions(("clown", []))
+    replace_positions(("clown", [1, 3]))
     """
     nieuwestr = ''
 
