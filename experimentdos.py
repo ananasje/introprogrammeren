@@ -4,5 +4,5 @@ def replace_positions(s: str, positions: list[int]) -> str:
     """
     nieuwestr = ''
     for word in s:
-        if i in range [i]
+        if i in range [i,]
         
