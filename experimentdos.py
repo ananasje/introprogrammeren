@@ -9,7 +9,7 @@ def select_words_with_digits(words: list[str]) -> list[str]:
             if teken.isdigit():
                 teller += 1
         
-        if teller > 1:
+        if teller >= 1:
             nieuwelst.append(woord)
             teller : 0
     
