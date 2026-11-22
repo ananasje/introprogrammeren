@@ -5,7 +5,7 @@ def select_shorter_words(
     >>> select_shorter_words(["computer", "kat", "olifant", "ik"], 3)
     ['kat', 'ik']
     >>> select_shorter_words([], 1)
-    ['kat', 'ik']
+    []
     """
     nieuwelst = []
     for i in range(1, len(words)):
