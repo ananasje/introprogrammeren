@@ -5,7 +5,8 @@ def count_digit_groups(s: str) -> int:
     
     eindteller = 0
     
-    for nummer in 
+    for nummer in s:
+        i
                 
                 
             
