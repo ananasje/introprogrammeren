@@ -8,5 +8,6 @@ def count_direction_changes(values: list[int]) -> int:
         if len(values) < 3:
             if values[i] < values[i - 1] and values[i] < values[i + 1]:
                 teller += 1
-        
+        else:
+            teller = 0
     return teller
