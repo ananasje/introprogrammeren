@@ -14,7 +14,8 @@ def count_digit_groups(s: str) -> int:
     for teken in s:
         if teken.isdigit():
             if group == False:
-                
+                teller += 1
+                group == True
             
         
         else:
