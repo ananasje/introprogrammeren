@@ -1,6 +1,7 @@
 def longest_word_length(sentence: str) -> int:
     """
-    Schrijf precies vier doctests.
+    >>> longest_word_length("ik eet een boterham")
+9
     """
     fo
                 
