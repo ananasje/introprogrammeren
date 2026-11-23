@@ -6,7 +6,7 @@ def count_even_positions(values: list[int]) -> int:
     0
     >>> count_even_positions([3, 7, 11])
     0
-    >>> count_even_positions([3, 6, 11])
+    >>> count_even_positions([3, 6, 6])
     1
     """
     teller = 0
