@@ -4,7 +4,7 @@ def digit_group_starts(s: str) -> list[int]:
     [2, 5, 9]
     """
     nieuwlist = []
-    group = 
+    group = False
     for i in s:
         if s[i].isdigit():
             
