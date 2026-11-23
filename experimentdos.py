@@ -8,7 +8,7 @@ def longest_word_length(sentence: str) -> int:
     inwoord = False
     teller = 0
     For teken in sentence:
-        if teken == " ":
+        if teken = " ":
             if inwoord == False:
                 
                 
