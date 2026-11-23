@@ -9,5 +9,6 @@ def digit_group_starts(s: str) -> list[int]:
         if s[i].isdigit():
             
             
+            
                 
             
