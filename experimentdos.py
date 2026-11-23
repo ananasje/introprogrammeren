@@ -4,6 +4,8 @@ def digit_group_starts(s: str) -> list[int]:
     [2, 5, 9]
     >>> digit_group_starts("")
     []
+    >>> digit_group_starts("")
+    []
     """
     nieuwlist = []
     group = False
