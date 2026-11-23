@@ -4,6 +4,7 @@ def digit_group_starts(s: str) -> list[int]:
     [2, 5, 9]
     """
     for teken in s:
-        if teken.isdigit
+        if teken.isdigit:
+            
                 
             
