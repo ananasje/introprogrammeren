@@ -11,7 +11,9 @@ def digit_group_starts(s: str) -> list[int]:
                 nieuwlist.append(i)
                 group = True
             else:
-                
+                group = False
+    
+    
             
             
                 
