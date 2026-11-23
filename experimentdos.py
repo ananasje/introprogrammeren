@@ -5,7 +5,7 @@ def digit_group_starts(s: str) -> list[int]:
     >>> digit_group_starts("")
     []
     >>> digit_group_starts("1234567812345678")
-    []
+    [0]
     """
     nieuwlist = []
     group = False
