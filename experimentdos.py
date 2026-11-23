@@ -9,5 +9,6 @@ def first_negative(values: list[int]) -> int:
     antwoord = 0
     for nummer in values:
         if nummer < 0:
-        antwoord += 
+        antwoord += nummer
+        
         return nummer
