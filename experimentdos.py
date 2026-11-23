@@ -6,7 +6,7 @@ def digit_group_starts(s: str) -> list[int]:
     nieuwlist = []
     group = False
     for i in s:
-        if teken.isdigit():
+        if s[i.isdigit():
             if group == False:
                 nieuwlist.append(s[i])
                 group = True
