@@ -6,7 +6,7 @@ def count_direction_changes(values: list[int]) -> int:
     0
     >>> count_direction_changes([])
     0
-    >>> count_direction_changes([])
+    >>> count_direction_changes([2])
     0
     """
     teller = 0
