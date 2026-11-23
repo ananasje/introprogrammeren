@@ -7,7 +7,7 @@ def longest_word_length(sentence: str) -> int:
     >>> longest_word_length("wortel of sap")
     6
     >>> longest_word_length("")
-    6
+    0
     """
     langstewoord = 0
     huidigewoord = 0
