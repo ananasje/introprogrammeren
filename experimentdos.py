@@ -5,4 +5,4 @@ def count_direction_changes(values: list[int]) -> int:
     """
     teller = 0
     for i in range(len(values)):
-        if values(i) < values(i - 1) and values(i) < values(i + 1)
+        if values[i] < values[i - 1) and values(i) < values(i + 1)
