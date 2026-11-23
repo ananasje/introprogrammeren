@@ -4,8 +4,7 @@ def reverse_long_words(sentence: str, minimum: int) -> str:
     'ik eet mahretob'
     """
     nieuwestr = ""
-    teller = 0
-    langstewoord = 0
+    woord = ""
     for teken in sentence:
         if teken != " ":
             teller += 1
