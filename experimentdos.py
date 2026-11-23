@@ -8,7 +8,7 @@ def reverse_long_words(sentence: str, minimum: int) -> str:
     omgekeerd = ""
     for teken in sentence:
         if teken != " ":
-            teller += 1
+            
             
         else:
             if len(woord) >= minimum:
