@@ -19,7 +19,7 @@ def count_digit_groups(s: str) -> int:
         
         else:
             group = False
-            teller +=1
+            
     return teller
                 
                 
