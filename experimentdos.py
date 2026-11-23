@@ -2,7 +2,7 @@ def longest_word_length(sentence: str) -> int:
     """
     >>> longest_word_length("ik eet een boterham")
     8
-    >>> longest_word_length("kuwalis")
+    >>> longest_word_length("kawalis")
     7
     >>> longest_word_length("wortel of sap")
     6
