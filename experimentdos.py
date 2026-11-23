@@ -4,4 +4,5 @@ def count_even_positions(values: list[int]) -> int:
     3
     """
     for i in range(len(values)):
-        if i 
+        if i % 2 == 0:
+            if i 
