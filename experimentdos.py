@@ -7,9 +7,9 @@ def count_digit_groups(s: str) -> int:
     eindteller = 0
     nummer = False 
     for teken in s:
-for teken in s:
-    if teken.isdigit():
-        if not nummer:
+
+        if teken.isdigit():
+            if not nummer:
             eindteller += 1
         nummer = True
     else:
