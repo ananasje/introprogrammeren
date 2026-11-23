@@ -4,4 +4,5 @@ def count_direction_changes(values: list[int]) -> int:
     2
     """
     
-    for i in range(len(values))
+    for i in range(len(values)):
+        
