@@ -10,7 +10,7 @@ def digit_group_starts(s: str) -> list[int]:
             if group == False:
                 nieuwlist.append(i)
                 group = True
-            else:
+        else:
                 group = False
     
     
