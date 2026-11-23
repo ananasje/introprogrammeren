@@ -12,7 +12,7 @@ def count_digit_groups(s: str) -> int:
             nummer == True
         
         else:
-            nummer == True:
+            nummer == False:
             eindteller += 1
             
             
