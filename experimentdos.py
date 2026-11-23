@@ -18,7 +18,7 @@ def reverse_long_words(sentence: str, minimum: int) -> str:
                 nieuwestr += omgekeerd
             
             else:
-        # Voeg het gewone woord toe aan nieuwestr
+            # Voeg het gewone woord toe aan nieuwestr
 
     # Voeg de spatie toe aan nieuwestr
     # Maak woord weer leeg
