@@ -1,32 +1,4 @@
-def longest_word_length(sentence: str) -> int:
+def reverse_long_words(sentence: str, minimum: int) -> str:
     """
-    >>> longest_word_length("ik eet een boterham")
-    8
-    >>> longest_word_length("kawalis")
-    7
-    >>> longest_word_length("wortel       of sap")
-    6
-    >>> longest_word_length("")
-    0
+    Schrijf precies vier doctests.
     """
-    langstewoord = 0
-    huidigewoord = 0
-    teller = 0
-    for teken in sentence:
-        if teken != " ":
-            teller += 1
-        
-        elif teken == " ":
-            huidigewoord = teller
-            teller = 0
-            if huidigewoord > langstewoord:
-                langstewoord = huidigewoord
-                
-    if teller > langstewoord:
-        langstewoord = teller
-    
-    return langstewoord
-                
-                
-                
-            
