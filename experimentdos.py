@@ -7,4 +7,5 @@ def first_negative(values: list[int]) -> int:
     
     """
     antwoord = 0
-    for 
+    for nummer in values:
+        
