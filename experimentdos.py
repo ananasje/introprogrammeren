@@ -4,5 +4,6 @@ def first_negative(values: list[int]) -> int:
     2
     >>> first_negative([4, 8, 9])
     -1
+    
     """
     
