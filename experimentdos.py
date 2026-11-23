@@ -25,8 +25,8 @@ def reverse_long_words(sentence: str, minimum: int) -> str:
             omgekeerd = ""
             
     if len(woord) >= minimum:
-            for letter in woord:
-                omgekeerd = letter + omgekeerd
+        for letter in woord:
+            omgekeerd = letter + omgekeerd
             nieuwestr += omgekeerd
                 
                 
