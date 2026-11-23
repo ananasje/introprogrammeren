@@ -9,6 +9,7 @@ def count_digit_groups(s: str) -> int:
     >>> count_digit_groups("a1b2c3")
     3
     """
+    group = False
     
                 
                 
