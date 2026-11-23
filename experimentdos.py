@@ -4,8 +4,9 @@ def count_direction_changes(values: list[int]) -> int:
     2
     >>> count_direction_changes([3, 3, 3, 3, 3])
     0
-    >>> count_direction_changes([3, 3, 3, 3, 3])
+    >>> count_direction_changes([])
     0
+    
     """
     teller = 0
     for i in range(1,(len(values)) -1):
