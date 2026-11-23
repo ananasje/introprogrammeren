@@ -13,7 +13,7 @@ def reverse_long_words(sentence: str, minimum: int) -> str:
         else:
             if len(woord) >= minimum:
                 for letter in woord:
-                    if letter
+                    if letter 
     
                 
                 
