@@ -18,6 +18,8 @@ def longest_word_length(sentence: str) -> int:
             huidigewoord = teller
             if huidigewoord > langstewoord:
                 langstewoord = huidigewoord
+    if huidigewoord > langstewoord:
+                langstewoord = huidigewoord
     
     return langstewoord
                 
