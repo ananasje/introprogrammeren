@@ -10,7 +10,7 @@ def count_digit_groups(s: str) -> int:
 
         if teken.isdigit():
             if not nummer:
-            eindteller += 1
+                eindteller += 1
         nummer = True
     else:
         nummer = False
