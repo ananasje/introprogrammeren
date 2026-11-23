@@ -5,6 +5,7 @@ def reverse_long_words(sentence: str, minimum: int) -> str:
     """
     nieuwestr = ""
     woord = ""
+    omgekeerd = ""
     for teken in sentence:
         if teken != " ":
             teller += 1
