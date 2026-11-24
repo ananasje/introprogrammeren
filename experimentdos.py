@@ -48,6 +48,7 @@ def count_double_letter_words(words: list[str]) -> int:
             if woord[i] == woord[i - 1]:
                 if inwoord == False:
                     teller += 1
+                    inwoord = True
                 
     
     return teller
