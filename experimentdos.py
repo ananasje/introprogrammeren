@@ -23,6 +23,8 @@ def count_double_letter_words(words: list[str]) -> int:
     """
     >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
     3
+    >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
+    3
     """
     """
     teller = 0
