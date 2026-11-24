@@ -14,4 +14,7 @@ def first_negative(values: list[int]) -> int:
             
             
             return antwoord
-        elif values[i] 
+        elif values[i] > 0:
+            antwoord += -1
+            
+            return antwoord
