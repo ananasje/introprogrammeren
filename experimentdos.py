@@ -19,9 +19,4 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
         
     return nieuwelst
         
-def first_long_word(words: list[str], minimum: int) -> int:
-    """
-    >>> first_long_word(["ik", "fiets", "computer", "ja"], 6)
-    2
-    """
-    
+
