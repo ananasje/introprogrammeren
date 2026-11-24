@@ -1,4 +1,5 @@
 def first_zero(values: list[int]) -> int:
+    
     i = 0
 
     while i < len(values):
