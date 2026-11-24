@@ -40,7 +40,7 @@ def count_double_letter_words(words: list[str]) -> int:
     0
     
     """
-    
+    inwoord = False
     teller = 0
     for woord in words:
         
