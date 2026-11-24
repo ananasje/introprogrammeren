@@ -29,5 +29,5 @@ def count_double_letter_words(words: list[str]) -> int:
     for woord in words:
         
         for i in range(len(woord)):
-            if woord[i] in letterdoos:
-                teller +1
+            if woord[i] = >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
+3
