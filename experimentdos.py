@@ -18,6 +18,7 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
                 nieuwelst.append(values[i])
         
     return nieuwelst
+   
         
 def count_double_letter_words(words: list[str]) -> int:
     """
