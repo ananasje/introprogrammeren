@@ -29,4 +29,4 @@ def count_double_letter_words(words: list[str]) -> int:
     for woord in words:
         
         for i in range(len(woord)):
-            if woord[i] == woord[i]
+            if woord[i] == woord[i - 1]
