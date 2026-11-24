@@ -19,7 +19,11 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
         
     return nieuwelst
    
-        
+def first_long_word(words: list[str], minimum: int) -> int:
+    """
+    Schrijf precies vier doctests.
+    """
+
 def count_double_letter_words(words: list[str]) -> int:
     """
     >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
