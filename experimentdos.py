@@ -32,5 +32,4 @@ def first_long_word(words: list[str], minimum: int) -> int:
             return i
         i += 1
         
-        else:
-            return -1
+    
