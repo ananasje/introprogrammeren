@@ -6,6 +6,8 @@ def first_zero(values: list[int]) -> int:
     -1
     >>> first_zero([]3, 6, 9)
     -1
+    >>> first_zero([]3, 6, 9)
+    -1
     """
     i = 0
 
