@@ -4,6 +4,8 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
     [3, 4]
     >>> select_positive_odd_positions([])
     []
+    >>> select_positive_odd_positions([])
+    []
     """ 
     nieuwelst = []
     
