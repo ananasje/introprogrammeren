@@ -7,6 +7,6 @@ def first_zero(values: list[int]) -> int:
 
         i += 1
 
-    return i
+    return 0
         
             
