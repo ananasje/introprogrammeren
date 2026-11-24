@@ -24,7 +24,7 @@ def count_double_letter_words(words: list[str]) -> int:
     >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
     3
     """
-    letterdoos = ""
+    
     teller = 0
     for woord in words:
         
