@@ -25,4 +25,6 @@ def first_long_word(words: list[str], minimum: int) -> int:
     2
     """
     
+    i = 0
+    
     
