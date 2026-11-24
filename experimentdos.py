@@ -21,7 +21,8 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
         
 def count_double_letter_words(words: list[str]) -> int:
     """
-    Schrijf precies vier doctests.
+    >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
+    3
     """
     letterdoos = ""
     teller = 0
