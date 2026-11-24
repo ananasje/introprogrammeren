@@ -23,7 +23,8 @@ def count_double_letter_words(words: list[str]) -> int:
     """
     Schrijf precies vier doctests.
     """
-    letterdoos =
+    letterdoos =""
+    teller +1
     for woord in words:
         
         for teken in woord:
