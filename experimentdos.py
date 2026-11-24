@@ -7,7 +7,7 @@ def first_zero(values: list[int]) -> int:
     resultaat = 0
     while i < len(values):
         if values[i] == 0:
-        
+        resultaat += i
         # Vergeet niet verder te gaan naar
         # de volgende index.
 
