@@ -4,7 +4,7 @@ def first_zero(values: list[int]) -> int:
     2
     """
     i = 0
-
+    resultaat = 0
     while i < len(values):
         if values[i] == 0:
         
