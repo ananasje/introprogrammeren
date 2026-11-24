@@ -7,8 +7,7 @@ def first_zero(values: list[int]) -> int:
 
     while i < len(values):
         if values[i] == 0:
-        # Wat doe je als het 0 is?
-
+        
         # Vergeet niet verder te gaan naar
         # de volgende index.
 
