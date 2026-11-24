@@ -4,7 +4,8 @@ def first_zero(values: list[int]) -> int:
     2
     >>> first_zero([])
     -1
-    
+    >>> first_zero([])
+    -1
     """
     i = 0
 
