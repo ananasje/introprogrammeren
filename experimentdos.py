@@ -7,5 +7,5 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
     for i in range(len(values)):
         if i % 2 != 0:
             if values[i] > 0:
-                nieuwelst.append
+                nieuwelst.append()
         
