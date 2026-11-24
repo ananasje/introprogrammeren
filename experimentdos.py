@@ -30,3 +30,6 @@ def first_long_word(words: list[str], minimum: int) -> int:
     while i < len(words):
         if len(words) < minimum:
             return i
+        
+        else:
+            return -1
