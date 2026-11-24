@@ -10,6 +10,7 @@ def first_zero(values: list[int]) -> int:
             resultaat += i
         else: 
             i + 1
-        
+            
+    return resultaat
         
             
