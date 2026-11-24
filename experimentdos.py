@@ -10,5 +10,4 @@ def first_zero(values: list[int]) -> int:
             resultaat += i
         
         
-
-    # Wat geef je terug als er nergens 0 stond?
+            
