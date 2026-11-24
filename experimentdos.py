@@ -12,4 +12,4 @@ def first_negative(values: list[int]) -> int:
             antwoord += i
         break 
     
-    return nummer
+    return antwoord
