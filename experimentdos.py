@@ -28,6 +28,6 @@ def count_double_letter_words(words: list[str]) -> int:
     teller = 0
     for woord in words:
         
-        for teken in woord:
+        for i in woord:
             if teken in letterdoos:
                 teller +1
