@@ -4,4 +4,4 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
     [3, 4]
     """ 
         
-            
+           
