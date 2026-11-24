@@ -9,3 +9,5 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
             if values[i] > 0:
                 nieuwelst.append(values[i])
         
+        return nieuwelst
+        
