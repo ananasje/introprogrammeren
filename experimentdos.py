@@ -6,7 +6,7 @@ def first_zero(values: list[int]) -> int:
     i = 0
 
     while i < len(values):
-        if.
+        
         # Wat doe je als het 0 is?
 
         # Vergeet niet verder te gaan naar
