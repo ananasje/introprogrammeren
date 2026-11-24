@@ -5,7 +5,7 @@ def select_positive_odd_positions(values: list[int]) -> list[int]:
     >>> select_positive_odd_positions([])
     []
     >>> select_positive_odd_positions([3, 5, 7, 11])
-    []
+    [5, 11]
     >>> select_positive_odd_positions([-3, -5, -7, -11])
     []
     
