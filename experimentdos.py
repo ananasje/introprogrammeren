@@ -27,7 +27,8 @@ def count_double_letter_words(words: list[str]) -> int:
     1
     >>> count_double_letter_words([])
     0
-    
+    >>> count_double_letter_words([])
+    0
     
     """
     
