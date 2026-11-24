@@ -27,7 +27,7 @@ def first_long_word(words: list[str], minimum: int) -> int:
     i = 0
     while i < len(woord):
         if len(woord) =< minimum:
-            
+            return i 
 def count_double_letter_words(words: list[str]) -> int:
     """
     >>> count_double_letter_words(["kat", "appel", "zee", "boom"])
