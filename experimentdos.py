@@ -6,4 +6,4 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
 ['Boom', 'AUTO', 'aB']
     """
     for woord in words:
-        for i in range(len(s))
+        for i in range(len(woord))
