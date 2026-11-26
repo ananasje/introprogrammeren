@@ -1,4 +1,5 @@
 def select_capitalized(words: list[str]) -> list[str]:
     """
-    Schrijf precies vier doctests.
+    >>> select_capitalized(["Amsterdam", "fiets", "aB", "AUTO", "Kat"])
+['Amsterdam', 'AUTO', 'Kat']
     """
