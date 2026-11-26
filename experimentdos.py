@@ -6,7 +6,6 @@ def select_capitalized(words: list[str]) -> list[str]:
     nieuwelst = []
     
     for woord in words:
-        for i in range(len(woord)):
             if woord[0].isupper():
                 nieuwelst.append(woord)
     
