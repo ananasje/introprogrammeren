@@ -13,6 +13,6 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
             if woord[i].isupper():
                 hoofdlettergevonden = True
                 
-        if hoofdlettergevonden = True:
+        if hoofdlettergevonden == True:
             nieuwelst += woord
     return hoofdlettergevonden
