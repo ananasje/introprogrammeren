@@ -5,7 +5,7 @@ def word_start_positions(s: str) -> list[int]:
     >>> word_start_positions("ikhebhunger")
     [0]
     >>> word_start_positions("")
-    [0]
+    []
     """
     nieuwelst = []
     inwoord = False
