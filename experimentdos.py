@@ -5,7 +5,7 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
     >>> select_words_with_uppercase(["Appel", "BOOm", "fleS", "QUEloQue", "" ])
     ['Appel', 'BOOm', 'QUEloQue']
     >>> select_words_with_uppercase(["geen", "hoofd", "letters", "hier"])
-    ['Appel', 'BOOm', 'QUEloQue']
+    []
     """
     nieuwelst = []
     for woord in words:
