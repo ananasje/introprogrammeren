@@ -8,4 +8,4 @@ def word_start_positions(s: str) -> list[int]:
         inwoord = False
         if teken != "":
             if inwoord == False:
-                
+                nieuwelst.append(i)
