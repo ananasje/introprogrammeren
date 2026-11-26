@@ -4,6 +4,7 @@ def select_capitalized(words: list[str]) -> list[str]:
     ['Amsterdam', 'AUTO', 'Kat']
     """
     nieuwelst = []
+    
     for woord in words:
         for i in range(len(woord)):
             if woord[i].isupper():
