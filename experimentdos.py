@@ -4,6 +4,6 @@ def mask_digits(s: str) -> str:
     'Mijn code is ####!'
     """
     nieuwestr = ""
-    for woord in s:
+    for teken in s:
         if 
         
