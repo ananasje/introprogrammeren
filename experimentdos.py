@@ -5,4 +5,5 @@ def select_capitalized(words: list[str]) -> list[str]:
     """
     nieuwelst = []
     for woord in words:
-        if i in range len(woord)
+        if i in range len(woord):
+            
