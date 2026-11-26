@@ -14,3 +14,5 @@ def count_words(s: str) -> int:
         else:
             if teken == " ":
                 inwoord = False
+    
+    return teller
