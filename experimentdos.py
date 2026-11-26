@@ -11,5 +11,4 @@ def word_start_positions(s: str) -> list[int]:
                 nieuwelst.append(i)
                 inwoord = True
             
-        else: 
-            
+        elif teken == ""
