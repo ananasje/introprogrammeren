@@ -5,4 +5,5 @@ def mask_digits(s: str) -> str:
     """
     nieuwestr = ""
     for woord in s:
+        if 
         
