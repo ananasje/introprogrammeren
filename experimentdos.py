@@ -6,7 +6,7 @@ def word_start_positions(s: str) -> list[int]:
     [0]
     >>> word_start_positions("")
     []
-    >>> word_start_positions("wat")
+    >>> word_start_positions("wat dat mean thou")
     []
     """
     nieuwelst = []
