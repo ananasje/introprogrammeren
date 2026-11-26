@@ -10,4 +10,4 @@ def first_word(s: str) -> str:
     for teken in s:
         if teken != " ":
             if ineerstewoord == False:
-                nieuwestring +=
+                nieuwestring += teken
