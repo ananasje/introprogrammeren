@@ -17,3 +17,5 @@ def first_word(s: str) -> str:
                 
         elif ineerstewoord == True:
             return nieuwestring
+    
+    return nieuwestring
