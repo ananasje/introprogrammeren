@@ -6,4 +6,4 @@ def select_lowercase_words(words: list[str]) -> list[str]:
     
     for word in words:
         if word.islower():
-            
+            return word
