@@ -7,8 +7,7 @@ def remove_vowels(s: str) -> str:
     >>> remove_vowels("gn klnkrs hr")
     'gn klnkrs hr'
     >>> remove_vowels("")
-    'gn klnkrs hr'
-    
+    ''
     """
     nieuwestr = ""
     klinkers = "AEIOUaeiou"
