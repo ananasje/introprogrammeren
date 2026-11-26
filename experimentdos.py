@@ -2,7 +2,7 @@ def mask_digits(s: str) -> str:
     """
     >>> mask_digits("Mijn code is 1234!")
     'Mijn code is ####!'
-    >>> mask_digits("Mijn code is 1234!")
+    >>> mask_digits("123456781234567")
     'Mijn code is ####!'
     """
     nieuwestr = ""
