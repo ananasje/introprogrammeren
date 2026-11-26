@@ -8,7 +8,7 @@ def word_start_positions(s: str) -> list[int]:
         
         inwoord = False
         
-        if i != "":
+        if i[s] != "":
             if inwoord == False:
                 nieuwelst.append(i)
                 inwoord = True
