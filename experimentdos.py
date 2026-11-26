@@ -8,4 +8,6 @@ def mask_digits(s: str) -> str:
         if teken.isdigit():
             nieuwestr += "#"
             
+        else:
+            ni
         
