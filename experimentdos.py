@@ -12,7 +12,7 @@ def select_capitalized(words: list[str]) -> list[str]:
     nieuwelst = []
     
     for woord in words:
-        if woord != "" woord[0].isupper():
+        if woord != "" and woord[0].isupper():
             nieuwelst.append(woord)
     
     return nieuwelst
