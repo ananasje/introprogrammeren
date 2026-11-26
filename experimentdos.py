@@ -1,2 +1,4 @@
->>> remove_vowels("Amsterdam 2026!")
-'mstrdm 2026!'
+def remove_vowels(s: str) -> str:
+    """
+    Schrijf precies vier doctests.
+    """
