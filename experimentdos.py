@@ -7,12 +7,12 @@ def word_start_positions(s: str) -> list[int]:
     inwoord = False
     for i in range(len(s)):
         
-        if s[i] != "":
+        if s[i] != " ":
             if inwoord == False:
                 nieuwelst.append(i)
                 inwoord = True
             
-        elif s[i] == "":
+        elif s[i] == " ":
             inwoord = False
             
     return nieuwelst
