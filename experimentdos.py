@@ -1,18 +1,4 @@
-def select_capitalized(words: list[str]) -> list[str]:
+def mask_digits(s: str) -> str:
     """
-    >>> select_capitalized(["Amsterdam", "fiets", "aB", "AUTO", "Kat"])
-    ['Amsterdam', 'AUTO', 'Kat']
-    >>> select_capitalized(["vIS", "baLl", "kLoK", "auto", "tReiInN"])
-    []
-    >>> select_capitalized([])
-    []
-    >>> select_capitalized(["Gleep", "", "GLOP" ])
-    ['Gleep', 'GLOP']
+    Schrijf precies vier doctests.
     """
-    nieuwelst = []
-    
-    for woord in words:
-        if woord != "" and woord[0].isupper():
-            nieuwelst.append(woord)
-    
-    return nieuwelst
