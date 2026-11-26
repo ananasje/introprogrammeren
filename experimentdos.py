@@ -1,4 +1,5 @@
 def word_start_positions(s: str) -> list[int]:
     """
-    Schrijf precies vier doctests.
+    >>> word_start_positions("ik eet taart")
+[0, 3, 7]
     """
