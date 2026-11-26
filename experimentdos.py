@@ -7,4 +7,5 @@ def select_lowercase_words(words: list[str]) -> list[str]:
     for word in words:
         if word.islower():
         nieuwelst.append(word)
-    return word
+        
+    return nieuwelst
