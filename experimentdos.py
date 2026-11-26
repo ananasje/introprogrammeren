@@ -7,4 +7,4 @@ def first_word(s: str) -> str:
     """
     nieuwestring = ""
     for teken in s:
-        if teken 
+        if teken != ""
