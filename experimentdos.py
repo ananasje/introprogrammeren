@@ -11,5 +11,6 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
         for i in range(len(woord)):
             if woord[i].isupper():
                 hoofdlettergevonden = True
+                
         if hoofdlettergevonden = True:
             nieuwelst += woord
