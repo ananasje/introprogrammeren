@@ -6,4 +6,4 @@ def count_words(s: str) -> int:
     teller = 0
     inwoord = False
     for teken in s:
-    
+        
