@@ -4,6 +4,8 @@ def remove_vowels(s: str) -> str:
     'mstrdm 2026!'
     >>> remove_vowels("aieeee ouuuuu")
     ''
+    >>> remove_vowels("aieeee ouuuuu")
+    ''
     """
     nieuwestr = ""
     klinkers = "AEIOUaeiou"
