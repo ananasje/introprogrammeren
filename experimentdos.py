@@ -11,4 +11,4 @@ def remove_vowels(s: str) -> str:
         else:
             nieuwestr += teken
     
-    return
+    return nieuwestr
