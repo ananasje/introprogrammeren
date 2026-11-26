@@ -10,3 +10,4 @@ def count_words(s: str) -> int:
             if inwoord == False:
                 teller += 1
                 inwoord = True
+            
