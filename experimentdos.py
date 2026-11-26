@@ -12,7 +12,7 @@ def first_word(s: str) -> str:
     for teken in s:
         if teken != " ":
             
-                nieuwestring += teken
+            nieuwestring += teken
                 
     else:
         nieuwestring += ""
