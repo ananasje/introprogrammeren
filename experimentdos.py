@@ -4,7 +4,7 @@ def select_capitalized(words: list[str]) -> list[str]:
     ['Amsterdam', 'AUTO', 'Kat']
     >>> select_capitalized(["vIS", "baLl", "kLoK", "aUTO", "tReiInN"])
     []
-    >>> select_capitalized(["vIS", "baLl", "kLoK", "aUTO", "tReiInN"])
+    >>> select_capitalized([])
     []
     """
     nieuwelst = []
