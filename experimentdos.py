@@ -6,6 +6,7 @@ def first_word(s: str) -> str:
     'appel'
     """
     nieuwestring = ""
+    
     for teken in s:
         if teken != " ":
             
