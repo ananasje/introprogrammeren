@@ -4,3 +4,4 @@ def select_capitalized(words: list[str]) -> list[str]:
     ['Amsterdam', 'AUTO', 'Kat']
     """
     nieuwelst = []
+    
