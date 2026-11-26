@@ -12,4 +12,5 @@ def count_words(s: str) -> int:
                 inwoord = True
         
         else:
-            if teken == " "
+            if teken == " ":
+                inwoord = False
