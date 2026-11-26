@@ -5,7 +5,7 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
 ... )
 ['Boom', 'AUTO', 'aB']
     """
-    nieuwelst = 
+    nieuwelst = []
     for woord in words:
         for i in range(len(woord)):
             if woord[i]
