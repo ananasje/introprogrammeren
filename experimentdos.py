@@ -8,6 +8,7 @@ def first_word(s: str) -> str:
     
     nieuwestring = ""
     ineerstewoord = False
+    
     for teken in s:
         if teken != " ":
             if ineerstewoord == False:
