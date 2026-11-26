@@ -1,4 +1,5 @@
 def count_words(s: str) -> int:
     """
-    Schrijf precies vier doctests.
+    >>> count_words("ik   eet  taart")
+3
     """
