@@ -6,7 +6,8 @@ def count_words(s: str) -> int:
     2
     >>> count_words("ikBenTaarT")
     1
-    
+    >>> count_words("ikBenTaarT")
+    1
     
     """
     teller = 0
