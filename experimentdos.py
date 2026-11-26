@@ -2,8 +2,9 @@ def count_words(s: str) -> int:
     """
     >>> count_words("ik   eet  taart")
     3
-    >>> count_words("ik BeN ")
-    3
+    >>> count_words("Ik BeN")
+    2
+    
     
     """
     teller = 0
