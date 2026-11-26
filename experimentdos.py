@@ -6,5 +6,5 @@ def mask_digits(s: str) -> str:
     nieuwestr = ""
     for teken in s:
         if teken.isdigit():
-            
+            nieuwestr += ""
         
