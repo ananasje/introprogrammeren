@@ -5,4 +5,5 @@ def word_start_positions(s: str) -> list[int]:
     """
     for teken in s:
         inwoord = False
-        if teken != ""
+        if teken != "":
+            if in woord ==
