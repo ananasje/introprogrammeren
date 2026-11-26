@@ -6,8 +6,9 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
 ['Boom', 'AUTO', 'aB']
     """
     nieuwelst = []
-    hoofdlettergevonden = False
     for woord in words:
+        hoofdlettergevonden = False
+        
         for i in range(len(woord)):
             if woord[i].isupper():
                 hoofdlettergevonden = True
