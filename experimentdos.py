@@ -3,7 +3,7 @@ def remove_vowels(s: str) -> str:
     >>> remove_vowels("Amsterdam 2026!")
     'mstrdm 2026!'
     >>> remove_vowels("aieeee ouuuuu")
-    'mstrdm 2026!'
+    ''
     """
     nieuwestr = ""
     klinkers = "AEIOUaeiou"
