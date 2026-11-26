@@ -4,4 +4,5 @@ def remove_vowels(s: str) -> str:
     'mstrdm 2026!'
     """
     nieuwestr = ""
-    
+    for teken in s:
+        if teken 
