@@ -6,7 +6,8 @@ def mask_digits(s: str) -> str:
     '###############'
     >>> mask_digits("is dit roblox??")
     'is dit roblox??'
-    
+    >>> mask_digits("is dit roblox??")
+    'is dit roblox??'
     """
     nieuwestr = ""
     for teken in s:
