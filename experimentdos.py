@@ -9,4 +9,6 @@ def word_start_positions(s: str) -> list[int]:
         if teken != "":
             if inwoord == False:
                 nieuwelst.append(i)
-        
+                inwoord = True
+            
+        else: 
