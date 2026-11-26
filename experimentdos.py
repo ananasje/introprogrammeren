@@ -7,4 +7,6 @@ def remove_vowels(s: str) -> str:
     klinkers = "AEIOUaeiou"
     for teken in s:
         if teken in klinkers:
-            
+            nieuwestr += ""
+        else:
+            nieuwestr += 
