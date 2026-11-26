@@ -8,4 +8,4 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
     nieuwelst = []
     for woord in words:
         for i in range(len(woord)):
-            if woord[i].isupper
+            if woord[i].isupper()
