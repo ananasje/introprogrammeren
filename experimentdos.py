@@ -12,6 +12,6 @@ def select_words_with_uppercase(words: list[str]) -> list[str]:
                 hoofdlettergevonden = True
                 
     if hoofdlettergevonden == True:
-            nieuwelst += woord
+        nieuwelst += woord
             
     return nieuwelst
