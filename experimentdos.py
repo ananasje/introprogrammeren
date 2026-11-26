@@ -1,4 +1,5 @@
 def mask_digits(s: str) -> str:
     """
-    Schrijf precies vier doctests.
+    >>> mask_digits("Mijn code is 1234!")
+'Mijn code is ####!'
     """
