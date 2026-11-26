@@ -6,6 +6,7 @@ def word_start_positions(s: str) -> list[int]:
     [0]
     >>> word_start_positions("")
     []
+    
     """
     nieuwelst = []
     inwoord = False
