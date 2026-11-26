@@ -14,6 +14,7 @@ def first_word(s: str) -> str:
             if ineerstewoord == False:
                 nieuwestring += teken
                 
-            break 
+            
+        break 
 
     return nieuwestring
