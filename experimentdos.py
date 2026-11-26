@@ -7,7 +7,7 @@ def select_lowercase_words(words: list[str]) -> list[str]:
     >>> select_lowercase_words(["kaAs", "klOs", "zeveraaR"])
     []
     >>> select_lowercase_words(["plank", "plons", ""])
-    ["plank", 'plons"]
+    ["plank', 'plons']
     """
     nieuwelst = []
     for word in words:
