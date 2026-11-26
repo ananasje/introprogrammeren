@@ -4,9 +4,8 @@ def word_start_positions(s: str) -> list[int]:
     [0, 3, 7]
     """
     nieuwelst = []
+    inwoord = False
     for i in range(len(s)):
-        
-        inwoord = False
         
         if s[i] != "":
             if inwoord == False:
