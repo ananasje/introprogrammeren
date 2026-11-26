@@ -1,23 +1,4 @@
-def select_words_with_uppercase(words: list[str]) -> list[str]:
+def select_capitalized(words: list[str]) -> list[str]:
     """
-    >>> select_words_with_uppercase(["appel", "Boom", "fiets", "AUTO", "aB"])
-    ['Boom', 'AUTO', 'aB']
-    >>> select_words_with_uppercase(["Appel", "BOOm", "QUEloQue", "" ])
-    ['Appel', 'BOOm', 'QUEloQue']
-    >>> select_words_with_uppercase(["geen", "hoofd", "letters", "hier"])
-    []
-    >>> select_words_with_uppercase([])
-    []
+    Schrijf precies vier doctests.
     """
-    nieuwelst = []
-    for woord in words:
-        hoofdlettergevonden = False
-        
-        for i in range(len(woord)):
-            if woord[i].isupper():
-                hoofdlettergevonden = True
-                
-        if hoofdlettergevonden == True:
-            nieuwelst.append(woord)
-            
-    return nieuwelst
