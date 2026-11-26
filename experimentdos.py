@@ -6,3 +6,4 @@ def first_word(s: str) -> str:
     'appel'
     """
     
+    
