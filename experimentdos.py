@@ -13,6 +13,6 @@ def first_word(s: str) -> str:
                 nieuwestring += teken
                 ineerstewoord = True
                 
-        else:
+        elif teken == " "
             ineerstewoord = True
     return nieuwestring
