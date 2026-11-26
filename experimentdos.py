@@ -1,4 +1,5 @@
 def select_lowercase_words(words: list[str]) -> list[str]:
     """
-    Schrijf hier vier doctests.
+    >>> select_lowercase_words(["appel", "Boom", "fiets", "AUTO"])
+['appel', 'fiets']
     """
