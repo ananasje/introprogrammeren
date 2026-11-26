@@ -5,6 +5,7 @@ def first_word(s: str) -> str:
     >>> first_word("   appel en peer")
     'appel'
     """
+    
     nieuwestring = ""
     ineerstewoord = False
     for teken in s:
