@@ -9,5 +9,7 @@ def mask_digits(s: str) -> str:
             nieuwestr += "#"
             
         else:
-            ni
+            nieuwestr += teken
+            
+    return nieuwestr
         
