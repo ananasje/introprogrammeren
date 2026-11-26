@@ -4,7 +4,8 @@ def mask_digits(s: str) -> str:
     'Mijn code is ####!'
     >>> mask_digits("123456781234567")
     '###############'
-    
+    >>> mask_digits("is dit roblox")
+    '###############'
     """
     nieuwestr = ""
     for teken in s:
