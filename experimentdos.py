@@ -4,4 +4,5 @@ def select_lowercase_words(words: list[str]) -> list[str]:
     ['appel', 'fiets']
     """
     
-    for word in words
+    for word in words:
+        if word 
