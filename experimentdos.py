@@ -9,9 +9,11 @@ def first_word(s: str) -> str:
     >>> first_word("   ")
     ''
     """
-    inwoord = True 
+    inwoord = False 
     nieuwelst = ""
     for i in s:
         if i != " ":
             nieuwelst += teken
-            inwoord
+            inwoord == True
+        else:
+            if inwoord == False 
