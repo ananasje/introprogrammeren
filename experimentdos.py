@@ -14,7 +14,7 @@ def last_digit_position(s: str) -> str:
         
         if s[i].isdigit():
             nieuwestr += "#"
-            return nieuwestr
+            
             
     
             
