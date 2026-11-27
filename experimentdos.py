@@ -11,19 +11,4 @@ def first_word(s: str) -> str:
     ''
     ''
     """
-    
-    inwoord = False 
-    nieuwelst = ""
-    
-    for teken in s:
-        if teken != " ":
-            nieuwelst += teken
-            inwoord = True
-            
-        elif teken == " ":
-            if inwoord == True:
-                return nieuwelst
-                
-    return nieuwelst
-                
-                
+   
