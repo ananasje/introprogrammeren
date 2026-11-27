@@ -14,5 +14,5 @@ def first_digit_position(s: str) -> int:
         if s[i].isdigit():
             return i
             
-        else:
-            return -1
+    else:
+        return -1
