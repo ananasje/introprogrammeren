@@ -5,7 +5,7 @@ def last_word(s: str) -> str:
     'taart'
     >>> last_word("  hallo wereld   ")
     'wereld'
-    >>> last_word("Python")
+    >>> last_word("Python    ")
     'Python'
     >>> last_word("   ")
     ''
