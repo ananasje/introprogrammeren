@@ -24,7 +24,8 @@ def last_word(s: str) -> str:
             laatstewoord = huidigewoord
             huidigewoord = ""
             inwoord = False
-    if
+            
+    if inwoord == True
                 
 
     return laatstewoord
