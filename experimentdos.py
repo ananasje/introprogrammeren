@@ -11,4 +11,5 @@ def first_word(s: str) -> str:
     """
     
     for i in s:
-        if i != " "
+        if i != " ":
+            
