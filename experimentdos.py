@@ -17,6 +17,8 @@ def first_word(s: str) -> str:
             nieuwelst += teken
             inwoord = True
         elif i == " ":
-            if inwoord == False:
+            if inwoord == nieuwelst:
+                nieuwelst = nieuwelst
+    return nieuwelst
                 
                 
