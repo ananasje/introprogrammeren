@@ -16,4 +16,7 @@ def last_word(s: str) -> str:
    
    for teken in s:
         if teken != " ":
-           huidigewoord += teken
+            huidigewoord += teken
+        
+        else:
+            huidigewoord = 
