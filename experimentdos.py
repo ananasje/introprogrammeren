@@ -9,7 +9,7 @@ def first_word(s: str) -> str:
     >>> first_word("   ")
     ''
     """
-    inwoord = True 
+    inwoord = False 
     nieuwelst = ""
     
     for i in s:
