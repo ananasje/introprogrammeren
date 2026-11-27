@@ -9,7 +9,12 @@ def last_digit_position(s: str) -> int:
     >>> last_digit_position("")
     -1
     """
+    def last_digit_position(s: str) -> int:
     laatste = -1
-    for teken in s:
-        if teken.isdigit():
+
+    for i in range(len(s)):
+        if s[i].isdigit():
+            laatste = i
+
+    return laatste
             
