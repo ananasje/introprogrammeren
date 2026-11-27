@@ -10,4 +10,5 @@ def last_digit_position(s: str) -> int:
     -1
     """
     
-    
+    for teken in s:
+        if teken.isdigit()
