@@ -9,7 +9,7 @@ def first_digit_position(s: str) -> int:
     >>> first_digit_position("")
     -1
     """
-    nieuwelst=
+    nieuwelst =
     for i in range (len(s)):
         if s[i].isdigit():
             
