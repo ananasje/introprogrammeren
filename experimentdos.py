@@ -21,7 +21,7 @@ def last_word(s: str) -> str:
             inwoord = True
             
         elif teken == " ":
-            if inwoord == True
+            if inwoord == True:
             return huidigewoord
 
     return huidigewoord
