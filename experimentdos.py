@@ -25,3 +25,5 @@ def last_word(s: str) -> str:
                 
 
     return huidigewoord
+    
+    
