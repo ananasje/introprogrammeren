@@ -16,4 +16,4 @@ def last_word(s: str) -> str:
    
    for teken in s:
        if teken != " ":
-           teke,
+           teken =
