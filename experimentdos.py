@@ -20,9 +20,10 @@ def last_word(s: str) -> str:
             inwoord = True
             
         elif teken == " ":
-            laatstewoord = huidigewoord
-            huidigewoord = ""
-            inwoord = False
+            if inwoord = True
+                laatstewoord = huidigewoord
+                huidigewoord = ""
+                inwoord = False
             
     if inwoord == True:
         laatstewoord = huidigewoord
