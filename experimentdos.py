@@ -1,6 +1,6 @@
 def last_digit_position(s: str) -> int:
     """
-    >>> first_digit_position("abc123")
+    >>> last_digit_position("abc123")
     3
     >>> first_digit_position("7dagen")
     0
