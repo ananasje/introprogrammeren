@@ -20,4 +20,5 @@ def last_digit_position(s: str) -> str:
             nieuwestr =  s[i]
             
     
+    
             
