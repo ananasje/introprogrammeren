@@ -12,4 +12,4 @@ def last_digit_position(s: str) -> int:
     
     for i in range (len(s)):
         if s[i].isdigit():
-            return pos 
+            return i
