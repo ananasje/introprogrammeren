@@ -6,7 +6,7 @@ def last_digit_position(s: str) -> int:
     0
     >>> last_digit_position("geen cijfers")
     -1
-    >>> first_digit_position("")
+    >>> last_digit_position("")
     -1
     """
     
