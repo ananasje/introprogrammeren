@@ -9,6 +9,7 @@ def last_digit_position(s: str) -> str:
     >>> mask_first_digit("")
     ''
     """
+    nieuwestr = ""
     for i in range(len(s)):
         if s[i].isdigit():
             s[i] = "#"
