@@ -17,7 +17,7 @@ def last_digit_position(s: str) -> str:
             nieuwestr += "#"
             al_vervangen = True
         else:
-            
+            nieuwestr =  s[i]
             
     
             
