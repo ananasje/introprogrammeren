@@ -11,4 +11,4 @@ def first_word(s: str) -> str:
     """
     
     for i in s:
-        if i in d
+        if i in 
