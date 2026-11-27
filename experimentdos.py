@@ -10,4 +10,5 @@ def first_word(s: str) -> str:
     ''
     """
     
-    for word
+    for teken in s:
+        if telen 
