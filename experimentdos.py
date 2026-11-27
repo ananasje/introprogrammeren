@@ -20,3 +20,5 @@ def last_word(s: str) -> str:
         
         else:
             huidigewoord = ""
+    
+    return huidigewoord
