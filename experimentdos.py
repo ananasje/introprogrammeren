@@ -10,6 +10,6 @@ def first_digit_position(s: str) -> int:
     -1
     """
     
-    for teken in s:
+    for s[i] in s:
         if teken.isdigit():
             
