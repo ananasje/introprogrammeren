@@ -11,6 +11,7 @@ def first_word(s: str) -> str:
     """
     inwoord = False 
     nieuwelst = ""
+    
     for i in s:
         if i != " ":
             nieuwelst += teken
