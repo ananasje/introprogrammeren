@@ -11,8 +11,10 @@ def last_digit_position(s: str) -> str:
     """
     nieuwestr = ""
     for i in range(len(s)):
+        
         if s[i].isdigit():
-            s += "#"
+            nieuwestr += "#"
+        else ni
             
             return 
     
