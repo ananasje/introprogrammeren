@@ -9,3 +9,6 @@ def first_digit_position(s: str) -> int:
     >>> first_digit_position("")
     -1
     """
+    
+    for teken in s:
+        if teken
