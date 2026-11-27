@@ -9,7 +9,6 @@ def last_word(s: str) -> str:
     'Python'
     >>> last_word("   ")
     ''
-    ''
     """
     huidigewoord = ""
     laatstewoord = ""
