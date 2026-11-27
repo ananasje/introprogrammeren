@@ -1,4 +1,4 @@
-def first_word(s: str) -> str:
+def last_word(s: str) -> str:
     
     """
     >>> last_word("ik eet taart")
