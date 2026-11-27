@@ -9,7 +9,7 @@ def last_digit_position(s: str) -> int:
     >>> last_digit_position("")
     -1
     """
-    antw
+    
     for i in range (len(s)):
         if s[i].isdigit():
             a
