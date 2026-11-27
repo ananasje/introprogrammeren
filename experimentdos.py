@@ -4,7 +4,7 @@ def last_digit_position(s: str) -> int:
     3
     >>> last_digit_position("7dagen")
     0
-    >>> first_digit_position("geen cijfers")
+    >>> last_digit_position("geen cijfers")
     -1
     >>> first_digit_position("")
     -1
