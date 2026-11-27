@@ -1,4 +1,4 @@
-def first_digit_position(s: str) -> int:
+def last_digit_position(s: str) -> int:
     """
     >>> first_digit_position("abc123")
     3
