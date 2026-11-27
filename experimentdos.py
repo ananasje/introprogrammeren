@@ -1,34 +1,9 @@
-def last_word(s: str) -> str:
-    
-    """
-    >>> last_word("ik eet taart")
-    'taart'
-    >>> last_word("  hallo wereld   ")
-    'wereld'
-    >>> last_word("Python    ")
-    'Python'
-    >>> last_word("   ")
-    ''
-    """
-    huidigewoord = ""
-    laatstewoord = ""
-    inwoord = False
-    
-    for teken in s:
-        if teken != " ":
-            huidigewoord += teken
-            inwoord = True
-            
-        elif teken == " ":
-            if inwoord == True:
-                    laatstewoord = huidigewoord
-                    huidigewoord = ""
-                    inwoord = False
-            
-    if inwoord == True:
-        laatstewoord = huidigewoord
-                
-
-    return laatstewoord
-    
+>>> first_digit_position("abc123")
+3
+>>> first_digit_position("7dagen")
+0
+>>> first_digit_position("geen cijfers")
+-1
+>>> first_digit_position("")
+-1
     
