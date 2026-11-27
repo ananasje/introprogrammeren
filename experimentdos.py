@@ -1,13 +1,13 @@
 def last_digit_position(s: str) -> int:
     """
-    >>> last_digit_position("abc123xyz")
-    5
-    >>> last_digit_position("7dagen")
-    0
-    >>> last_digit_position("abc")
-    -1
-    >>> last_digit_position("")
-    -1
+>>> mask_first_digit("abc123")
+'abc#23'
+>>> mask_first_digit("7dagen9")
+'#dagen9'
+>>> mask_first_digit("hallo")
+'hallo'
+>>> mask_first_digit("")
+''
     """
     
     laatste = -1
