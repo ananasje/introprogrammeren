@@ -12,7 +12,7 @@ def first_word(s: str) -> str:
     inwoord = False 
     nieuwelst = ""
     
-    for i in s:
+    for teken in s:
         if i != " ":
             nieuwelst += teken
             inwoord = True
