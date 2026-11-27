@@ -4,10 +4,10 @@ def last_digit_position(s: str) -> int:
     'abc#23'
     >>> mask_first_digit("7dagen9")
     '#dagen9'
->>> mask_first_digit("hallo")
-'hallo'
->>> mask_first_digit("")
-''
+    >>> mask_first_digit("hallo")
+    'hallo'
+    >>> mask_first_digit("")
+    ''
     """
     
     laatste = -1
