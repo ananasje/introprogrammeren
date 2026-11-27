@@ -1,4 +1,4 @@
-def last_digit_position(s: str) -> int:
+def last_digit_position(s: str) -> str:
     """
     >>> mask_first_digit("abc123")
     'abc#23'
