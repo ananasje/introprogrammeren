@@ -13,7 +13,7 @@ def last_digit_position(s: str) -> str:
     al_vervangen = False
     for i in range(len(s)):
         
-        if s[i].isdigit():
+        if s[i].isdigit() and al_vervangen == False:
             nieuwestr += "#"
             al_vervangen = True
             
