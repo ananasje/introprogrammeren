@@ -11,4 +11,5 @@ def first_digit_position(s: str) -> int:
     """
     
     for teken in s:
-        if teken
+        if teken.isdigit():
+            
