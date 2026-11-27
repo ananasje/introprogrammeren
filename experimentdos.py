@@ -9,6 +9,6 @@ def last_digit_position(s: str) -> int:
     >>> mask_first_digit("")
     ''
     """
-    for 
+    for i in range(len(s))
     
             
