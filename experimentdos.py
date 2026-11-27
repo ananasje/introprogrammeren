@@ -11,10 +11,10 @@ def last_word(s: str) -> str:
     ''
     ''
     """
-   huidigewoord = ""
-   laatstewoord = ""
+    huidigewoord = ""
+    laatstewoord = ""
    
-   for teken in s:
+    for teken in s:
         if teken != " ":
             huidigewoord += teken
         
