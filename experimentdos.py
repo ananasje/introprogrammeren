@@ -19,4 +19,4 @@ def last_word(s: str) -> str:
             huidigewoord += teken
         
         else:
-            huidigewoord = 
+            huidigewoord = ""
