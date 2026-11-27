@@ -14,3 +14,4 @@ def last_word(s: str) -> str:
    huidigewoord = ""
    laatstewoord = ""
    
+   
