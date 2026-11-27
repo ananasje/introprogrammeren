@@ -18,6 +18,6 @@ def last_digit_position(s: str) -> str:
         else:
             nieuwestr += s[i]
             
-            return nieuwestr
+            
     
             
